@@ -1,0 +1,31 @@
+*Spasalon Resources 
+->	Images are used in the theme as place holder images are taken from dummyimage.com 
+	URl: http://dummyimage.com/1369x800/dbc7db/1d1d1f(Slide Image)
+	URI : http://dummyimage.com/366x155/ebe2eb/1d1d1f (Thumbnail Images)
+	URI : http://dummyimage.com/270X157/ebe2eb/1d1d1f  (Service Section)
+	URI:http://dummyimage.com/232X236/ebe2eb/1d1d1f (Product Slides)
+	
+-> jquery is LICENSED under MIT-LICENSE	.
+	license URI : https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt
+
+-> Twitter Bootstrap Framework's code licensed under Apache License v2.0.
+	license URI : http://www.apache.org/licenses/LICENSE-2.0
+	
+-> WordPress license URI : http://wordpress.org/about/license/
+
+-> Flex Slider license URI :https://github.com/woothemes/flexslider/
+
+-> Fonts Used in Theme
+		Montserrat Fonts 
+		license URI :http://scripts.sil.org/OFL
+		
+		Droid Serif Fonts
+		license URI :http://www.apache.org/licenses/LICENSE-2.0.html
+		
+		Droid Sans Fonts
+		license URI:http://www.apache.org/licenses/LICENSE-2.0.html
+		
+		Font Awesome 
+		license URI:http://fortawesome.github.io/Font-Awesome/license/
+		
+**It is declare that all the resources are used in the theme is under GPL and any one can use it and customize these according his need .User is free to use and free to distribute the resources. 		

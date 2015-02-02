@@ -1,0 +1,1205 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gn_themes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-13 23:12+0400\n"
+"PO-Revision-Date: 2014-07-13 23:13+0400\n"
+"Last-Translator: Vladimir Anokhin <ano.vladimir@gmail.com>\n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ./inc\n"
+
+#: inc/extra.php:15
+msgid "Vladimir Anokhin"
+msgstr "Владимир Анохин"
+
+#: inc/extra.php:16 inc/extra.php:79 inc/extra.php:88
+msgid "Shortcodes Ultimate: Extra Shortcodes"
+msgstr "Шорткоды: Дополнительный набор"
+
+#: inc/extra.php:17
+msgid "Extra set of shortcodes for Shortcodes Ultimate"
+msgstr "Дополнительный набор шорткодов для Shortcodes Ultimate"
+
+#: inc/extra.php:50
+msgid ""
+"Please install and activate latest version of <b>Shortcodes Ultimate</b> to "
+"use it's addon <b>Shortcodes Ultimate Extra Set</b>.<br />Deactivate this "
+"addon to hide this message."
+msgstr ""
+"Пожалуйста установите и активируйте последнюю версию плагина <b>Shortcodes "
+"Ultimate</b> чтобы использовать дополнение <b>Shortcodes Ultimate: Extra "
+"Set</b>.<br />Деактивируйте это дополнение, чтобы скрыть сообщение"
+
+#: inc/extra.php:51
+msgid "Install Sortcodes Ultimate"
+msgstr "Установить Shortcodes Ultimate"
+
+#: inc/extra.php:62
+msgid "Customer support"
+msgstr "Поддержка покупателей"
+
+#: inc/extra.php:70
+msgid "Extra set"
+msgstr "Дополнительный набор"
+
+#: inc/extra.php:91
+msgid "Parallax sections"
+msgstr "Параллакс секции"
+
+#: inc/extra.php:97
+msgid "Pricing tables"
+msgstr "Таблицы тарифных планов"
+
+#: inc/extra.php:103
+msgid "Testimonials"
+msgstr "Отзывы"
+
+#: inc/extra.php:109
+msgid "Icons, progress bars, pies"
+msgstr "Иконки, прогресс-бары, прогресс-пироги"
+
+#: inc/extra.php:115 inc/extra.php:1204
+msgid "Content slider"
+msgstr "Слайдер содержимого"
+
+#: inc/extra.php:121
+msgid "Panels"
+msgstr "Панели"
+
+#: inc/extra.php:127
+msgid "Shadows"
+msgstr "Тени"
+
+#: inc/extra.php:142
+msgid "Splash screen"
+msgstr "Приветственный экран"
+
+#: inc/extra.php:145
+msgid "Splash screen content"
+msgstr "Содержимое приветственного экрана"
+
+#: inc/extra.php:146
+msgid "Fully customizable splash screen"
+msgstr "Полностью настраиваемый приветственный экран"
+
+#: inc/extra.php:153 inc/extra.php:624 inc/extra.php:1214 inc/extra.php:1311
+msgid "Style"
+msgstr "Стиль"
+
+#: inc/extra.php:154
+msgid "Choose splash screen style"
+msgstr "Выберите стиль приветственного экрана"
+
+#: inc/extra.php:156 inc/extra.php:1218
+msgid "Dark"
+msgstr "Темный"
+
+#: inc/extra.php:157
+msgid "Dark boxed"
+msgstr "Темный блочный"
+
+#: inc/extra.php:158 inc/extra.php:1219
+msgid "Light"
+msgstr "Светлый"
+
+#: inc/extra.php:159
+msgid "Light boxed"
+msgstr "Светлый блочный"
+
+#: inc/extra.php:160
+msgid "Blue boxed"
+msgstr "Голубой блочный"
+
+#: inc/extra.php:161
+msgid "Light boxed blue"
+msgstr "Светлый блочный голубой"
+
+#: inc/extra.php:162
+msgid "Light boxed green"
+msgstr "Светлый блочный зеленый"
+
+#: inc/extra.php:163
+msgid "Light boxed orange"
+msgstr "Светлый блочный оранжевый"
+
+#: inc/extra.php:164
+msgid "Maintenance"
+msgstr "Обслуживание"
+
+#: inc/extra.php:173
+msgid "Width"
+msgstr "Ширина"
+
+#: inc/extra.php:174
+msgid "Width of splash screen content"
+msgstr "Ширина содержимого экрана"
+
+#: inc/extra.php:182
+msgid "Opacity"
+msgstr "Непрозрачность"
+
+#: inc/extra.php:183
+msgid "Background opacity in percents"
+msgstr "Непрозрачность фона в процентах"
+
+#: inc/extra.php:188
+msgid "Action on click"
+msgstr "Действие при клике"
+
+#: inc/extra.php:189
+msgid "Choose splash screen behavior when it is clicked"
+msgstr "Выберите поведение экрана когда по нему кликнули"
+
+#: inc/extra.php:191
+msgid "Do nothing"
+msgstr "Ничего не делать"
+
+#: inc/extra.php:192
+msgid "Close splash screen (click anywhere)"
+msgstr "Закрыть приветственный экран (клик в любом месте)"
+
+#: inc/extra.php:193
+msgid "Close on background click"
+msgstr "Закрыть при клике по фону"
+
+#: inc/extra.php:194
+msgid "Go to specified url"
+msgstr "Перейти по указанной ссылке"
+
+#: inc/extra.php:198 inc/extra.php:292 inc/extra.php:364 inc/extra.php:451
+#: inc/extra.php:500 inc/extra.php:804 inc/extra.php:901 inc/extra.php:1182
+msgid "URL"
+msgstr "Ссылка"
+
+#: inc/extra.php:199
+msgid ""
+"Enter url to go when splash screen is clicked (this option must selected in "
+"dropdown list above)"
+msgstr ""
+"Укажите ссылку для перехода при клике по экрану (нужно выбрать "
+"соответствующую опцию в выпадающем списке выше)"
+
+#: inc/extra.php:208
+msgid "Delay"
+msgstr "Задержка"
+
+#: inc/extra.php:209
+msgid "Specify the time in which the splash screen will be shown (in seconds)"
+msgstr "Укажите время, через которое будет показан экран (в секундах)"
+
+#: inc/extra.php:214
+msgid "Esc hotkey"
+msgstr "Клавиша Esc"
+
+#: inc/extra.php:215
+msgid "Close the screen by pressing Esc"
+msgstr "Закрыть экран при нажатии клавиши Esc"
+
+#: inc/extra.php:220
+msgid "Close button"
+msgstr "Кнопка Закрыть"
+
+#: inc/extra.php:221
+msgid "Show Close button"
+msgstr "Отображать кнопку Закрыть"
+
+#: inc/extra.php:226
+msgid "Show once"
+msgstr "Показать один раз"
+
+#: inc/extra.php:227
+msgid "Show this splash screen only once on this page"
+msgstr "Показывать этот экран только один раз на этой странице"
+
+#: inc/extra.php:231 inc/extra.php:297 inc/extra.php:369 inc/extra.php:456
+#: inc/extra.php:505 inc/extra.php:602 inc/extra.php:661 inc/extra.php:809
+#: inc/extra.php:906 inc/extra.php:922 inc/extra.php:1046 inc/extra.php:1100
+#: inc/extra.php:1197 inc/extra.php:1277 inc/extra.php:1294 inc/extra.php:1331
+msgid "Class"
+msgstr "Класс"
+
+#: inc/extra.php:232 inc/extra.php:298 inc/extra.php:370 inc/extra.php:457
+#: inc/extra.php:506 inc/extra.php:603 inc/extra.php:662 inc/extra.php:810
+#: inc/extra.php:907 inc/extra.php:923 inc/extra.php:1047 inc/extra.php:1101
+#: inc/extra.php:1198 inc/extra.php:1278 inc/extra.php:1295 inc/extra.php:1332
+msgid "Extra CSS class"
+msgstr "Дополнительный CSS класс"
+
+#: inc/extra.php:238
+msgid "Panel"
+msgstr "Блок"
+
+#: inc/extra.php:241 inc/extra.php:307 inc/extra.php:379
+msgid "Panel content"
+msgstr "Содержимое блока"
+
+#: inc/extra.php:242
+msgid "Colorful box with custom content"
+msgstr "Цветной блок с произвольным содержимым"
+
+#: inc/extra.php:249 inc/extra.php:315 inc/extra.php:387 inc/extra.php:679
+#: inc/extra.php:1124
+msgid "Background"
+msgstr "Фон"
+
+#: inc/extra.php:250 inc/extra.php:316 inc/extra.php:388 inc/extra.php:680
+msgid "Panel background color"
+msgstr "Цвет фона блока"
+
+#: inc/extra.php:255 inc/extra.php:321 inc/extra.php:393 inc/extra.php:474
+#: inc/extra.php:685 inc/extra.php:1130
+msgid "Color"
+msgstr "Цвет"
+
+#: inc/extra.php:256 inc/extra.php:322 inc/extra.php:394 inc/extra.php:686
+msgid "Panel text color"
+msgstr "Цвет текста в блоке"
+
+#: inc/extra.php:261 inc/extra.php:327 inc/extra.php:399 inc/extra.php:691
+#: inc/extra.php:873
+msgid "Border"
+msgstr "Рамка"
+
+#: inc/extra.php:262 inc/extra.php:328 inc/extra.php:400 inc/extra.php:692
+msgid "Panel border"
+msgstr "Рамка блока"
+
+#: inc/extra.php:267 inc/extra.php:333 inc/extra.php:405 inc/extra.php:697
+#: inc/extra.php:1301
+msgid "Shadow"
+msgstr "Тень"
+
+#: inc/extra.php:268 inc/extra.php:334 inc/extra.php:406 inc/extra.php:698
+msgid "Panel shadow"
+msgstr "Тень блока"
+
+#: inc/extra.php:276 inc/extra.php:342 inc/extra.php:414 inc/extra.php:706
+msgid "Border radius"
+msgstr "Скругление углов"
+
+#: inc/extra.php:277 inc/extra.php:343 inc/extra.php:415 inc/extra.php:707
+msgid "Panel border radius (px)"
+msgstr "Радиус для углов блока (px)"
+
+#: inc/extra.php:283 inc/extra.php:349 inc/extra.php:423 inc/extra.php:574
+#: inc/extra.php:713 inc/extra.php:886
+msgid "Left"
+msgstr "Слева"
+
+#: inc/extra.php:284 inc/extra.php:350 inc/extra.php:424 inc/extra.php:575
+#: inc/extra.php:714 inc/extra.php:887
+msgid "Center"
+msgstr "По центру"
+
+#: inc/extra.php:285 inc/extra.php:351 inc/extra.php:425 inc/extra.php:576
+#: inc/extra.php:715 inc/extra.php:888
+msgid "Right"
+msgstr "Справа"
+
+#: inc/extra.php:287 inc/extra.php:353 inc/extra.php:420 inc/extra.php:717
+#: inc/extra.php:890
+msgid "Text align"
+msgstr "Выравнивание текста"
+
+#: inc/extra.php:288 inc/extra.php:354 inc/extra.php:421 inc/extra.php:718
+#: inc/extra.php:891
+msgid "Text alignment for panel content"
+msgstr "Выравнивание текста в блоке"
+
+#: inc/extra.php:293 inc/extra.php:365 inc/extra.php:452 inc/extra.php:501
+#: inc/extra.php:805
+msgid "You can type here any hyperlink to make this panel clickable"
+msgstr ""
+"Вы можете ввести здесь любую ссылку чтобы сделать этот блок кликабельным"
+
+#: inc/extra.php:304
+msgid "Photo panel"
+msgstr "Фото блок"
+
+#: inc/extra.php:308
+msgid "Colorful box with image"
+msgstr "Цветной блок с фотографией"
+
+#: inc/extra.php:359 inc/extra.php:723
+msgid "Photo"
+msgstr "Фото"
+
+#: inc/extra.php:360
+msgid "Select the photo for this panel"
+msgstr "Выберите изображенние для этого блока"
+
+#: inc/extra.php:376
+msgid "Icon panel"
+msgstr "Блок с иконкой"
+
+#: inc/extra.php:380
+msgid "Colorful box with icon"
+msgstr "Цветной блок с иконкой"
+
+#: inc/extra.php:431 inc/extra.php:480 inc/extra.php:994 inc/extra.php:1108
+#: inc/extra.php:1118
+msgid "Icon"
+msgstr "Иконка"
+
+#: inc/extra.php:432
+msgid "Select the icon for this panel"
+msgstr "Выберите иконку для этого блока"
+
+#: inc/extra.php:437 inc/extra.php:486 inc/extra.php:1000
+msgid "Icon color"
+msgstr "Цвет иконки"
+
+#: inc/extra.php:438 inc/extra.php:487
+msgid ""
+"Select icon color. This color will be aplied only to built-in icons. Does "
+"not works for uploaded icons"
+msgstr ""
+"Выберите цвет иконки. Этот цвет будет применен к выбранной иконке. Не "
+"работает с загруженными иконками"
+
+#: inc/extra.php:446 inc/extra.php:495 inc/extra.php:1009
+msgid "Icon size"
+msgstr "Размер иконки"
+
+#: inc/extra.php:447 inc/extra.php:496
+msgid "Select icon size (px)"
+msgstr "Выберите размер иконки (px)"
+
+#: inc/extra.php:463
+msgid "Text with icon"
+msgstr "Текст с иконкой"
+
+#: inc/extra.php:466
+msgid "Content"
+msgstr "Содержимое"
+
+#: inc/extra.php:467
+msgid "Text block with customizable icon"
+msgstr "Текстовый блок с настраиваемой иконкой"
+
+#: inc/extra.php:475 inc/extra.php:597 inc/extra.php:656 inc/extra.php:879
+#: inc/extra.php:976 inc/extra.php:1136
+msgid "Text color"
+msgstr "Цвет текста"
+
+#: inc/extra.php:481
+msgid "Select the icon for this text block"
+msgstr "Выберите иконку для этого текстового блока"
+
+#: inc/extra.php:512
+msgid "Progress pie"
+msgstr "Прогресс пирог"
+
+#: inc/extra.php:515
+msgid "Customizable pie chart with counter"
+msgstr "Настраиваемый график в виде пирога со счетчиком"
+
+#: inc/extra.php:525 inc/extra.php:633
+msgid "Percent"
+msgstr "Процент"
+
+#: inc/extra.php:526 inc/extra.php:634
+msgid "Specify percentage"
+msgstr "Укажите процент"
+
+#: inc/extra.php:530 inc/extra.php:638
+msgid "Text"
+msgstr "Текст"
+
+#: inc/extra.php:531 inc/extra.php:639
+msgid ""
+"You can show custom text instead of percent. Leave this field empty to show "
+"the percent"
+msgstr ""
+"Вы можете отобразить произвольный текст вместо процента. Оставьте это поле "
+"пустым чтобы отобразить процент"
+
+#: inc/extra.php:535
+msgid "Before"
+msgstr "Перед"
+
+#: inc/extra.php:536
+msgid "This content will be shown before the percent"
+msgstr "Этот текст будет отображен перед процентом"
+
+#: inc/extra.php:540
+msgid "After"
+msgstr "После"
+
+#: inc/extra.php:541
+msgid "This content will be shown after the percent"
+msgstr "Этот текст будет отображен после процента"
+
+#: inc/extra.php:549 inc/extra.php:1145
+msgid "Size"
+msgstr "Размер"
+
+#: inc/extra.php:550
+msgid "Pie size (pixels)"
+msgstr "Размер пирога (пикс.)"
+
+#: inc/extra.php:558
+msgid "Pie width"
+msgstr "Толщина пирога"
+
+#: inc/extra.php:559
+msgid "Pie border width (percents)"
+msgstr "Толщина границы пирога (проценты)"
+
+#: inc/extra.php:567 inc/extra.php:1172
+msgid "Text size"
+msgstr "Размер текста"
+
+#: inc/extra.php:568
+msgid "Pie text size (pixels)"
+msgstr "Размер текста внутри пирога (пикс.)"
+
+#: inc/extra.php:573
+msgid "None"
+msgstr "Нет"
+
+#: inc/extra.php:579
+msgid "Align"
+msgstr "Выравнивание"
+
+#: inc/extra.php:580
+msgid "Pie alignment"
+msgstr "Выравнивание пирога"
+
+#: inc/extra.php:585
+msgid "Pie color"
+msgstr "Цвет пирога"
+
+#: inc/extra.php:586
+msgid "Unfilled pie background color"
+msgstr "Цвет незаполненной области пирога"
+
+#: inc/extra.php:591 inc/extra.php:650
+msgid "Fill color"
+msgstr "Цвет заливки"
+
+#: inc/extra.php:592
+msgid "Filled pie background color"
+msgstr "Цвет заполненной области пирога"
+
+#: inc/extra.php:598
+msgid "Select pie text color"
+msgstr "Выберите цвет текста внутри пирога"
+
+#: inc/extra.php:609
+msgid "Progress bar"
+msgstr "Прогресс бар"
+
+#: inc/extra.php:612
+msgid "Customizable progress bar"
+msgstr "Настраиваемый индикатор процентов в виде полосы"
+
+#: inc/extra.php:619 inc/extra.php:1217 inc/extra.php:1314
+msgid "Default"
+msgstr "По умолчанию"
+
+#: inc/extra.php:620
+msgid "Fancy"
+msgstr "Красивый"
+
+#: inc/extra.php:621
+msgid "Thin"
+msgstr "Тонкий"
+
+#: inc/extra.php:625
+msgid "Select progress bar style"
+msgstr "Выберите стиль прогресс бара"
+
+#: inc/extra.php:644
+msgid "Bar color"
+msgstr "Цвет бара"
+
+#: inc/extra.php:645
+msgid "Unfilled bar background color"
+msgstr "Цвет незаполненной части бара"
+
+#: inc/extra.php:651
+msgid "Filled bar background color"
+msgstr "Цвет заполненной части бара"
+
+#: inc/extra.php:657
+msgid "Select bar text color"
+msgstr "Выберите цвет текста бара"
+
+#: inc/extra.php:668
+msgid "Member"
+msgstr "Участник"
+
+#: inc/extra.php:671
+msgid "Type here some info about this team member"
+msgstr "Введите здесь информацию о данном участнике команды"
+
+#: inc/extra.php:672
+msgid "Team member"
+msgstr "Участник команды"
+
+#: inc/extra.php:724
+msgid "Select the photo for this member"
+msgstr "Выберите фото для этого участника"
+
+#: inc/extra.php:727 inc/shortcodes.php:182
+msgid "John Doe"
+msgstr "Иван Иванов"
+
+#: inc/extra.php:728
+msgid "Name"
+msgstr "Имя"
+
+#: inc/extra.php:729
+msgid "Member name"
+msgstr "Имя члена команды"
+
+#: inc/extra.php:732 inc/shortcodes.php:183
+msgid "Designer"
+msgstr "Дизайнер"
+
+#: inc/extra.php:733
+msgid "Role"
+msgstr "Должность"
+
+#: inc/extra.php:734
+msgid "Member role"
+msgstr "Должность члена команды"
+
+#: inc/extra.php:739 inc/extra.php:761 inc/extra.php:783
+#, php-format
+msgid "Icon %d"
+msgstr "Иконка %d"
+
+#: inc/extra.php:740 inc/extra.php:762 inc/extra.php:784
+msgid "Select social icon for this member"
+msgstr "Выберите соц. иконку для этого участника"
+
+#: inc/extra.php:744 inc/extra.php:766 inc/extra.php:788
+#, php-format
+msgid "Icon %d URL"
+msgstr "URL иконки %d"
+
+#: inc/extra.php:745 inc/extra.php:767 inc/extra.php:789
+msgid "Enter here social profile URL"
+msgstr "Введите здесь ссылку на соц. профиль участника"
+
+#: inc/extra.php:750 inc/extra.php:772 inc/extra.php:794
+#, php-format
+msgid "Icon %d color"
+msgstr "Цвет иконки %d"
+
+#: inc/extra.php:751 inc/extra.php:773 inc/extra.php:795
+msgid ""
+"Choose color for this icon. This color will only be applied to the built-in "
+"icons"
+msgstr ""
+"Выберите цвет этой иконки. Этот цвет будет применен только ко встроенным "
+"иконкам плагина"
+
+#: inc/extra.php:755 inc/extra.php:777 inc/extra.php:799
+#, php-format
+msgid "Icon %d title"
+msgstr "Всплывающая посказка иконки %d"
+
+#: inc/extra.php:756 inc/extra.php:778 inc/extra.php:800
+msgid "This text will be shown as icon tooltip"
+msgstr "Этот текст будет отображен как всплывающая подсказка иконки"
+
+#: inc/extra.php:816
+msgid "Section"
+msgstr "Секция"
+
+#: inc/extra.php:819
+msgid "Section content"
+msgstr "Содержимое секции"
+
+#: inc/extra.php:820
+msgid ""
+"Content section with customizable background, dimensions and optional "
+"parallax effect"
+msgstr ""
+"Секция с контентом с настраиваемыми фоном, размерами и параллакс эффектом"
+
+#: inc/extra.php:827 inc/extra.php:970
+msgid "Background color"
+msgstr "Цвет фона"
+
+#: inc/extra.php:828
+msgid "Section background color"
+msgstr "Цвет фона секции"
+
+#: inc/extra.php:833
+msgid "Background image"
+msgstr "Фоновое изображение"
+
+#: inc/extra.php:834
+#, php-format
+msgid "Select background image for this section. Example value: %s"
+msgstr "Выберите фоновое изображение для этой секции. Пример значения: %s"
+
+#: inc/extra.php:839
+msgid "Parallax"
+msgstr "Параллакс"
+
+#: inc/extra.php:840
+msgid ""
+"Enable parallax effect. Parallax effect may not work in Live preview mode"
+msgstr ""
+"Включить параллакс эффект. Эффект может не работать в режиме предпросмотра"
+
+#: inc/extra.php:848
+msgid "Parallax speed"
+msgstr "Скорость параллакса"
+
+#: inc/extra.php:849
+msgid "Adjust speed of parallax effect"
+msgstr "Укажите скорость параллакс эффекта"
+
+#: inc/extra.php:857
+msgid "Content width"
+msgstr "Ширина содержимого"
+
+#: inc/extra.php:858
+msgid "Maximum width for this section content (px)"
+msgstr "Максимальная ширина для содержимого этой секции (пикс.)"
+
+#: inc/extra.php:862 inc/extra.php:1177
+msgid "Margin"
+msgstr "Внешний отступ"
+
+#: inc/extra.php:863
+msgid "Section margin"
+msgstr "Внешний отступ секции"
+
+#: inc/extra.php:863 inc/extra.php:868 inc/extra.php:1178
+msgid "top right bottom left"
+msgstr "верхний справа снизу слева"
+
+#: inc/extra.php:867
+msgid "Padding"
+msgstr "Внутренний отступ"
+
+#: inc/extra.php:868
+msgid "Section padding"
+msgstr "Внутренний отступ секции"
+
+#: inc/extra.php:874
+msgid "Top and bottom section borders"
+msgstr "Верхняя и нижняя рамки секции"
+
+#: inc/extra.php:880
+msgid "Section text color"
+msgstr "Цвет текста в секции"
+
+#: inc/extra.php:896
+msgid "Text shadow"
+msgstr "Тень текста"
+
+#: inc/extra.php:897
+msgid "Pick a shadow for section text"
+msgstr "Выберите тень текста для текста внутри этой секции"
+
+#: inc/extra.php:902
+msgid "You can type here any hyperlink to make this section clickable"
+msgstr ""
+"Вы можете ввести здесь любую ссылку чтобы сделать эту секцию кликабельной"
+
+#: inc/extra.php:913
+msgid "Pricing table"
+msgstr "Таблица тарифных планов"
+
+#: inc/extra.php:916
+msgid "Wrapper for pricing plans"
+msgstr "Обертка для нескольких тарифных планов"
+
+#: inc/extra.php:929
+msgid "Pricing plan"
+msgstr "Тарифный план"
+
+#: inc/extra.php:932
+msgid "Single pricing plan"
+msgstr "Одиночный тарифный план"
+
+#: inc/extra.php:938
+msgid "Plan name"
+msgstr "Имя плана"
+
+#: inc/extra.php:939
+msgid "Type here the name of this pricing plan"
+msgstr "Введите здесь имя для этого тарифного плана"
+
+#: inc/extra.php:939 inc/extra.php:944 inc/extra.php:949 inc/extra.php:954
+#: inc/extra.php:959
+msgid "Example values"
+msgstr "Примеры значений"
+
+#: inc/extra.php:939
+msgid "Starter"
+msgstr "Начинающий"
+
+#: inc/extra.php:939
+msgid "Business"
+msgstr "Бизнес"
+
+#: inc/extra.php:939
+msgid "Professional"
+msgstr "Профессионал"
+
+#: inc/extra.php:943
+msgid "Price"
+msgstr "Цена"
+
+#: inc/extra.php:944
+msgid "Specify the price for this plan (without currency)."
+msgstr "Укажите цену на этом тарифном плане (без валюты)."
+
+#: inc/extra.php:944
+msgid "Free"
+msgstr "Бесплатно"
+
+#: inc/extra.php:948
+msgid "Before price"
+msgstr "Перед ценой"
+
+#: inc/extra.php:949
+msgid "This text will be shown right before plan price."
+msgstr "Этот текст будет отображен перед ценой тарифного плана."
+
+#: inc/extra.php:949 inc/extra.php:954
+msgid "It is a good place to add currency."
+msgstr "Это хорошее место чтобы указать валюту."
+
+#: inc/extra.php:953
+msgid "After price"
+msgstr "После цены"
+
+#: inc/extra.php:954
+msgid "This text will be shown right after plan price."
+msgstr "Этот текст будет отображен после цены тарифного плана."
+
+#: inc/extra.php:958
+msgid "Period"
+msgstr "Период"
+
+#: inc/extra.php:959
+msgid "Specify plan period. Leave this field empty to hide this text."
+msgstr ""
+"Укажите период тарифного плана. Оставьте поле пустым чтобы скрыть этот текст."
+
+#: inc/extra.php:959
+msgid "weekly"
+msgstr "еженедельно"
+
+#: inc/extra.php:959
+msgid "per month"
+msgstr "за месяц"
+
+#: inc/extra.php:959
+msgid "1 year"
+msgstr "1 год"
+
+#: inc/extra.php:964
+msgid "Featured"
+msgstr "Избранный"
+
+#: inc/extra.php:965
+msgid "Show this plan as featured"
+msgstr "Отображать этот план как избранный"
+
+#: inc/extra.php:971 inc/extra.php:977
+msgid ""
+"This color will be applied to the pricing plan head (plan name, price and "
+"period area)"
+msgstr ""
+"Этот цвет будет применен к шапке тарифного плана (блок с именем плана, ценой "
+"периодом)"
+
+#: inc/extra.php:982
+msgid "Border color"
+msgstr "Цвет рамки"
+
+#: inc/extra.php:983
+msgid "Pick an border color for this plan"
+msgstr "Выберите цвет рамки для этого тарифного плана"
+
+#: inc/extra.php:988
+msgid "Featured plan shadow"
+msgstr "Тень избранного плана"
+
+#: inc/extra.php:989
+msgid ""
+"Adjust box shadow value. Shadow will be only applied to the featured plans"
+msgstr ""
+"Настройте тень блока. Тень будет отображена только для избранных тарифных "
+"планов"
+
+#: inc/extra.php:995
+msgid ""
+"You can add an icon to each pricing plan. Leave this field empty to hide icon"
+msgstr ""
+"Вы можете выбрать иконку для каждого тарифного плана. Оставьте поле пустым, "
+"чтобы не отображать иконку"
+
+#: inc/extra.php:1001
+msgid ""
+"Pick an icon color. This color will only be applied to the built-in icons"
+msgstr ""
+"Выберите цвет иконки. Этот цвет будет применен только ко встроенным иконкам "
+"плагина"
+
+#: inc/extra.php:1010
+msgid "Specify icon size (px)"
+msgstr "Выберите размер иконки (пикс.)"
+
+#: inc/extra.php:1014
+msgid "Button URL"
+msgstr "Ссылка кнопки"
+
+#: inc/extra.php:1015
+msgid "Enter here the URL for button"
+msgstr "Введите здесь ссылку для кнопки"
+
+#: inc/extra.php:1020
+msgid "Button link target"
+msgstr "Цель ссылки кнопки"
+
+#: inc/extra.php:1021
+msgid "Choose button link target"
+msgstr "Выберите цель ссылки кнопки"
+
+#: inc/extra.php:1023 inc/extra.php:1088 inc/extra.php:1191
+msgid "Open link in same window/tab"
+msgstr "Открывать ссылку в том же окне/вкладке"
+
+#: inc/extra.php:1024 inc/extra.php:1089 inc/extra.php:1192
+msgid "Open link in new window/tab"
+msgstr "Открывать ссылку в новом окне/вкладке"
+
+#: inc/extra.php:1029
+msgid "Button text"
+msgstr "Текст кнопки"
+
+#: inc/extra.php:1030
+msgid "Enter here the text for button."
+msgstr "Введите здесь текст для кнопки"
+
+#: inc/extra.php:1030
+msgid "Example value"
+msgstr "Пример значения"
+
+#: inc/extra.php:1030
+msgid "Sign Up"
+msgstr "Регистрация"
+
+#: inc/extra.php:1035
+msgid "Button background color"
+msgstr "Цвет фона кнопки"
+
+#: inc/extra.php:1036
+msgid "Choose button background color"
+msgstr "Выберите фоновый цвет кнопки"
+
+#: inc/extra.php:1041
+msgid "Button text color"
+msgstr "Цвет текста кнопки"
+
+#: inc/extra.php:1042
+msgid "Choose button text color"
+msgstr "Выберите цвет текста кнопки"
+
+#: inc/extra.php:1050
+msgid "Option 1"
+msgstr "Опция 1"
+
+#: inc/extra.php:1050
+msgid "Option 2"
+msgstr "Опция 2"
+
+#: inc/extra.php:1050
+msgid "Option 3"
+msgstr "Опция 3"
+
+#: inc/extra.php:1054
+msgid "Testimonial"
+msgstr "Отзыв"
+
+#: inc/extra.php:1057
+msgid "Styled testimonial box"
+msgstr "Стильный блок с отзывом"
+
+#: inc/extra.php:1063
+msgid "Person name"
+msgstr "Имя персоны"
+
+#: inc/extra.php:1064
+msgid "Type here a testimonial author name"
+msgstr "Введите здесь имя автора отзыва"
+
+#: inc/extra.php:1069
+msgid "Person photo"
+msgstr "Фото персоны"
+
+#: inc/extra.php:1070
+msgid "Choose testimonial author photo"
+msgstr "Выберите фото для автора отзыва"
+
+#: inc/extra.php:1074
+msgid "Company"
+msgstr "Компания"
+
+#: inc/extra.php:1075
+msgid "Type here a company name. Leave this field empty to hide company name"
+msgstr "Укажите имя компании. Оставьте поле пустым чтобы скрыть этот текст"
+
+#: inc/extra.php:1079
+msgid "Company URL"
+msgstr "Ссылка компании"
+
+#: inc/extra.php:1080
+msgid "Type here a company URL. Leave this field empty to disable link"
+msgstr "Укажите ссылку компании. Оставьте поле пустым чтобы отключить ссылку"
+
+#: inc/extra.php:1085 inc/extra.php:1188
+msgid "Link target"
+msgstr "Цель ссылки"
+
+#: inc/extra.php:1086
+msgid "Choose link target"
+msgstr "Выберите цель ссылки"
+
+#: inc/extra.php:1095
+msgid "Show border"
+msgstr "Показывать рамку"
+
+#: inc/extra.php:1096
+msgid "Show grey border around this testimonial"
+msgstr "Показывать серую рамку вокруг текста отзыва"
+
+#: inc/extra.php:1104
+msgid "Testimonial text"
+msgstr "Текст отзыва"
+
+#: inc/extra.php:1111
+msgid "Fully customizable icon"
+msgstr "Полностью настраиваемая иконка"
+
+#: inc/extra.php:1119
+msgid "Choose icon shape"
+msgstr "Выберите форму иконки"
+
+#: inc/extra.php:1125
+msgid "Icon background color"
+msgstr "Цвет фона иконки"
+
+#: inc/extra.php:1131
+msgid "Icon shape color. This color be only applied to the built-in icons"
+msgstr ""
+"Цвет иконки. Этот цвет будет применен только ко встроенным иконкам плагина"
+
+#: inc/extra.php:1137
+msgid "Pick a color for icon text"
+msgstr "Выберите цвет текста иконки"
+
+#: inc/extra.php:1146
+msgid "Icon size (px)"
+msgstr "Размер иконки (пикс.)"
+
+#: inc/extra.php:1154
+msgid "Shape size"
+msgstr "Размер фона"
+
+#: inc/extra.php:1155
+msgid "Background shape size (px)"
+msgstr "Размер фона иконки (пикс.)"
+
+#: inc/extra.php:1163
+msgid "Radius"
+msgstr "Радиус"
+
+#: inc/extra.php:1164
+msgid "Icon background shape radius (px)"
+msgstr "Радиус фона иконки (пикс.)"
+
+#: inc/extra.php:1173
+msgid "Icon text size (px)"
+msgstr "Размер текста иконки (пикс.)"
+
+#: inc/extra.php:1178
+msgid "Icon margin"
+msgstr "Внешний отступ иконки"
+
+#: inc/extra.php:1183
+msgid "Icon link"
+msgstr "Ссылка иконки"
+
+#: inc/extra.php:1189
+msgid "Choose icon link target"
+msgstr "Выберите цель ссылки иконки"
+
+#: inc/extra.php:1207
+msgid "Advanced responsive content slider"
+msgstr "Продвинутый адаптивный слайдер контента"
+
+#: inc/extra.php:1215
+msgid "Choose slider skin"
+msgstr "Выберите скин слайдера"
+
+#: inc/extra.php:1225
+msgid "Effect"
+msgstr "Эффект"
+
+#: inc/extra.php:1226
+msgid "Choose transition animation"
+msgstr "Выберите анимацию при смене слайдов"
+
+#: inc/extra.php:1228
+msgid "Slide"
+msgstr "Скольжение"
+
+#: inc/extra.php:1229
+msgid "Fade"
+msgstr "Исчезание"
+
+#: inc/extra.php:1230
+msgid "Fade Up"
+msgstr "Исчезание вверх"
+
+#: inc/extra.php:1231
+msgid "Back Slide"
+msgstr "Скольжение сзади"
+
+#: inc/extra.php:1232
+msgid "Go Down"
+msgstr "Уход вниз"
+
+#: inc/extra.php:1238
+msgid "Show arrows"
+msgstr "Показывать стрелки"
+
+#: inc/extra.php:1239
+msgid "Show left/right arrows navigation"
+msgstr "Показывать стрелки навигации влево/вправо"
+
+#: inc/extra.php:1241 inc/extra.php:1252
+msgid "Never"
+msgstr "Никогда"
+
+#: inc/extra.php:1242 inc/extra.php:1253
+msgid "On hover"
+msgstr "При наведении"
+
+#: inc/extra.php:1243 inc/extra.php:1254
+msgid "Always"
+msgstr "Всегда"
+
+#: inc/extra.php:1249
+msgid "Show pages"
+msgstr "Показывать страницы"
+
+#: inc/extra.php:1250
+msgid "Show pagination navigation"
+msgstr "Показывать постраничную навигацию"
+
+#: inc/extra.php:1263
+msgid "Autoplay"
+msgstr "Автовоспроизведение"
+
+#: inc/extra.php:1264
+msgid "Specify autoplay interval (seconds). Set to 0 to disable autoplay"
+msgstr ""
+"Укажите интервал автоматической смены слайдов (в секундах). Установите на 0 "
+"чтобы отключить автовоспроизведение"
+
+#: inc/extra.php:1281
+msgid "Slide content"
+msgstr "Содержимое слайда"
+
+#: inc/extra.php:1285
+msgid "Content slide"
+msgstr "Слайд с содержимым"
+
+#: inc/extra.php:1288
+msgid "Single content slide"
+msgstr "Одиночный слайд с содержимым"
+
+#: inc/extra.php:1304
+msgid "Adds shadow to any nested element"
+msgstr "Добавляет тень любому вложенному элементу"
+
+#: inc/extra.php:1312
+msgid "Choose shadow style"
+msgstr "Выберите стиль тени"
+
+#: inc/extra.php:1315
+msgid "Left corner"
+msgstr "Левый угол"
+
+#: inc/extra.php:1316
+msgid "Right corner"
+msgstr "Правый угол"
+
+#: inc/extra.php:1317
+msgid "Horizontal"
+msgstr "Горизонтально"
+
+#: inc/extra.php:1318
+msgid "Vertical"
+msgstr "Вертикально"
+
+#: inc/extra.php:1319
+msgid "Bottom"
+msgstr "Снизу"
+
+#: inc/extra.php:1320
+msgid "Simple"
+msgstr "Простой"
+
+#: inc/extra.php:1326
+msgid "Inline"
+msgstr "Строковый"
+
+#: inc/extra.php:1327
+msgid ""
+"Display shadow container as an inline element. This option can be useful for "
+"small images and other inline elements"
+msgstr ""
+"Отображать тень как строковый элемент. Эта опция может быть полезна для "
+"небольших изображений и других строчных элементов"
+
+#: inc/shortcodes.php:21
+msgid ""
+"This shortcode doesn't work in live preview. Please insert it into editor "
+"and preview on the site."
+msgstr ""
+"Этот шорткод не работает в режиме предпросмотра. Пожалуйста вставьте шорткод "
+"в редактор и посмотрите результат на странице записи."
+
+#: inc/shortcodes.php:273
+msgid ""
+"You need to add pricing plans to this pricing table. Use shortcode Pricing "
+"plan to do that."
+msgstr ""
+"Нужно добавить арифные планы в эту таблицу. Используйте шорткод Тарифный "
+"план, чтобы сделать это."
+
+#: inc/update.php:86
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+"Во время запроса произошла неизвестная HTTP-ошибка.</p> <p><a href=\"?\" "
+"onclick=\"document.location.reload(); return false;\">Попробовать снова</a>"
+
+#: inc/update.php:90
+msgid "An unknown error occurred"
+msgstr "Произошла неизвестная ошибка"

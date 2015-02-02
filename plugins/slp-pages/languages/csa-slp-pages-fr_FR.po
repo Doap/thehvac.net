@@ -1,0 +1,267 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Store Locator Plus : Store Pages v4.0.007\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-23 14:02+0100\n"
+"PO-Revision-Date: 2013-09-11 12:50+0100\n"
+"Last-Translator: Francois Serrault <f.serrault@gmail.com>\n"
+"Language-Team: De B.A.A.T. <de_baat@de-baat.nl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ csa-slp-pages
+#: slp-pages.php:343 slp-pages.php:344
+msgid "create page"
+msgstr "Créer page"
+
+# @ csa-slp-pages
+#: slp-pages.php:358
+msgid "Pages URL"
+msgstr "pages"
+
+# @ csa-slp-pages
+#: slp-pages.php:187 slp-pages.php:374 slp-pages.php:660
+msgid "Store Pages"
+msgstr "Pages Point de Vente"
+
+# @ csa-slp-pages
+#: slp-pages.php:586
+msgid "Create Pages"
+msgstr "Créer pages"
+
+# @ csa-slp-pages
+#: include/class.adminpanel.php:54
+msgid "Pages Settings"
+msgstr "Paramètres pages"
+
+# @ csa-slp-pages
+#: include/class.adminpanel.php:59
+msgid "Behavior"
+msgstr "Comportement"
+
+# @ csa-slp-pages
+#: include/class.adminpanel.php:102
+msgid "Pages Replace Websites"
+msgstr "Sites remplacés par pages"
+
+# @ csa-slp-pages
+#: include/class.adminpanel.php:104
+msgid ""
+"Use the Store Pages local URL in place of the website URL on the map results "
+"list."
+msgstr ""
+"Utiliser les URL des pages des Points de Vente à la place des sites internet "
+"sur la liste de résultat de la carte."
+
+# @ csa-slp-pages
+#: include/class.adminpanel.php:111
+msgid "Prevent New Window"
+msgstr "Interdir nouvelle fenêtre"
+
+# @ csa-slp-pages
+#: include/class.adminpanel.php:113
+msgid "Prevent Store Pages web links from opening in a new window."
+msgstr ""
+"Interdire d'ouvrir dans une nouvelle fenêtre les liens sur les pages des "
+"Points de Vente."
+
+# @ csa-slp-pages
+#: include/class.adminpanel.php:120
+msgid "Permalink Starts With"
+msgstr "Permaliens commencesnt par"
+
+# @ csa-slp-pages
+#: include/class.adminpanel.php:123
+msgid "Set the middle part of the store page URLs, defaults to \"store_page\"."
+msgstr ""
+"Définir le milieu des pages des URL des Poitns de Vente, par défaut "
+"\"store_page\"."
+
+# @ csa-slp-pages
+#: include/class.adminpanel.php:125
+#, php-format
+msgid ""
+"<a href=\"%s\">Permalinks</a> needs to be set to something other than "
+"default."
+msgstr ""
+"Les <a href=\"%s\">Permaliens</a> doivent être définis par autre chose que "
+"défaut."
+
+# @ csa-slp-pages
+#: include/class.adminpanel.php:134
+msgid "Initial Page Features"
+msgstr "Caractéristiques de la Page initale"
+
+# @ csa-slp-pages
+#: include/class.adminpanel.php:139
+msgid "Default Comments"
+msgstr "Commentaire par défaut"
+
+# @ csa-slp-pages
+#: include/class.adminpanel.php:141
+msgid ""
+"Should comments be on or off by default when a new store page is created?"
+msgstr ""
+"Est-ce que les commentaires doivent être On ou Off par défaut quand une "
+"nouvelle page de Point de Vente est créée ?"
+
+# @ csa-slp-pages
+#: include/class.adminpanel.php:148
+msgid "Default Trackbacks"
+msgstr "Rétroliens par défaut"
+
+# @ csa-slp-pages
+#: include/class.adminpanel.php:150
+msgid ""
+"Should pingbacks/trackbacks be on or off by default when a new store page is "
+"created?"
+msgstr ""
+"Est-ce que les rétroliens doivent être On ou Off par défaut quand une "
+"nouvelle page de Point de Vente est créée ?"
+
+# @ csa-slp-pages
+#: include/class.adminpanel.php:161
+msgid "Page Template"
+msgstr "Modèle de Page"
+
+# @ csa-slp-pages
+#: include/class.adminpanel.php:164
+msgid "The HTML that is used to create new store pages."
+msgstr "HTML utilisé pour créer une nouvelle page de Point de Vente."
+
+# @ csa-slp-pages
+#: include/class.adminpanel.php:165
+msgid "Leave blank to reset to default layout."
+msgstr "Laissez vide pour remettre à zéro."
+
+# @ csa-slp-pages
+#. translators: plugin header field 'Name'
+#: slp-pages.php:0
+msgid "Store Locator Plus : Store Pages"
+msgstr "Store Locator Plus : Pages Points de Vente"
+
+# @ csa-slp-pages
+#. translators: plugin header field 'PluginURI'
+#: slp-pages.php:0
+msgid "http://www.charlestonsw.com/product/store-locator-plus-store-pages/"
+msgstr "http://www.charlestonsw.com/product/store-locator-plus-store-pages/"
+
+# @ csa-slp-pages
+#. translators: plugin header field 'Description'
+#: slp-pages.php:0
+msgid ""
+"A premium add-on pack for Store Locator Plus that creates custom pages for "
+"your locations."
+msgstr ""
+"Un pack premium pour Store Locator Plus qui ajoute un plugin Pages "
+"personnalisées pour vos Points de Vente."
+
+# @ csa-slp-pages
+#. translators: plugin header field 'Author'
+#: slp-pages.php:0
+msgid "Charleston Software Associates"
+msgstr "Charleston Software Associates"
+
+# @ csa-slp-pages
+#. translators: plugin header field 'AuthorURI'
+#: slp-pages.php:0
+msgid "http://charlestonsw.com/"
+msgstr "http://charlestonsw.com/"
+
+# @ csa-slp-pages
+#: include/class.adminpanel.php:41
+msgid "Navigation"
+msgstr "Navigation"
+
+# @ csa-slp-pages
+#: include/class.adminpanel.php:64
+msgid "Default Page Status"
+msgstr "Status page par défaut"
+
+# @ csa-slp-pages
+#: include/class.adminpanel.php:69
+msgid "Draft"
+msgstr "Projet"
+
+# @ csa-slp-pages
+#: include/class.adminpanel.php:74
+msgid "Published"
+msgstr "Publié"
+
+# @ csa-slp-pages
+#: include/class.adminpanel.php:79
+msgid "Pending Review"
+msgstr "En attente de validation"
+
+# @ csa-slp-pages
+#: include/class.adminpanel.php:84
+msgid "Future"
+msgstr "Futur"
+
+# @ csa-slp-pages
+#: include/class.adminpanel.php:89
+msgid "Private"
+msgstr "Privé"
+
+# @ csa-slp-pages
+#: include/class.adminpanel.php:95
+msgid "When creating new Store Pages, what should the default status be?."
+msgstr ""
+"Quand une nouvelle page de Point de Vente est créée, quel doit être son "
+"état ?"
+
+# @ csa-slp-pages
+#: include/class.adminpanel.php:96
+msgid "Default mode is draft."
+msgstr "Par défaut Projet."
+
+# @ csa-slp-pages
+#. translators: plugin header field 'Version'
+#: slp-pages.php:0
+msgid "4.0.007"
+msgstr "4.0.007"
+
+# @ csa-slp-pages
+#: slp-pages.php:398
+msgid "Description"
+msgstr "Description"
+
+# @ csa-slp-pages
+#: slp-pages.php:400
+msgid "Contact Info"
+msgstr "Contact"
+
+# @ csa-slp-pages
+#: slp-pages.php:401
+msgid "Phone"
+msgstr "Téléphone"
+
+# @ csa-slp-pages
+#: slp-pages.php:402
+msgid "Fax"
+msgstr "Fax"
+
+# @ csa-slp-pages
+#: slp-pages.php:590
+msgid "Delete Pages Permanently"
+msgstr "Effacer définitivement les pages"
+
+# @ csa-slp-pages
+#: slp-pages.php:662
+#, php-format
+msgid "Store Page (%d):"
+msgstr "Enregistrer page (%d):"
+
+# @ csa-slp-pages
+#: slp-pages.php:1020
+msgid " - Store Pages"
+msgstr " - Pages Point de Vente"

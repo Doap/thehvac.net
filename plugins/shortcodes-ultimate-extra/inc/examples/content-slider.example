@@ -1,0 +1,70 @@
+<h2>Default skin</h2>
+
+[%su_content_slider]
+[%su_content_slide][%su_panel]Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium dolor, sed pellentesque nisl imperdiet non. Aliquam dignissim egestas risus, sit amet vestibulum metus condimentum[/%su_panel][/%su_content_slide]
+[%su_content_slide][%su_panel]Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium dolor, sed pellentesque nisl imperdiet non. Aliquam dignissim egestas risus, sit amet vestibulum metus condimentum[/%su_panel][/%su_content_slide]
+[%su_content_slide][%su_panel]Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium dolor, sed pellentesque nisl imperdiet non. Aliquam dignissim egestas risus, sit amet vestibulum metus condimentum[/%su_panel][/%su_content_slide]
+[/%su_content_slider]
+
+-----
+
+<h2>Light skin</h2>
+
+[%su_content_slider style="light"]
+[%su_content_slide][%su_panel]Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium dolor, sed pellentesque nisl imperdiet non. Aliquam dignissim egestas risus, sit amet vestibulum metus condimentum[/%su_panel][/%su_content_slide]
+[%su_content_slide][%su_panel]Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium dolor, sed pellentesque nisl imperdiet non. Aliquam dignissim egestas risus, sit amet vestibulum metus condimentum[/%su_panel][/%su_content_slide]
+[%su_content_slide][%su_panel]Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium dolor, sed pellentesque nisl imperdiet non. Aliquam dignissim egestas risus, sit amet vestibulum metus condimentum[/%su_panel][/%su_content_slide]
+[/%su_content_slider]
+
+-----
+
+<h2>Dark skin</h2>
+
+[%su_content_slider style="dark"]
+[%su_content_slide][%su_panel]Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium dolor, sed pellentesque nisl imperdiet non. Aliquam dignissim egestas risus, sit amet vestibulum metus condimentum[/%su_panel][/%su_content_slide]
+[%su_content_slide][%su_panel]Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium dolor, sed pellentesque nisl imperdiet non. Aliquam dignissim egestas risus, sit amet vestibulum metus condimentum[/%su_panel][/%su_content_slide]
+[%su_content_slide][%su_panel]Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium dolor, sed pellentesque nisl imperdiet non. Aliquam dignissim egestas risus, sit amet vestibulum metus condimentum[/%su_panel][/%su_content_slide]
+[/%su_content_slider]
+
+-----
+
+<h2>Images with links</h2>
+
+[%su_content_slider effect="fadeUp" autoplay="3" style="light"]
+[%su_content_slide]<a href="http://example.com/"><img alt="" src="http://lorempixel.com/960/300/food/1/" /></a>[/%su_content_slide]
+[%su_content_slide]<a href="http://example.com/"><img alt="" src="http://lorempixel.com/960/300/food/2/" /></a>[/%su_content_slide]
+[%su_content_slide]<a href="http://example.com/"><img alt="" src="http://lorempixel.com/960/300/food/3/" /></a>[/%su_content_slide]
+[/%su_content_slider]
+
+-----
+
+<h2>Classic news ticker</h2>
+
+[%su_content_slider arrows="no" effect="fade" autoplay="3"]
+[%su_content_slide]<a href="http://example.com/">US Vice-President Joe Biden urges Ukrainian President Yanukovych to "work with opposition to de-escalate tension"</a>[/%su_content_slide]
+[%su_content_slide]<a href="http://example.com/">UN's highest court redraws Peru-Chile maritime border after an acrimonious dispute between the two neighbours</a>[/%su_content_slide]
+[%su_content_slide]<a href="http://example.com/">Mexican forces arrest one of the leaders of the Knights Templar drug cartel in violence-wracked Michoacan state - officials</a>[/%su_content_slide]
+[/%su_content_slider]
+
+-----
+
+<h2>Multi-slider with advanced content</h2>
+
+[%su_content_slider effect="goDown" autoplay="0" style="dark" pages="yes"]
+[%su_content_slide]
+[%su_spoiler title="Spoiler shortcode" style="fancy" icon="plus-square-1"]Hidden content[/%su_spoiler]
+[/%su_content_slide]
+[%su_content_slide]
+[%su_service title="Service shortcode" icon="icon: star" icon_color="#fccb00"]Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ligula libero, placerat ac pellentesque eget, adipiscing eu sapien. In venenatis, orci sed fringilla eleifend, nulla urna egestas arcu, quis consectetur felis purus sed metus. Quisque convallis lobortis neque, vitae rutrum urna mattis quis. Donec molestie tempor mattis. Sed elementum, est vitae tincidunt faucibus, metus dui lobortis orci, non auctor ipsum elit quis nunc. Integer nec mattis nunc, eu dapibus nisl. Proin in eleifend lorem. Praesent mattis eros in orci aliquet fermentum.[/%su_service]
+[%su_box title="Box shortcode" box_color="#dddddd" title_color="#393939"]Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ligula libero, placerat ac pellentesque eget, adipiscing eu sapien. In venenatis, orci sed fringilla eleifend, nulla urna egestas arcu, quis consectetur felis purus sed metus. Quisque convallis lobortis neque, vitae rutrum urna mattis quis.[/%su_box]
+[/%su_content_slide]
+[%su_content_slide]
+[%su_row][%su_column size="1/2"]
+<h3>YouTube video</h3>
+[%su_youtube url="http://www.youtube.com/watch?v=DR2c266yWEA"]
+[/%su_column][%su_column size="1/2"]
+<h3>Google map</h3>
+[%su_gmap]
+[/%su_column][/%su_row]
+[/%su_content_slide]
+[/%su_content_slider]

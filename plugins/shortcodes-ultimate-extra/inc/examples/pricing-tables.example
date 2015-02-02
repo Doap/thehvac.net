@@ -1,0 +1,165 @@
+<h2>Default pricing table</h2>
+
+[%su_pricing_table]
+[%su_plan name="Starter" price="Free" period="30-day trial" btn_url="http://example.com/" btn_text="Sign Up"]
+<ul>
+	<li>Option 1</li>
+	<li>Option 2</li>
+	<li>Option 3</li>
+</ul>
+[/%su_plan]
+[%su_plan name="Business" price="10" before="$" period="per month" featured="yes" btn_url="http://example.com/" btn_text="Sign Up"]
+<ul>
+	<li>Option 1</li>
+	<li>Option 2</li>
+	<li>Option 3</li>
+</ul>
+[/%su_plan]
+[%su_plan name="Professional" price="29" before="$" period="per month" btn_url="http://example.com/" btn_text="Sign Up"]
+<ul>
+	<li>Option 1</li>
+	<li>Option 2</li>
+	<li>Option 3</li>
+</ul>
+[/%su_plan]
+[/%su_pricing_table]
+
+-----
+
+<h2>4 columns</h2>
+
+[%su_pricing_table]
+[%su_plan name="Starter" price="Free" period="30-day trial" btn_url="http://example.com/" btn_text="Sign Up"]
+<ul>
+	<li>Option 1</li>
+	<li>Option 2</li>
+	<li>Option 3</li>
+</ul>
+[/%su_plan]
+[%su_plan name="Business" price="10" before="$" period="per month" featured="yes" btn_url="http://example.com/" btn_text="Sign Up"]
+<ul>
+	<li>Option 1</li>
+	<li>Option 2</li>
+	<li>Option 3</li>
+</ul>
+[/%su_plan]
+[%su_plan name="Professional" price="29" before="$" period="per month" btn_url="http://example.com/" btn_text="Sign Up"]
+<ul>
+	<li>Option 1</li>
+	<li>Option 2</li>
+	<li>Option 3</li>
+</ul>
+[/%su_plan]
+[%su_plan name="Subscription" price="99" before="$" period="per year" btn_url="http://example.com/" btn_text="Sign Up"]
+<ul>
+	<li>Option 1</li>
+	<li>Option 2</li>
+	<li>Option 3</li>
+</ul>
+[/%su_plan]
+[/%su_pricing_table]
+
+-----
+
+<h2>5 columns</h2>
+
+[%su_pricing_table]
+[%su_plan name="Starter" price="Free" period="30-day trial" btn_url="http://example.com/" btn_text="Sign Up"]
+<ul>
+	<li>Option 1</li>
+	<li>Option 2</li>
+	<li>Option 3</li>
+</ul>
+[/%su_plan]
+[%su_plan name="Business" price="10" before="$" period="per month" featured="yes" btn_url="http://example.com/" btn_text="Sign Up"]
+<ul>
+	<li>Option 1</li>
+	<li>Option 2</li>
+	<li>Option 3</li>
+</ul>
+[/%su_plan]
+[%su_plan name="Professional" price="29" before="$" period="per month" btn_url="http://example.com/" btn_text="Sign Up"]
+<ul>
+	<li>Option 1</li>
+	<li>Option 2</li>
+	<li>Option 3</li>
+</ul>
+[/%su_plan]
+[%su_plan name="Subscription" price="99" before="$" period="per year" btn_url="http://example.com/" btn_text="Sign Up"]
+<ul>
+	<li>Option 1</li>
+	<li>Option 2</li>
+	<li>Option 3</li>
+</ul>
+[/%su_plan]
+[%su_plan name="One time fee" price="299" before="$" period="lifetime" btn_url="http://example.com/" btn_text="Purchase"]
+<ul>
+	<li>Option 1</li>
+	<li>Option 2</li>
+	<li>Option 3</li>
+</ul>
+[/%su_plan]
+[/%su_pricing_table]
+
+-----
+
+<h2>Unlimited colors</h2>
+
+[%su_pricing_table]
+[%su_plan name="Starter" price="Free" period="30-day trial" btn_url="http://example.com/" btn_text="Sign Up" background="#FF920D" color="#ffffff" btn_background="#ffffff" btn_color="#ff560d" border="#ED880C"]
+<ul>
+	<li>Option 1</li>
+	<li>Option 2</li>
+	<li>Option 3</li>
+</ul>
+[/%su_plan]
+[%su_plan name="Business" price="10" before="$" period="per month" featured="yes" btn_url="javascript:;" btn_text="Sign Up" background="#ff560d" color="#ffffff" btn_background="#ffffff" btn_color="#ff560d" border="#ff560d" shadow="0 0 25px rgba(0,0,0,0.6)"]
+<ul>
+	<li>Option 1</li>
+	<li>Option 2</li>
+	<li>Option 3</li>
+</ul>
+[/%su_plan]
+[%su_plan name="Professional" price="29" before="$" period="per month" btn_url="http://example.com/" btn_text="Sign Up" background="#FF920D" color="#ffffff" btn_background="#ffffff" btn_color="#ff560d" border="#ED880C"]
+<ul>
+	<li>Option 1</li>
+	<li>Option 2</li>
+	<li>Option 3</li>
+</ul>
+[/%su_plan]
+[%su_plan name="Subscription" price="99" before="$" period="per year" btn_url="http://example.com/" btn_text="Sign Up" background="#FF920D" color="#ffffff" btn_background="#ffffff" btn_color="#ff560d" border="#ED880C"]
+<ul>
+	<li>Option 1</li>
+	<li>Option 2</li>
+	<li>Option 3</li>
+</ul>
+[/%su_plan]
+[/%su_pricing_table]
+
+-----
+
+<h2>Pricing plans with icons</h2>
+
+[%su_pricing_table]
+[%su_plan name="Starter" price="Free" period="30-day trial" btn_url="http://example.com/" btn_text="Sign Up" icon="icon: star-o" icon_color="#777777" icon_size="32"]
+<ul>
+	<li>Option 1</li>
+	<li>Option 2</li>
+	<li>Option 3</li>
+</ul>
+[/%su_plan]
+[%su_plan name="Business" price="10" before="$" period="per month" featured="yes" btn_url="http://example.com/" btn_text="Sign Up" icon="icon: star" icon_color="#FFDD0C" icon_size="32"]
+<ul>
+	<li>Option 1</li>
+	<li>Option 2</li>
+	<li>Option 3</li>
+</ul>
+[/%su_plan]
+[%su_plan name="Professional" price="29" before="$" period="per month" btn_url="http://example.com/" btn_text="Sign Up" icon="icon: star-o" icon_color="#777777" icon_size="32"]
+<ul>
+	<li>Option 1</li>
+	<li>Option 2</li>
+	<li>Option 3</li>
+</ul>
+[/%su_plan]
+[/%su_pricing_table]

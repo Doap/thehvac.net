@@ -1,0 +1,733 @@
+
+.server-graphs-small { display:none; } 
+@media (max-width:680px) { 
+.server-graphs { display:none; } 
+.server-graphs-small { display:block; }
+} else {
+.server-graphs { display:block; }
+.server-graphs-small { display:none; }
+}
+
+
+@media (min-width:1007px) and (max-width:1019px) { 
+.category-lptv .topleftad { display:none; } 
+.category-lptv .toprightad { display:none; } 
+}
+
+@media (min-width:990px) and (max-width:1139px) { 
+.category-lptv #top-social-icons { display:none; }  
+}
+
+@media (min-width:761px) and (max-width:990px) { 
+#top-social-icons { top:-20px;position:relative; } 
+}
+
+@media (min-width:651px) and (max-width:661px) { 
+#search-2 { display:none; } 
+}
+
+
+@media (min-width:651px) and (max-width:780px) { 
+#sticky-top { width:100%; margin-top:-40px; } 
+}
+
+
+@media (max-width:1006px) { 
+#socialstuff { display:none; }
+}
+@media (max-width: 585px) {
+#main-nav{ height:25px; }
+}
+
+@media (min-width: 650px) {
+.float_left {width:46%;float:left;margin:4px 2%;}
+.float_right {width:46%;float:right;margin:4px 2%;}
+#menu-item-1096841 { display:none; }
+#menu-item-1045921 { display:none; }
+#menu-item-6389 { display:none; }
+}
+
+@media (max-width: 550px) {
+#cat-ad-468x60 { display:none; }
+}
+
+@media (min-width:693px) and (max-width:880px) { 
+#content > div:nth-child(8) > div > div.su-column.su-column-size-3-4 { width:100%; } 
+}
+
+@media (max-width: 905px) {
+#sports-breves { display:none; }
+}
+@media (min-width: 978px) and (max-width: 1005px) {
+#tagbox {width:100%;padding-left:2px;padding-bottom:6px;padding-top:2px;background-color:#f5f5f5;position:relative;float:left;font-size:1.1em;overflow:hidden;}
+}
+
+@media (min-width: 972px) and (max-width: 1006px) { 
+#widgets { display:none; } 
+}
+
+@media (max-width: 890px) {
+#sportsad1 { display:none; }
+#sportsad2 { display:none; }
+#destacados-sidebar { display:none; }
+}
+
+@media (min-width: 890px) {
+#menu-item-1096841 { display:none; }
+#menu-item-1045921 { display:none; }
+#minisportsad1 { display:none; }
+#minisportsad2 { display:none; }
+}
+
+@media (max-width: 820px) { 
+menu-item-6389 { display:none;}
+}
+@media (max-width: 1010px) { 
+#wrapper > div:nth-child(4) > div.desacados_bar { display:none; }
+}
+@media (max-width: 480px) {
+#menu-item-5702 { display:none; }
+}
+@media (min-width:693px) and (max-width:880px) { 
+#content > div:nth-child(8) > div > div.su-column.su-column-size-3-4 { width:100%; } 
+}
+
+@media (max-width: 700px) {
+#cat-page-ad { display:none; }
+}
+
+@media (max-width: 905px) {
+#sports-breves { display:none; }
+}
+@media (min-width: 978px) and (max-width: 1005px) {
+#tagbox { width:100%; }
+}
+
+@media (max-width: 800px) {
+#menu-item-5702 { display:none; }
+}
+
+@media (max-width: 768px) { 
+#destacados_bar { display:none; }
+#destacados { display:none; }
+#tcp_shortcode_posts_deportes_homepage_vertical { display:none; }
+#wrapper { margin: 0px; padding: 0 2px 2px 2px; }
+#container { margin: 0px; }
+.wrapper { margin: 0px; padding: 0 2px 2px 2px; }
+.container { margin: 0px; }
+#menu-item-6389 { display:none; } 
+#hideonipad { display:none; }
+.bottom-corner-ad { display:none; }
+}
+
+/* menu nudge up when small */
+@media only screen
+and (min-width : 781px ) 
+and (max-width : 1005px ) {
+/* Styles */
+#sticky-top { position:relative;top:0px;left:100px; }
+/*#header {margin-top:0}*/
+}
+
+@media only screen
+and (max-width : 1005px ) {
+/* Styles */
+#tagbox { display:none; } 
+}
+
+@media (max-width: 529px) {
+#left-col {width:100%}
+#dept-block {border:0px solid #000;background-color:#eae8dd;margin:0px;padding:10px;min-height:434px;}
+#dept-story-1 {position:relative;float:left;width:98%;margin:0 auto;}
+#dept-story-2 {position:relative;float:left;width:98%;margin:0 auto;}
+#dept-block .tcpf {margin:0 auto;}
+#ad-120x600 {display:none;}
+.su-column-size-1-4 {width:100%!important;float:left!important;}
+.mobile-clear {clear:both;}
+#bottom-section .portada-home-bottom {float:left!important;}
+}
+@media (max-width: 719px) {
+.home .su-column-size-1-4 {width:100%;position:relative;float:left!important;padding:0;margin:0;overflow:hidden;}
+.su-column-size-1-4 .su-post img {width:300px;}
+}
+@media (max-width: 767px) {
+.clear-767 {clear:both;}
+.su-post.cat-op {width:100%;}
+.supl-cat
+{
+min-height:250px;
+margin-left:20px;
+margin-bottom:20px;
+width:210px;
+}
+.supl-img
+{
+width:200px;
+height:212px;
+}
+.supl-img img {
+width:200px;
+height:212px;
+margin-bottom:5px
+}
+.supl-titles a {font-family: Arial;font-size:14px;line-height:1.4em;}
+#bottom-section .su-row {clear:none;}
+.ed-ant {position:relative;float:left!important;width:260px!important;margin:0 0 0 10px!important;}
+.portada-home-bottom {width:270px!important;position:relative;float:right!important;margin:0 10px 0 0!important;}
+#magazine-ad {display:none;}
+.supl-clear {clear:both;}
+}
+
+/* hide menu in views less than 780px
+@media only screen
+and (max-width : 780px ) {
+#sticky-top { display:none; }
+.page-id-213 body { position:relative;top:-20px; }
+}
+*/
+
+@media only screen
+and (max-width : 780px ) {
+#tagbox { display:none; } 
+.topleftad-home { display:none; }
+#portada-impresa-home-section { text-align:center;width:100%; } 
+#portada-impresa-home-section-inner { min-width:300px;max-width:50%;position:relative;margin:auto; }
+#bottom-section > div.su-row > div:nth-child(5) > div.su-column.su-column-size-1-3.right-ad-home-bottom { display:none; }
+#ediciones-anteriores-home { min-width:300px;max-width:50%;position:relative;margin:auto; }
+#magad { display:none; }
+#magazine-ad{ display:none; }
+.toprightad { display:none; }
+.phonehide { display:none; }
+#ad-bottom-lptv{ display:none; }
+.leftad-lptv { display:none; }
+.rightad-lptv { display:none; }
+#ad-bottom-lptv { display:none; }
+#wrapper { margin:0px;padding:0px;}
+} else { 
+#mobilespacer { display:none; }
+}
+
+/* hide social icons in views less than 980px*/
+@media only screen
+and (max-width : 980px ) {
+/* Styles */
+/*#shortcodes-ultimate-95 { display:none; }*/
+#main-nav-wrapper { width:100%; }
+#main-nav { width:100%; } 
+#responsive_current_menu_item { width:100%; }
+.toprightad-single { display:none; }
+
+.mobile-hide { display:none; }
+.topleftad-home { display:none; }
+.toprightad { display:none; }
+#magad { display:none; }
+#magazine-ad{ display:none; }
+#ad-bottom-lptv{ display:none; }
+.leftad-lptv { display:none; }
+.rightad-lptv { display:none; }
+#ad-bottom-lptv { display:none; }
+
+#portada-impresa-home-section { text-align:center;width:100%; } 
+#portada-impresa-home-section-inner { min-width:300px;max-width:50%;position:relative;margin:auto; }
+
+
+/* media query less than or = to 960 is #fff */
+.category-lptv #wrapper {background-color:#ffffff;}
+/* media query less than or = to 960 is #fff */
+
+} else { 
+
+/* media query greater than 960 is #dbdbdb */
+.category-lptv #wrapper {background-color:#dbdbdb;}
+/* media query greater than 960 is #dbdbdb */
+
+}
+
+@media only screen and (max-width : 540px ) {
+.clear-540 {clear:both;}
+#top-widget {text-align:left;}
+.home .su-column-size-1-4 {width:100%;position:relative;float:left!important;padding:0;margin:0;overflow:hidden;}
+.su-column-size-1-4 .su-post img {width:300px;}
+#bottom-section .portada-home-bottom {float:left!important;}
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-device-width : 600px) and (max-width : 600px ) {
+.home .su-column-size-1-4 {width:100%;position:relative;float:left!important;padding:0;margin:0;overflow:hidden;}
+.su-column-size-1-4 .su-post img {width:300px;}
+.widget_lptv_widget {float:left;}
+#bottom-section .su-row {clear:none;}
+.ed-ant {position:relative;float:left!important;width:260px!important;margin:0 0 0 10px!important;}
+.portada-home-bottom {width:270px!important;position:relative;float:right!important;margin:0 10px 0 0!important;}
+#magazine-ad {display:none;}
+.supl-cat {margin-left:60px;}
+.supl-clear {clear:both;}
+}
+/* menu manipulation stuff */
+@media only screen
+and (max-width : 650px ) {
+/* Styles */
+#sticky-top { display:none; }
+#header {margin-top:0;}
+#logo { position:relative;float:left; }
+.float_left { width:100%;float:left;clear:both; }
+.float_right { width:100%;float:left;clear:both; }
+#comport-graph {width:100%;float:left;}
+.dom-dest-img a {color:#666;}
+.dom-dest-img img {width:100%;height:auto;}
+.dom-dest-title-block {position:relative;float:left;display:block;width:100%;bottom:0;left:0;height:auto;color:#666;background-color:#fff;border-radius:1px;opacity:1;box-shadow: 0px 0px 8px 1px #ccc;z-index:10;}
+.dom-img {position:absolute;display:block;top:10px;right:10px;width:103px;height:16px;z-index:10;}
+}
+
+
+@media only screen
+and (min-width:650px) {
+#menu-item-1096841 { display:none; }
+#menu-item-1045921 { display:none; }
+#menu-item-1161013 { display:none; }
+#menu-item-1126336 { display:none; }
+#menu-item-1161014 { display:none; }
+#menu-item-1161015 { display:none; }
+#menu-item-1161016 { display:none; }
+.for-mobile-only { display:none }
+}
+
+
+/* hide page wing ads when screen gets narrower than 1024px */
+@media only screen
+and (max-width : 1124px ) {
+/* Styles */
+.leftad, .rightad { display:none; }
+}
+
+/* hide ad above and below destacados at sizes smaller than 800px*/
+@media only screen
+and (max-width : 800px ) {
+/* Styles */
+#div-gpt-ad-1403199951031-0 { display:none; }
+#div-gpt-ad-1403199951031-1 { display:none; }
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 320px)
+and (orientation: portrait)
+ {
+/* Styles */
+/* constrain page width  */
+
+body { max-width:320px; }
+#search-2 > div { position:relative;left:50px; }
+/* hide topright 270x90 ad */
+#div-gpt-ad-1403223429448-0 { display:none; }
+/* hide block of homepage sidebar ads */
+#shortcodes-ultimate-269 { display:none; }
+/* hide homepage 728x90 ads above and below  destacados ads */
+.topleftad-home {display:none;}
+#div-gpt-ad-1403199951031-1, #div-gpt-ad-1403199951031-0 { display:none; }
+/* bottom search box too narrow made social icons bunch up */
+#lptv-search { width:300px; }
+/* bottom center 120x600 ad hide*/
+#120x600-ad { display:none; }
+#div-gpt-ad-1403371468819-0 { display:none; }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+body { max-width:320px; }
+#header {margin-top:0px;}
+#menu-item-5702 {display:none;}
+#left-col {width:100%;}
+#dept-block {border:0px solid #000;background-color:#eae8dd;margin:0px;padding:10px;min-height:434px;}
+#dept-story-1 {position:relative;float:left;width:98%;margin:0 auto;}
+#dept-story-2 {position:relative;float:left;width:98%;margin:0 auto;}
+#center-home-ad-2 {position:relative;float:left;margin:10px 0px 10px 80px;}
+.mobile-hide {display:none;}
+.mobile-clear {clear:both;}
+.home .su-column-size-1-4 {width:300px;position:relative;float:left;padding:0;margin:0;overflow:hidden;}
+.team-name {width:33%;margin:0 0 0 25%;text-align:center;font-size:1em;text-shadow: 2px 2px 2px #000;}
+.game-summary img {
+margin-left:25%;
+width:48px;
+height:48px;
+}
+.home-logo {
+margin:0 0 0 10px;
+}
+.away-logo {
+margin:0 0 0 10px;
+}
+.score {
+font-size: 2em;
+}
+.futbol-notas {
+height:25%;
+line-height:.9em;
+}
+.futbol-notas a {
+font-size:.8em;
+line-height:.9em;
+}
+#lptv_widget-2 {float:left;}
+.su-slider-slide-title { margin:0px;font-size:1.6em;line-height:1.3;bottom:0px;left:0px;height:30%;width:100%;max-width:100%;border-radius:0; }
+#ad-120x600 {clear:both;width:120px;position:relative;float:left;margin:10px 0 10px 90px;}
+#story-no-clear .su-heading {clear:both;}
+.marcador-inner {height:40px}
+.marcador-left {height:40px}
+.marcador-right{height:40px}
+.marc-home-team-name {line-height:2.6em;height:40px;}
+.marc-away-team-name {line-height:2.6em;height:40px;}
+.marc-home-team-logo {height:40px;}
+.marc-away-team-logo {height:40px;}
+.marc-home-team-logo img, .marc-away-team-logo img {width:44px;height:40px;}
+.marc-home-team-logo img {position:relative;float:right;}
+.marc-score {line-height:1em;font-size:2.4em;height:40px;}
+.carousel-cartelera .su-carousel-prev, .carousel-cartelera .su-carousel-next, #category-slider .su-carousel-prev, #category-slider .su-carousel-next {margin-left:0;}
+.carousel-cartelera .su-carousel-prev, #category-slider .su-carousel-prev {margin-right: 30px;}
+.cat_carousel_title h4 {font-size: 1em;margin-right: 4px;line-height: 1.1;padding: 0;overflow: visible;text-overflow: ellipsis;white-space: normal;}
+.cat_carousel_description {display:none;}
+.su-post .float_right {float:left;}
+.post-entry > .img-div {width:100%!important}
+#left-300-story {width:100%!important;padding-left:0!important;}
+#left-300-story .tcpf {width:100%!important;}
+#left-300-story .title-overlay {left:1px!important;font-size:1.2em!important;}
+#left-300-story .img-div {width:100%!important;}
+#left-300-story img {width:100%!important;}
+#left-300-story .excerpt-overlay {width:100%!important;}
+#left-300-story .excerpt-overlay-text {margin:2px!important;font-size:1em!important;padding:4px!important;}
+#dom-breves {margin:0;padding:0;}
+#dom-left {width:100%;position:relative;float:left;padding:0;}
+#dom-left .tcpf {width:100%;min-height:initial;}
+#dom-left .img-div {width:100%;}
+#dom-left img {width:100%;}
+
+}
+/* Smartphones (portrait and landscape) ----------- */
+/*@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-device-width: 1270px) and (max-device-width: 1300px) and (orientation: landscape) {*/
+ @media only screen and (-webkit-min-device-pixel-ratio: 1) and (min-device-width : 320px) and (max-device-width : 854px) and (orientation : landscape ) {
+#header {margin-top:0px;}
+.top-widget {text-align:left;}
+/*
+.home .su-column-size-1-4 {width:100%;position:relative;float:left!important;padding:0;margin:0;overflow:hidden;}
+.mobile-clear {clear:both;}
+.mobile-hide {display:none;}
+*/
+.topleftad {display:none;}
+.toprightad {display:none;}
+#menu-item-5702 {display:none;}
+/*
+#left-col {width:100%;}
+#dept-block {border:0px solid #000;background-color:#eae8dd;margin:0px;padding:10px;min-height:434px;}
+#dept-story-1 {position:relative;float:left;width:98%;margin:0 auto;}
+#dept-story-2 {position:relative;float:left;width:98%;margin:0 auto;}
+*/
+.lptv_widget-2-wrapper {clear:both;width:100%;}
+.lptv_widget-2-wrapper .widget_lptv_widget {float:none;margin:0 auto;}
+#magazine-ad {display:none;}
+
+#center-home-ad-2 {position:relative;float:right;margin:10px;}
+.team-name {width:33%;margin:0 0 0 25%;text-align:center;font-size:1em;text-shadow: 2px 2px 2px #000;}
+.game-summary img {
+margin-left:25%;
+width:48px;
+height:48px;
+}
+.home-logo {
+margin:0 0 0 10px;
+}
+.away-logo {
+margin:0 0 0 10px;
+}
+.score {
+font-size: 2em;
+}
+.futbol-notas {
+height:25%;
+line-height:.9em;
+}
+.futbol-notas a {
+font-size:.8em;
+line-height:.9em;
+}
+.su-slider-slide-title { margin:0px;font-size:1.6em;line-height:1.3;bottom:0px;left:0px;height:30%;width:100%;max-width:100%;border-radius:0; }
+#ad-120x600 {clear:both;width:120px;position:relative;float:right;;margin:10px;}
+#shortcodes-ultimate-269 {width:100%;position:relative;float:left;clear:both;}
+#shortcodes-ultimate-269 .textwidget {width:300px;float:none;margin:0 auto;} 
+#shortcodes-ultimate-133 {width:100%;position:relative;float:left;clear:both;}
+#shortcodes-ultimate-133 .caricaturas-pic-sidebar {width:300px!important;float:none;margin: 0 auto;} 
+#shortcodes-ultimate-132 {width:100%;position:relative;float:left;clear:both;}
+#op-container {width:300px;float:none;margin: 0 auto;} 
+.carousel-cartelera .su-carousel-prev, .carousel-cartelera .su-carousel-next, #category-slider .su-carousel-prev, #category-slider .su-carousel-next {margin-left:0;}
+.carousel-cartelera .su-carousel-prev, #category-slider .su-carousel-prev {margin-right: 30px;}
+.marcador-inner {height:40px}
+.marcador-left {height:40px}
+.marcador-right{height:40px}
+.marc-home-team-name {line-height:2.6em;height:40px;}
+.marc-away-team-name {line-height:2.6em;height:40px;}
+.marc-home-team-logo {height:40px;}
+.marc-away-team-logo {height:40px;}
+.marc-home-team-logo img, .marc-away-team-logo img {width:44px;height:40px;}
+.marc-home-team-logo img {position:relative;float:right;}
+.marc-score {line-height:1em;font-size:2.8em;height:40px;}
+.su-post .float_right {float:left;}
+#comport-graph {width:100%;float:left;}
+
+/*.
+.marc-game-title {display:table-cell;border-top: 1px solid #ccc;border-collapse:collapse;width:100%;min-height:10px;color:#606060;font:Arial;font-size:22;font-weight:400;text-align:center;position:relative;float:left;}
+.marc-game-status {top:21px;left:-9px;position:relative;font-size:1.2em;font-weight:900;color:#fff;}
+*/
+} 
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+#top-bar {
+  background-color:#eff0f2;
+  border-bottom:0px;
+  display: block;
+  float:left;
+  height:178px;
+  width:100%;
+}
+.leftad, .rightad { display:none; }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+#rightad { display:none; }
+#leftad { display:none; }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+ #top-bar-container {
+    height:37px;
+    margin:0 auto;
+    padding:0;
+    width:768px;
+  }
+.main-nav {width:768px;margin:0 auto;clear:both;}
+.sub-header-menu {width:768px;}
+#logo-social {width:768px;margin:0 auto;}
+.home .su-column-size-1-4 {width:220px;position:relative;float:right;padding:0;margin:0;overflow:hidden;}
+#toprightad { display:none;}
+#rightad {display:none;}
+#leftad {display:none;}
+.bottom-corner-ad {display:none;}
+#hideonipad {display:none;}
+#lptv_widget-2 {float:left;margin:0 40px 0 40px;}
+/* #bottom-section .suplementos-home-bottom {width:360px;}*/
+.su-posts-teaser-loop .su-post:after {clear:none;}
+#shortcodes-ultimate-133 {width:300px;position:relative;float:left;margin:0 20px 0 20px;clear:right;}
+#shortcodes-ultimate-269 {position:relative;float:right;width:300px;margin:0 20px 0 20px;clear:right;}
+#shortcodes-ultimate-269 .su-spacer {clear:right;}
+.desc-apps {position:relative;float:left;margin: 30px 0 30px 40px;}
+.ed-ant {position:relative;float:left!important;width:260px!important;margin:0 0 0 50px!important;}
+.portada-home-bottom {width:270px!important;position:relative;float:right!important;margin:0 100px 0 0!important;}
+.cat-op-title {min-height:75px;}
+.cat-op-title a {font-size:1.2em;line-height:1.2em;}
+.ipad-portrait-clear {clear:both;}
+#bottom-section .su-row {clear:none;}
+.footer-menu {margin-left:100px;}
+.dest-story {margin-left:85px;}
+.outside {margin-bottom:40px;}
+.econ-left {margin-left:20px;}
+#comport-graph {margin-right:20px}
+.category .catpic-vert {width:100%!important;max-width:100%!important;}
+.category .catpic-vert img {width:100%!important;max-width:100%!important;}
+#cat-dest-img-bot img {height:14px;width:14px!important;}
+.category #widgets .shortcodes-ultimate {
+width: 300px;
+position: relative;
+float: left;
+margin:20px 30px;
+}
+.category .widget_lptv_widget {
+float: left;
+margin:20px 30px;
+}
+#shortcodes-ultimate-162 {margin-top:150px!important;}
+/*
+#shortcodes-ultimate-174 {margin:10px 30px;}
+#shortcodes-ultimate-161 {clear:left;margin:20px 30px;}
+#shortcodes-ultimate-276 {clear:left;margin:20px 30px;}
+*/
+#shortcodes-ultimate-161 {clear:left;}
+#shortcodes-ultimate-276 {clear:left;}
+#shortcodes-ultimate-238 {clear:left;}
+#shortcodes-ultimate-223 {clear:left;}
+#shortcodes-ultimate-211 {clear:left;}
+#shortcodes-ultimate-218 {clear:left;}
+#feedburnerformwidget-6 {
+position: relative;
+float: left;
+width: 300px;
+clear: right;
+}
+#utcw-5 {clear:left;}
+.widget_utcw, #text-4 {
+width: 300px;
+position: relative;
+float: left;
+margin-left:30px;
+margin-bottom:10px;
+}
+#esp-ad {margin:15px 0 15px 232px;}
+.dom-sb-ad {clear:left;position:relative;float:left;}
+}
+
+@media(min-width: 1006px) {
+#header {margin-top:40px;}
+.main-nav {width:1006px;}
+.sub-header-menu {width:1006px;}
+#logo-social {width:1006px;}
+#socialstuff { margin-top:10px; }
+#lptv-main-box {position:relative;margin: 13px 0 0 0;}
+#top-bar {
+  background-color:#eff0f2;
+  border-bottom:0px;
+  display: block;
+  float:left;
+  height:178px;
+  width:100%;
+}
+  #colophon-widget {
+    float:left;
+    width:350px;
+  }
+  #footer {
+    margin:0;
+    max-width:100%;
+    padding:0;
+    width:100%;
+  }
+  #footer .copyright {
+    clear:left;
+  }
+  #footer .footer-menu a {
+    padding:48px 0;
+  }
+  #footer .footer-menu a img.wp-post-image {
+    display:inline;
+  }
+  #footer .footer-menu li {
+    display:inline;
+    margin-left:20px;
+    margin-right:20px;
+    text-align:left;
+  }
+  #footer .social-icons {
+    text-align:left;
+  }
+  #footer div {
+    border:none;
+  }
+  #footer-menu-container {
+    height:123px;
+    margin:0 0 30px;
+    width:100%;
+  }
+  #footer-widget {
+    float:right;
+    width:650px;
+  }
+  #footer-widget .widget_search {
+    min-width:315px;
+  }
+  #footer-wrapper {
+    width:1006px;
+  }
+  #searchform, .top-menu {
+    margin:0;
+  }
+  #top-bar-container {
+    height:37px;
+    margin:0 auto;
+    padding:0;
+    width:1006px;
+  }
+  #top-bar-container div {
+    float:left;
+    margin:0;
+    padding:0;
+  }
+  #top-menu-container {
+    width:600px;
+  }
+  #menu-informationlinks {
+    width:330px;
+  }
+  #menu-informationlinks li {
+    width:50%;
+  }
+  .fixed {
+    left:0;
+    position:fixed;
+    top:0;
+  }
+  .footer-menu {
+    list-style:none;
+    margin:0 auto;
+    padding:0;
+    text-align:center;
+    width:1006px;
+  }
+  .top-menu li {
+    height:27px;
+    margin:0;
+    padding:5px 10px;
+  }
+.cat-op-title a {font-size:1.25em;line-height:2.6em;}
+.cat-op-story-inner {width:275px;}
+}
+/*  Galaxy Note2 - Portrait */
+/*@media only screen and (-webkit-min-device-pixel-ratio : 2) and (min-device-height : 1200px) and (max-device-height : 1300px) and (orientation : portrait) { */
+@media only screen and (-webkit-min-device-pixel-ratio : 1) and (max-device-width : 360px) and (orientation : portrait) {
+body { max-width:100%; }
+#header {margin-top:0px;}
+.mobile-clear {clear:both;}
+.mobile-hide {display:none;}
+#ad-120x600 {display:none;}
+#magazine-ad {display:none;}
+.home .su-column-size-1-4 {width:100%;position:relative;float:left!important;padding:0;margin:0;overflow:hidden;}
+}
+
+/*  Galaxy Note2 - landscape Due to the Screen Height and Width is changing during orientation changes */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-device-width: 1270px) and (max-device-width: 1300px) and (orientation: landscape) {
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
+/*
+@media(min-width: 1005px) {
+}
+*/

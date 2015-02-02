@@ -1,0 +1,200 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Store Locator Plus : Store Pages v4.0.007\n"
+"POT-Creation-Date: 2013-10-04 21:54+0900\n"
+"PO-Revision-Date: 2013-10-05 15:29+0900\n"
+"Last-Translator: Karen Ellrick <osakawebbie@gmail.com>\n"
+"Language-Team: Karen Ellrick <osakawebbie@gmail.com>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: slp-pages.php:186 slp-pages.php:373 slp-pages.php:659
+msgid "Store Pages"
+msgstr "Store Pages（ロケーションのページ）"
+
+#: slp-pages.php:342 slp-pages.php:343
+msgid "create page"
+msgstr "ページの作成"
+
+#: slp-pages.php:357
+msgid "Pages URL"
+msgstr "ページURL"
+
+#: slp-pages.php:397
+msgid "Description"
+msgstr "説明"
+
+#: slp-pages.php:399
+msgid "Contact Info"
+msgstr "連絡先"
+
+#: slp-pages.php:400
+msgid "Phone: "
+msgstr "電話番号："
+
+#: slp-pages.php:401
+msgid "Fax: "
+msgstr "FAX："
+
+#: slp-pages.php:489
+msgid "Recreate"
+msgstr "再作成"
+
+#: slp-pages.php:498
+msgid "Edit"
+msgstr "編集"
+
+#: slp-pages.php:508
+msgid "Trash"
+msgstr "ゴミ箱"
+
+#: slp-pages.php:519
+msgid "Delete"
+msgstr "削除"
+
+#: slp-pages.php:535
+msgid "View"
+msgstr "表示"
+
+#: slp-pages.php:548
+msgid "Preview"
+msgstr "プレビュー"
+
+#: slp-pages.php:585
+msgid "Create Pages"
+msgstr "ページを作成"
+
+#: slp-pages.php:589
+msgid "Delete Pages Permanently"
+msgstr "ページを完全に削除"
+
+#: slp-pages.php:661
+#, php-format
+msgid "Store Page (%d):"
+msgstr "ストアページ (%d)："
+
+#: slp-pages.php:1022
+msgid " - Store Pages"
+msgstr " - Store Pages"
+
+#: include/class.adminpanel.php:54
+msgid "Pages Settings"
+msgstr "ページの設定"
+
+#: include/class.adminpanel.php:59
+msgid "Behavior"
+msgstr "プログラムの動き"
+
+#: include/class.adminpanel.php:64
+msgid "Default Page Status"
+msgstr "デフォルトのページステータス"
+
+#: include/class.adminpanel.php:69
+msgid "Draft"
+msgstr "下書き"
+
+#: include/class.adminpanel.php:74
+msgid "Published"
+msgstr "公開"
+
+#: include/class.adminpanel.php:79
+msgid "Pending Review"
+msgstr "レビュー待ち"
+
+#: include/class.adminpanel.php:84
+msgid "Future"
+msgstr "将来"
+
+#: include/class.adminpanel.php:89
+msgid "Private"
+msgstr "未公開"
+
+#: include/class.adminpanel.php:95
+msgid "When creating new Store Pages, what should the default status be?."
+msgstr "新規ストアページを作成する時、デフォルトのステータスはこれです。"
+
+#: include/class.adminpanel.php:96
+msgid "Default mode is draft."
+msgstr "最初値は「下書き」です。"
+
+#: include/class.adminpanel.php:102
+msgid "Pages Replace Websites"
+msgstr "ページがウエブサイトに代わる"
+
+#: include/class.adminpanel.php:104
+msgid ""
+"Use the Store Pages local URL in place of the website URL on the map results "
+"list."
+msgstr ""
+"結果のリストには、ウエブサイトのURLの代わりにストアページのローカルURLを表示"
+"します。"
+
+#: include/class.adminpanel.php:111
+msgid "Prevent New Window"
+msgstr "新ウインドウを防止"
+
+#: include/class.adminpanel.php:113
+msgid "Prevent Store Pages web links from opening in a new window."
+msgstr "ストアページのリンクを新ウインドウで開かないようにします。"
+
+#: include/class.adminpanel.php:120
+msgid "Permalink Starts With"
+msgstr "パーマリンクの始まり"
+
+#: include/class.adminpanel.php:123
+msgid "Set the middle part of the store page URLs, defaults to \"store_page\"."
+msgstr "ストアページURLの真ん中のテキスト。最初値は「venue-page」です。"
+
+#: include/class.adminpanel.php:125
+#, php-format
+msgid ""
+"<a href=\"%s\">Permalinks</a> needs to be set to something other than "
+"default."
+msgstr ""
+
+#: include/class.adminpanel.php:134
+msgid "Initial Page Features"
+msgstr "新規ページの設定"
+
+#: include/class.adminpanel.php:139
+msgid "Default Comments"
+msgstr "デフォルトのコメント設定"
+
+#: include/class.adminpanel.php:141
+msgid ""
+"Should comments be on or off by default when a new store page is created?"
+msgstr ""
+"新規ストアページを作成する時、最初にコメントは有効か無効かを設定します。"
+
+#: include/class.adminpanel.php:148
+msgid "Default Trackbacks"
+msgstr "デフォルトのトラックバック設定"
+
+#: include/class.adminpanel.php:150
+msgid ""
+"Should pingbacks/trackbacks be on or off by default when a new store page is "
+"created?"
+msgstr ""
+"新規ストアページを作成する時、最初にトラックバックとピンバックは有効か無効か"
+"を設定します。"
+
+#: include/class.adminpanel.php:161
+msgid "Page Template"
+msgstr "ページのテンプレート"
+
+#: include/class.adminpanel.php:164
+msgid "The HTML that is used to create new store pages."
+msgstr "新規ストアページを作成する時に使われるHTMLです。"
+
+#: include/class.adminpanel.php:165
+msgid "Leave blank to reset to default layout."
+msgstr "デフォルトのレイアウトに戻るには、空白にしてください。"

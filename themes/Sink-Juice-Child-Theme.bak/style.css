@@ -1,0 +1,17 @@
+/* 
+ Theme Name:   Sink Juice Child Theme
+ Theme URI:    http://www.sinkjuice.com
+ Description:  The sink juice child theme uses the Dap Responsive Pro parent theme.
+ Author:       David Menache
+ Author URI:   http://www.doap.com
+ Template:     responsivepro
+ Version:      1.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+@import url("../responsivepro/style.css");
+
+ /* == Add your own styles below this line ==
+--------------------------------------------*/
+

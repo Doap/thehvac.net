@@ -1,0 +1,349 @@
+<?php
+/**
+ * The Header for our theme.
+ *
+ * Displays all of the <head> section and everything up till <div id="main">
+ *
+ * @file      header.php
+ * @package   max-magazine
+ * @author    DevOps and Platforms
+ * @link 	  http://gazpo.com
+ */
+?>
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="no-js ie6" <?php language_attributes(); ?>> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7" <?php language_attributes(); ?>> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8" <?php language_attributes(); ?>> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" <?php language_attributes(); ?>> <!--<![endif]-->
+<head>
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement("script"); po.type = "text/javascript"; po.async = true;
+    po.src = "https://apis.google.com/js/plusone.js?publisherid=112598034920157494570";
+    var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<img src="http://hoy.doap.com/wp-content/plugins/seo-crawlytics/track/" />
+<meta charset="<?php bloginfo( 'charset' ); ?>" />
+<meta name="viewport" content="width=device-width" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+<title><?php wp_title('&#124;', true, 'right'); ?><?php bloginfo('name'); ?></title>
+  
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+<?php 
+if ( is_singular() && get_option( 'thread_comments' ) )
+		wp_enqueue_script( 'comment-reply' );
+		
+wp_head(); ?>
+  <script>
+	/**
+ *
+ * Author: Thomas Davis
+ * Twitter: @TEDavis
+ * Homepage: http://designedbythomas.co.uk/
+ * Code in action: http://designedbythomas.co.uk/what-is-my-browser-width
+ * 
+ **/
+
+
+(function($){
+  //detect the width on page load
+  $(document).ready(function(){
+    var current_width = $(window).width();
+    $(".width-value").text(current_width);
+  });
+
+  //update the width value when the browser is resized
+  $(window).resize(function(){
+    /**
+     *
+     * Here you could do width calculations such as
+     * adding a "smallest" body class when the width
+     * reaches below 400px.
+     * 
+     **/
+    var current_width = $(window).width();
+    $(".width-value").text(current_width);
+  });
+
+})(jQuery);
+  </script>
+  
+  
+  <script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+googletag.defineSlot('/18928876/Hoy_doap_box_300x250', [300, 250], 'div-gpt-ad-1376350184587-0').addService(googletag.pubads());
+googletag.defineSlot('/18928876/Hoy_doap_home_234x60', [234, 60], 'div-gpt-ad-1376350184587-1').addService(googletag.pubads());
+googletag.defineSlot('/18928876/Hoy_doap_home_468x60', [468, 60], 'div-gpt-ad-1376350184587-2').addService(googletag.pubads());
+googletag.defineSlot('/18928876/Hoy_doap_home_728x15', [728, 15], 'div-gpt-ad-1376350184587-3').addService(googletag.pubads());
+googletag.defineSlot('/18928876/Hoy_doap_home_728x90', [728, 90], 'div-gpt-ad-1376350184587-4').addService(googletag.pubads());
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+});
+</script>
+  
+  
+  
+  <script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+googletag.defineSlot('/18928876/Hoy_doap_home_320x50', [320, 50], 'div-gpt-ad-1376350277548-0').addService(googletag.pubads());
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+});
+</script>
+
+  
+<script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+googletag.defineSlot('/18928876/Hoy_doap_home_468x15', [468, 15], 'div-gpt-ad-1376549971312-0').addService(googletag.pubads());
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+});
+</script>
+
+<!-- FpoBsJm05Fw-0wsbvkCi5Srjpaw -->
+ You could put your verification ID in a
+comment
+<meta name="alexaVerifyID" content="FpoBsJm05Fw-0wsbvkCi5Srjpaw" />
+ Or, in its own meta tag
+<meta name="keywords" 
+content="keyword1,keyword2, FpoBsJm05Fw-0wsbvkCi5Srjpaw" />
+  
+<!-- Start Alexa Certify Javascript -->
+<script type="text/javascript">
+_atrk_opts = { atrk_acct:"aIBjg1aAQ700U2", domain:"laprensa.com.ni",dynamic: true};
+(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+</script>
+<noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=aIBjg1aAQ700U2" style="display:none" height="1" width="1" alt="" /></noscript>
+<!-- End Alexa Certify Javascript -->
+
+</head>
+
+<body <?php body_class(); ?>>
+<?php include_once("analyticstracking.php") ?>
+<div id="container" class="hfeed">
+
+<div id="header">	 
+	<?php
+	/**
+	* Check if the logo image is set in theme options.
+	*/
+	?>    
+  <?php
+    // Get the ID of a given category
+$folder = $_SERVER["REQUEST_URI"];  
+$folder = str_replace("/","", $folder);
+$cat_desc = category_description( get_category_by_slug($folder)->term_id );
+$cat_disp = str_replace("-"," ", $folder);
+$category_id = get_cat_ID( $folder );
+
+    // Get the URL of this category
+    $category_link = get_category_link( $folder );
+    $category_name = get_category ($folder );
+?>
+  <a href="<?php echo esc_url( $category_link ); ?>" title="doap.com"><?php echo esc_url( $category_link ); ?></a>
+  
+	<div class="header-wrap">	  
+	  <div class="logo" id="logo-big" style="max-width:200px;position:relative;float:left;top:-5px;">
+			<?php if (max_magazine_get_option( 'logo_url' )) { ?>
+		
+				<h1>
+					<a href="<?php echo home_url(); ?>" title="<?php bloginfo('name'); ?>">
+						<img src="<?php echo max_magazine_get_option( 'logo_url' ); ?>" alt="<?php bloginfo( 'name' ); ?>" />
+					</a>
+				</h1>	
+			<?php } else {?>
+				<h1 class="site-title">
+					<a href="<?php echo home_url(); ?>" title="<?php bloginfo('name'); ?>">
+						<?php bloginfo('name'); ?>
+					</a>
+				</h1> 
+				<h3>
+					<?php bloginfo('description'); ?>
+				</h3>
+		    <?php echo category_description( $category_id ); ?>
+			<?php } ?>	
+		</div>	<!-- /logo -->  
+	  
+	  <div class="logo" id="logo-med" style="max-width:110px;position:relative;float:left;top:-5px;">
+			<?php if (max_magazine_get_option( 'logo_url' )) { ?>
+		
+				<h1>
+					<a href="<?php echo home_url(); ?>" title="<?php bloginfo('name'); ?>">
+						<img src="<?php echo max_magazine_get_option( 'logo_url' ); ?>" alt="<?php bloginfo( 'name' ); ?>" />
+					</a>
+				</h1>	
+			<?php } else {?>
+				<h1 class="site-title">
+					<a href="<?php echo home_url(); ?>" title="<?php bloginfo('name'); ?>">
+						<?php bloginfo('name'); ?>
+					</a>
+				</h1> 
+				<h3>
+					<?php bloginfo('description'); ?>
+				</h3>
+		    <?php echo category_description( $category_id ); ?>
+			<?php } ?>	
+		</div>	<!-- /logo -->  
+
+
+	  <div class="logo" id="logo-small" style="max-width:90px;position:relative;float:left;top:-5px;">
+			<?php if (max_magazine_get_option( 'logo_url' )) { ?>
+		
+				<h1>
+					<a href="<?php echo home_url(); ?>" title="<?php bloginfo('name'); ?>">
+						<img src="<?php echo max_magazine_get_option( 'logo_url' ); ?>" alt="<?php bloginfo( 'name' ); ?>" />
+					</a>
+				</h1>	
+			<?php } else {?>
+				<h1 class="site-title">
+					<a href="<?php echo home_url(); ?>" title="<?php bloginfo('name'); ?>">
+						<?php bloginfo('name'); ?>
+					</a>
+				</h1> 
+				<h3>
+					<?php bloginfo('description'); ?>
+				</h3>
+		    <?php echo category_description( $category_id ); ?>
+			<?php } ?>	
+		</div>	<!-- /logo -->
+	  
+	  
+	  
+	  <div class="logo" id="logo-mini" style="max-width:65px;position:relative;float:left;top:5px;">
+			<?php if (max_magazine_get_option( 'logo_url' )) { ?>
+		
+				<h1>
+					<a href="<?php echo home_url(); ?>" title="<?php bloginfo('name'); ?>">
+						<img src="<?php echo max_magazine_get_option( 'logo_url' ); ?>" alt="<?php bloginfo( 'name' ); ?>" />
+					</a>
+				</h1>	
+			<?php } else {?>
+				<h1 class="site-title">
+					<a href="<?php echo home_url(); ?>" title="<?php bloginfo('name'); ?>">
+						<?php bloginfo('name'); ?>
+					</a>
+				</h1> 
+				<h3>
+					<?php bloginfo('description'); ?>
+				</h3>
+		    <?php echo category_description( $category_id ); ?>
+			<?php } ?>	
+		</div>	<!-- /logo -->
+<div id="bannerad-big" style="position:relative;float:right;">
+<!-- Hoy_doap_home_728x90 -->
+<div id='div-gpt-ad-1376350184587-4' style='width:728px; height:90px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1376350184587-4'); });
+</script>
+</div>
+  
+
+</div>
+
+	  
+<div id="bannerad-med" style="position:relative;float:right;">
+
+  <!-- Hoy_doap_home_468x60 -->
+<div id='div-gpt-ad-1376350184587-2' style='width:468px; height:60px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1376350184587-2'); });
+</script>
+</div>
+  
+</div>
+
+	  
+	  	  <div id="bannerad-small" style="position:relative;float:right;">
+
+<!-- Hoy_doap_home_320x50 -->
+<div id='div-gpt-ad-1376350277548-0' style='width:320px; height:50px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1376350277548-0'); });
+</script>
+</div>
+	  </div>
+	  
+	  	  <div id="bannerad-mini" style="position:relative;float:right;">	  
+<!-- Hoy_doap_home_234x60 -->
+<div id='div-gpt-ad-1376350184587-1' style='width:234px; height:60px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1376350184587-1'); });
+</script>
+</div>
+  </div>
+	  
+		<?php if (max_magazine_get_option( 'ad468' )) {?>
+<div style="position:relative;float:right;"> Noticias Voz Ciudadana El Oriental Mercados Familia Mundo Estrellas Deportes </div>
+
+		<?php } ?>
+	  
+	  <?php if ($t == 1) { ?>
+	  <div>
+		<div class="cat-text" id="tinybannerad">
+		  <?php echo ucwords($cat_disp); ?>
+		</div>		 
+		<div class="cat-description" id="tinybannerad">
+		  <?php echo $cat_desc; ?>
+		</div>
+	  </div>
+	  <?php } ?>
+	  
+	</div><!-- /wrap -->
+	
+	<div id="nav">	
+		<?php wp_nav_menu( array( 'theme_location' => 'primary', 'fallback_cb' => 'max_magazine_menu_fallback',) ); ?>		
+	</div>
+	
+	<div class="clear"></div>
+	<div class="header-search"><?php get_search_form(); ?></div>
+</div> <!-- /header -->
+
+<div id="content-container">

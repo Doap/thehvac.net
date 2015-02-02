@@ -1,0 +1,1806 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Swift Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-02-11 18:32+0530\n"
+"PO-Revision-Date: 2012-02-15 17:34+0530\n"
+"Last-Translator: Satish Gandham <satish@swiftthemes.com>\n"
+"Language-Team: Satish Gandham <satish@swiftthemes.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: INDIA\n"
+"X-Poedit-SearchPath-0: /Users/satish/MyServer/swift-dev/wp-content/themes/swift\n"
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/404.php:7
+msgid "Oops..  404 Error"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/404.php:10
+msgid ""
+"It seems the page you were trying to find on my site isn't around anymore (or at least around here).<br />\n"
+"\t        Report it missing using my contact form and I'll see what I can do about it.<br />\n"
+"\t        Whilst your here why not use the resources below? You never know, you may just find what you were looking for.<br />"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/author.php:48
+msgid "About"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/author.php:54
+msgid "Website:"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/author.php:55
+msgid "has written"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/author.php:55
+msgid "articles so far, you can find them below."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/author.php:74
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/index.php:70
+msgid "Nothing Found"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/author.php:78
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/index.php:74
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/comments.php:16
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/comments.php:73
+msgid "Comments are closed."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/comments.php:76
+#, php-format
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/footer.php:72
+msgid "Theme Swift by"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/footer.php:75
+msgid "Copyright &copy; 2011&nbsp;"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/footer.php:76
+msgid "powered by"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/footer.php:76
+msgid "Back to top"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/searchform-nav.php:8
+msgid "Type and hit enter to Search"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/searchform.php:5
+msgid "Search"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-aside.php:16
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-gallery.php:23
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-image.php:17
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-link.php:23
+msgid "<span class=\"leave-reply\">Reply</span>"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-aside.php:16
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-gallery.php:23
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-image.php:17
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-link.php:23
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog.php:41
+msgid "1"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-aside.php:16
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-gallery.php:23
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-image.php:17
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-link.php:23
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog.php:41
+msgid "%"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-aside.php:26
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-gallery.php:35
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-image.php:23
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-link.php:34
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-quote.php:13
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-status.php:17
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-aside.php:27
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-gallery.php:36
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-image.php:24
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-link.php:35
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog.php:29
+msgid "Pages:"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-aside.php:35
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-gallery.php:71
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-image.php:60
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-link.php:43
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-quote.php:47
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-status.php:24
+msgid "<span class=\"leave-reply\">Leave a reply</span>"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-aside.php:35
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-gallery.php:71
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-image.php:60
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-link.php:43
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-quote.php:47
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-status.php:24
+msgid "<b>1</b> Reply"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-aside.php:35
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-gallery.php:71
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-image.php:60
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-link.php:43
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-quote.php:47
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-status.php:24
+msgid "<b>%</b> Replies"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-aside.php:37
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-gallery.php:74
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-image.php:64
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-link.php:45
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-quote.php:50
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-status.php:26
+msgid "Edit"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-gallery.php:45
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-gallery.php:55
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-image.php:43
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-image.php:52
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-quote.php:22
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-quote.php:32
+msgid ", "
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-gallery.php:49
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-image.php:47
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-quote.php:26
+#, php-format
+msgid "<span class=\"%1$s\">Posted in</span> %2$s"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-gallery.php:61
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-image.php:55
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-quote.php:38
+#, php-format
+msgid "<span class=\"%1$s\">Tagged</span> %2$s"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog-image.php:30
+#, php-format
+msgid "<a href=\"%1$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%2$s\" pubdate>%3$s</time></a><span class=\"by-author\"> <span class=\"sep\"> by </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%4$s\" title=\"%5$s\" rel=\"author\">%6$s</a></span></span>"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/blog.php:41
+msgid "<span class=\"leave-reply\">0</span>"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/mag.php:45
+msgid "0"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/post-gallery.php:38
+msgid "Continue reading <span class=\"meta-nav\">&raquo;</span>"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/post-single.php:37
+msgid "Tagged with &nbsp;"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/post-single.php:48
+msgid "&larr; Previous"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/post-single.php:49
+msgid "Next &rarr;"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/display/post-single.php:68
+#, php-format
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/load-core.php:53
+msgid "Navigation menu above logo"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/load-core.php:54
+msgid "Navigation menu below logo"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/load-core.php:55
+msgid "Navigation links in footer"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/admin-setup.php:37
+msgid "Swift Options"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/admin-setup.php:38
+msgid "Design Options"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/admin-setup.php:39
+msgid "Import / Export"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/admin-setup.php:40
+msgid "Help"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:51
+msgid "tag"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:57
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-input.php:7
+msgid "Layout options"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:62
+msgid "Enable mobile layout"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:63
+msgid "Enable responsive layout for mobiles and tablets"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:69
+msgid "Layout width"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:70
+msgid "Swift default layout width is 956px and is optimized for widths in 960 &plusmn; 20px range. However, you are free to use any width. Enter the site width above without units."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:86
+msgid "Layout type"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:87
+msgid "Pick a layout type."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:94
+msgid "Navigation style"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:95
+msgid "Select a navigation style."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:102
+msgid "Remove borders from the above bordered navigation."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:103
+msgid "Check this box to remove the borders"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:110
+msgid "Animate dropdowns"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:111
+msgid "Check this box to enable animation for dropdown menus"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:117
+msgid "Sidebar position"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:118
+msgid "Select the sidebar position here, if you want only one sidebar don't add widgets to the narrow sidebars."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:125
+msgid "Blog and archives layout"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:126
+msgid "Select the layout type for blog and archives page."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:134
+msgid "Number of columns for magazine layout with sidebar"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:135
+msgid "If you selected the magazine layout in the above option, you can set the number of columns here."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:143
+msgid "Display excerpts in magazine layout"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:144
+msgid "Check this box if you want to show exceprts in magazine layout."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:150
+msgid "Disable masonry and set all magazine boxes to the same height"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:151
+msgid "Checking this box will make all the magazine boxes even, and the thumbnails will be cropped."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:158
+msgid "Height of magazine box content"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:159
+msgid "Enter the maximum height of magazine box content."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:168
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-input.php:8
+msgid "Background images"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:180
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:255
+msgid "Body background"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:181
+msgid "Enter the URL of the image to be used as the body background."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:187
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:262
+msgid "Wrapper background"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:188
+msgid "Enter the URL of the image to be used as the wrapper background.<br />Wrapper is the div that holds the header, content, sidebars and footer.<br /> If you are using hybrid or fluid layout, wrapper will be same as body."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:194
+msgid "Main background"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:195
+msgid "Enter the URL of the image to be used as the content background ( background for the div that holds posts and the sidebar )."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:201
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:350
+msgid "Header background"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:202
+msgid "Enter the URL of the image to be used as the header background."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:209
+msgid "Header height"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:210
+msgid "If your header background is not completely visible, set the header height equal to the height of background image (Enter the value without units)"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:217
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:276
+msgid "Sidebar background"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:218
+msgid "Enter the URL of the image to be used as the sidebar background."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:224
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:283
+msgid "Footer background"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:225
+msgid "Enter the URL of the image to be used as the footer background."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:234
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-input.php:9
+msgid "Color options"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:241
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1388
+msgid "Enable custom colors"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:243
+msgid "Check this box to enable custom colors"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:248
+msgid "Layout & default colours"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:269
+msgid "Content + Sidebar bg"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:290
+msgid "AD above header background"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:297
+msgid "AD below header background"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:305
+msgid "Footer AD background"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:312
+msgid "Copyright background"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:319
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:663
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:750
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:920
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1040
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1183
+msgid "Text color"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:326
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:405
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:487
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:670
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:757
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:838
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:927
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1048
+msgid "Link color"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:333
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:426
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:501
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:677
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:764
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:845
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:934
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1055
+msgid "Link hover color"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:344
+msgid "Header colours"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:357
+msgid "Blog name color"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:364
+msgid "Tag line color"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:377
+msgid "Bordered nav menu colours"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:384
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:480
+msgid "Navigation background"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:391
+msgid "Thick border color"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:398
+msgid "Thin border color"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:412
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:494
+msgid "Link background"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:419
+msgid "Link seperator ( On hover )"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:433
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:509
+msgid "Link hover background"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:441
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:517
+msgid "Dropdown links color"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:449
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:532
+msgid "Dropdown links hover color"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:456
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:525
+msgid "Dropdown links bg"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:463
+msgid "Menu dropdown links hover bg"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:473
+msgid "Solid nav menu colours"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:539
+msgid "Dropdown links hover bg"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:549
+msgid "Post colors"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:555
+msgid "Post title"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:563
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1302
+msgid "Post meta"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:570
+msgid "Blockquote border"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:577
+msgid "Image caption bg"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:584
+msgid "Image caption border"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:596
+msgid "News paper colors"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:603
+msgid "Section title background"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:610
+msgid "Section title color"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:617
+msgid "Popular posts bg"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:629
+msgid "Sidebar widget colors"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:635
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:721
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1025
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1079
+msgid "Background"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:642
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:729
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1032
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1086
+msgid "Border"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:649
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:736
+msgid "Title background"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:656
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:743
+msgid "Title text color"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:684
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:771
+msgid "List border/seperator color"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:691
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:778
+msgid "List hover background"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:698
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:785
+msgid "Widget thumbnail bg"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:705
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:792
+msgid "Widget thumbnail border"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:715
+msgid "Footer widget colors"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:804
+msgid "Comments colors"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:810
+msgid "Comments background color"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:817
+msgid "Comments shadow color"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:824
+msgid "Comments border color"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:831
+msgid "Comments text color"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:852
+msgid "Author comment highlighter"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:880
+msgid "Comment form background"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:887
+msgid "Comment form input fields bg"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:894
+msgid "Comment form fields border"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:907
+msgid "Copyright colors"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:913
+msgid "Top border color"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:947
+msgid "Posts nav and related posts"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:953
+msgid "Post navigation background"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:960
+msgid "Post navigation link bg"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:967
+msgid "Post navigation link hover bg"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:974
+msgid "Post navigation link hover background"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:981
+msgid "Related posts background"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:988
+msgid "Post title color"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:995
+msgid "Related posts meta"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1002
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1093
+msgid "Thumbnail background"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1009
+msgid "Thumbnail border"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1019
+msgid "Author BIO"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1062
+msgid "Avatar backgroud"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1073
+msgid "Magazine Box"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1100
+msgid "Mag box footer bg"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1111
+msgid "Generic elements"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1118
+msgid "Button background"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1125
+msgid "Button gradient start color"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1132
+msgid "Button gradient stop color"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1139
+msgid "Button border color"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1146
+msgid "Button bottom border color"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1153
+msgid "Button text color"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1163
+msgid "Subscribe widget"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1169
+msgid "Widget bg"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1176
+msgid "Ribbon bg"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1190
+msgid "Chicklet bg"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1197
+msgid "Chicklet text color"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1214
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-input.php:10
+msgid "Font options"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1220
+msgid "Text alignment"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1221
+msgid "Select the text alignment"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1233
+msgid "Custom font stack 1"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1234
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1241
+msgid "Enter your font stack here, this will be appeneded to the font selection menu below. You should save the changes first for them to appear."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1240
+msgid "Custom font stack 2"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1254
+msgid "Body"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1260
+msgid "Blog name"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1266
+msgid "Blog tagline"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1272
+msgid "Navigation font"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1278
+msgid "Homepage post title ( Blog )"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1284
+msgid "Homepage post title ( Magazine )"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1290
+msgid "Single page post title"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1296
+msgid "h1,h2...h6 tags used in posts"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1308
+msgid "Sidebar widget title"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1314
+msgid "Sidebar widget content"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1320
+msgid "Footer widget title"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1326
+msgid "Footer widget content"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1332
+msgid "Copyright div"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1344
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-input.php:11
+msgid "Rounded corners"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1350
+msgid "Use rounded corners for solid navigation"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1352
+msgid "You should disable rounded corners when your header and body background are different."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1357
+msgid "Use rounded corners for sidebar widgets"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1359
+msgid "Check this box to enable rounded corners for sidebar widgets."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1364
+msgid "Use rounded corners for footer widgets"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1366
+msgid "Check this box to enable rounded corners for footer widgets."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1371
+msgid "Use rounded corners for comments"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1373
+msgid "Check this box to enable rounded corners for comments."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1382
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1395
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-input.php:12
+msgid "User CSS"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1390
+msgid "Check this box to enable CSS"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-design-options-init.php:1396
+msgid "Enter your Custom CSS code here."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:20
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-input.php:22
+msgid "General settings"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:26
+msgid "Custom favicon"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:27
+msgid "Upload or specify the URL of your favicon which is visible in browser favorites and tabs <strong>( Must be a .png or .ico file - 16px by 16px ).</strong>"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:33
+msgid "Header scripts"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:34
+msgid "If you need to add scripts to your header (like Mint tracking code or BSA script ), you should enter them here. They will be added before &lt;/head&gt; tag.<br /><strong>Note</strong>: You can add multiple scripts."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:40
+msgid "Footer scripts"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:41
+msgid "Paste your Google Analytics (and/or any other) tracking code here. These scripts will be added in the footer section before the &lt;/body&gt; tag.<br /><strong>Note</strong>: You can add multiple scripts."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:47
+msgid "About us"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:48
+msgid "If you are using the content width slider in combination with the full width magazine layout, information or AD added here will be shown adjacent to the slider."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:54
+msgid "Default thumbnail image"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:55
+msgid "Upload an image to be used as thumbnail when the post doesnt have one. If you are using the full width slider, image should be atleast 940px wide."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:72
+msgid "Upload Logo"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:73
+msgid "Upload a logo for your site, or specify an image URL directly."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:80
+msgid "Logo position"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:88
+msgid "Enter your custom search code"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:89
+msgid "If you have a custom search code, such as <strong>Adsense for Search</strong>, add it here."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:95
+msgid "Show search form in navigation"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:96
+msgid "Check this box to show search form in navigation below logo"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:102
+msgid "Show RSS links in navigation"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:103
+msgid "Check this box to show RSS links in navigation above logo"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:118
+msgid "Enable featured post slider"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:119
+msgid "Check this box to enable featured post slider on home page."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:125
+msgid "Featured post slider style"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:126
+msgid "Choose between the two sliders in SWIFT"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:133
+msgid "Featured slider category"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:134
+msgid "Select the featured post slider category"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:141
+msgid "Number of featured posts"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:142
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:457
+msgid "Select the number of featured posts to be displayed in the slider."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:149
+msgid "Slider speed"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:150
+msgid "Set the slider speed in milli seconds, ie., 1000 for one second."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:156
+msgid "Slider transition style"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:157
+msgid "fold,fade,sliceDown, default is random"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:163
+msgid "Skip posts shown in slider from WP loop"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:164
+msgid "Check this box to avoid duplicate content on homepage ( Useful when using full width slider )."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:171
+msgid "Enable excerpts on home page"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:172
+msgid "Check this box to enable excerpts on homepage."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:178
+msgid "Change \"Continue reading\" button text here"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:185
+msgid "Display thumbnails"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:186
+msgid "Check this box to display thumbnails when excerpts are enabled. (Applicable only to blog layout)"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:193
+msgid "Home page, after post content"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:194
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:239
+msgid "Set the meta line to be displayed above title"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:211
+msgid "Display share buttons"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:212
+msgid "Check this box to display share buttons on single pages before and after post content."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:218
+msgid "Related posts title"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:219
+msgid "If you are using YARPP with custom template included in swift, set the related posts title here."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:238
+msgid "Single page, above title"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:246
+msgid "Single page, below title"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:247
+msgid "Set the meta line to be displayed below title"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:264
+msgid "SwiftThemes.Com affiliate ID"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:265
+msgid "Enter your affiliate ID to include your affiliate link in footer (The number after r= in your affilaite link is the affiliate ID"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:283
+msgid "Enable the ad area above the header"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:284
+msgid "Check this box and enter the ad code below to display an advertisement above the top navigation"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:290
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:304
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:319
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:334
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:349
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:364
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:378
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:392
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:406
+msgid "Ad Code"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:291
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:305
+msgid "Enter your ad code here, preferably 468*60 ad"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:297
+msgid "Enable the header ad area"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:298
+msgid "Check this box and enter the ad code below to display an advertisement next to the blogname/logo."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:312
+msgid "Enable the ad area below the bottom navigation"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:313
+msgid "Check this box and enter the ad code below to display an advertisement below the bottom navigation."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:320
+msgid "Enter your ad code here, preferably a 728*15 link list unit, or a 728*90 lead-board ad."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:327
+msgid "Enable the ad area below title on single post page"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:328
+msgid "Check this box and enter the ad code below to display an advertisement below the post title on single post pages."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:335
+msgid "Enter your ad code here, preferably a 468*60 ad to be displayed between the post's title and content, or a 120*600 skyscraper ad float-positioned to the left or the right of the post content. To float a skyscraper ad surround the ad code like this: &lt;div style='float: left; clear: left; margin: 0px 10px 10px 0px;'&gt;AD CODE HERE&lt;/div&gt; or &lt;div style='float: right; clear: right; margin: 0px 0px 10px 10px;'&gt;AD CODE HERE&lt;/div&gt;"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:342
+msgid "Enable the ad area between the post content"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:343
+msgid "Check this box and enter the ad code below to display an advertisement between the post content on single post pages."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:350
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:365
+msgid "Enter your ad code here, preferably a 468*60 ad to be displayed after the post's content. For best results clear and center it surrounding the ad code like this: &lt;div style='clear: both; text-align: center; margin: 10px 0px 0px 0px;'&gt;AD CODE HERE&lt;/div&gt;"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:357
+msgid "Enable the ad area below the post text"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:358
+msgid "Check this box and enter the ad code below to display an advertisement after the post content on single post pages."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:371
+msgid "Enable the ad area above the footer widgets"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:372
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:495
+msgid "Check this box and enter the ad code below to display an advertisement above the footer widgets."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:379
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:393
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:407
+msgid "Enter your ad code here, preferably a 768*90 ad to be displayed above the footer widgets."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:385
+msgid "Enable the ad area above the images in gallery"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:386
+msgid "Check this box and enter the ad code below to display an advertisement above the image in image.php template"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:399
+msgid "Enable the ad area below the images in gallery"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:400
+msgid "Check this box and enter the ad code below to display an advertisement below the image in image.php template"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:433
+msgid "Number of popular pots"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:434
+msgid "Select the number of popular posts to be displayed to the left of slider."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:441
+msgid "Popular posts title"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:442
+msgid "Enter a title for the popular posts displayed on the left of slider"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:444
+msgid "Popular this month"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:448
+msgid "Show popular posts from last X days"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:449
+msgid "Enter the value of X above"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:456
+msgid "Number of posts in slider"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:464
+msgid "Number of posts below slider"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:465
+msgid "Select the number of featured posts to be displayed below the slider."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:472
+msgid "Title for posts below slider"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:473
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:480
+msgid "Enter a title for the posts displayed below the slider"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:475
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/includes/listing-4-404.php:66
+msgid "Random posts"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:479
+msgid "Title for posts adjacent to slider"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:482
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/includes/listing-4-404.php:89
+msgid "Recent posts"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:486
+msgid "Number of posts adjacent to slider"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:487
+msgid "Select the number of posts to be displayed adjacent to the slider."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:494
+msgid "Enable the ad area above tabbed posts"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:501
+msgid "Ad code"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:502
+msgid "Enter your ad code here, preferably a 768*90 ad to be displayed above the tabbed posts."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:556
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-input.php:28
+msgid "Social media"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:562
+msgid "Feedburner ID"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:563
+msgid "Enter your Feedburner ID, if your feedburner url is http://feeds.feedburner.com/SwiftThemes, then <strong>SwiftThemes</strong> is your feed ID."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:569
+msgid "Twitter"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:570
+msgid "Enter your twitter user name, <strong>ex:swiftthemes</strong>"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:576
+msgid "Google +1"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:577
+msgid "URL of the page to +1, example:http://SwiftThemes.Com"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:583
+msgid "Facebook page ID"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-init.php:584
+msgid "Enter your facebook page ID, if your facebook page is https://www.facebook.com/SwiftThemes then <strong>SwiftThemes</strong> is your page ID"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-input.php:23
+msgid "Header settings"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-input.php:24
+msgid "Homepage settings"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-input.php:25
+msgid "Single post options"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-input.php:26
+msgid "AD management"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/admin/swift-options-input.php:27
+msgid "NEWS paper layout"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/functions/display.php:63
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/functions/display.php:69
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/functions/display.php:72
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/functions/display.php:78
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/functions/display.php:81
+#, php-format
+msgid "Archive for %1$s"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/functions/display.php:63
+msgid "g:i a"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/functions/display.php:66
+#, php-format
+msgid "Archive for minute %1$s"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/functions/display.php:66
+msgid "i"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/functions/display.php:69
+msgid "g a"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/functions/display.php:72
+msgid "F jS, Y"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/functions/display.php:75
+#, php-format
+msgid "Archive for week %1$s of %2$s"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/functions/display.php:75
+msgid "W"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/functions/display.php:75
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/functions/display.php:81
+msgid "Y"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/functions/display.php:87
+#, php-format
+msgid "Search results for &quot;%1$s&quot;"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/functions/display.php:91
+msgid "404 Not Found"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/functions/display.php:95
+#, php-format
+msgid "%1$s Page %2$s"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/functions/display.php:137
+#, php-format
+msgid "<span class=\"entry-meta posted-on\"><span class=\"sep\">Posted on </span><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a><span class=\"by-author\"> <span class=\"sep\"> by </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span></span>"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/functions/display.php:155
+msgid "Filed under"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/functions/display.php:166
+msgid "Tagged with"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/functions/meta-boxes.php:14
+msgid "Swift CMS options"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/functions/meta-boxes.php:15
+msgid "Custom CSS for this page"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/functions/meta-boxes.php:34
+msgid "Hide post title"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/functions/meta-boxes.php:44
+msgid "Prevent WordPress from adding </label>&lt;p&gt; and  removing &lt;br /&gt; tags."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/functions/meta-boxes.php:55
+msgid "You can add page specific CSS here"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/functions/modified-core-functions.php:154
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/functions/modified-core-functions.php:154
+msgid "(Edit)"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/functions/modified-core-functions.php:158
+#, php-format
+msgid "<cite class=\"fn\">%s </cite> <span class=\"says\">says:</span>"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/functions/modified-core-functions.php:161
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/includes/listing-4-404.php:3
+msgid "Categories"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/includes/listing-4-404.php:22
+msgid "Monthly archives"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/includes/listing-4-404.php:25
+msgid "Select Month"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/includes/listing-4-404.php:33
+msgid "Search the site"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/includes/listing-4-404.php:44
+msgid "Popular posts"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/includes/listing-4-404.php:109
+msgid "Tag cloud"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/includes/rss-links.php:2
+msgid "RSS :"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/plugins/wp-pagenavi.php:167
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/plugins/wp-pagenavi.php:170
+msgid "&laquo; First"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/plugins/wp-pagenavi.php:171
+msgid "Last &raquo;"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/plugins/wp-pagenavi.php:172
+msgid "&raquo;"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/plugins/wp-pagenavi.php:173
+msgid "&laquo;"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/plugins/wp-pagenavi.php:174
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/plugins/wp-pagenavi.php:175
+msgid "..."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/plugins/shortcode-ninja/admin-shortcodes.php:453
+msgid "No related posts found"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/plugins/shortcode-ninja/admin-shortcodes.php:962
+msgid "Hide the Content"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/plugins/shortcode-ninja/admin-shortcodes.php:963
+msgid "Show the Content"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/plugins/shortcode-ninja/admin-shortcodes.php:970
+msgid "Read More"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/plugins/shortcode-ninja/admin-shortcodes.php:971
+msgid "Read Less"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/plugins/shortcode-ninja/admin-shortcodes.php:1082
+msgid "Message via the contact form"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/plugins/shortcode-ninja/admin-shortcodes.php:1083
+msgid "Submit"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/plugins/shortcode-ninja/admin-shortcodes.php:1379
+msgid "Please enter your name"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/plugins/shortcode-ninja/admin-shortcodes.php:1380
+msgid "Please enter your email address (and please make sure it's valid)"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/plugins/shortcode-ninja/admin-shortcodes.php:1381
+msgid "Please enter your message"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/plugins/shortcode-ninja/admin-shortcodes.php:1464
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/plugins/shortcode-ninja/admin-shortcodes.php:1472
+msgid "From: "
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/plugins/shortcode-ninja/admin-shortcodes.php:1464
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/plugins/shortcode-ninja/admin-shortcodes.php:1472
+msgid "Reply-To: "
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/plugins/shortcode-ninja/admin-shortcodes.php:1494
+msgid "Your email was successfully sent."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/plugins/shortcode-ninja/admin-shortcodes.php:1503
+msgid "There were one or more errors while submitting the form."
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/plugins/shortcode-ninja/admin-shortcodes.php:1511
+msgid "E-mail has not been setup properly. Please add your contact e-mail!"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/plugins/shortcode-ninja/admin-shortcodes.php:1533
+msgid "Name"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/plugins/shortcode-ninja/admin-shortcodes.php:1544
+msgid "Email"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/plugins/shortcode-ninja/admin-shortcodes.php:1555
+msgid "Message"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/plugins/shortcode-ninja/admin-shortcodes.php:1691
+msgid "Send a copy of this email to yourself"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/plugins/shortcode-ninja/admin-shortcodes.php:1700
+msgid "If you want to submit this form, do not enter anything in this field"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/plugins/shortcode-ninja/admin-shortcodes.php:2072
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/plugins/shortcode-ninja/admin-shortcodes.php:2122
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/plugins/shortcode-ninja/admin-shortcodes.php:2138
+#, php-format
+msgid "My %s Profile"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/plugins/shortcode-ninja/admin-shortcodes.php:2093
+msgid "Subscribe to our RSS feed"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/plugins/shortcode-ninja/admin-shortcodes.php:2363
+msgid "Follow"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/sidebars-widgets.php:12
+msgid "Wide sidebar top"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/sidebars-widgets.php:14
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/sidebars-widgets.php:24
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/sidebars-widgets.php:34
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/sidebars-widgets.php:44
+msgid "This sidebar is "
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/sidebars-widgets.php:22
+msgid "Narrow sidebar, LEFT"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/sidebars-widgets.php:32
+msgid "Narrow sidebar, RIGHT"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/sidebars-widgets.php:42
+msgid "Wide sidebar bottom"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/sidebars-widgets.php:52
+msgid "Footer area one"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/sidebars-widgets.php:54
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/sidebars-widgets.php:64
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/sidebars-widgets.php:74
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/sidebars-widgets.php:84
+msgid "An optional widget area for your site footer"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/sidebars-widgets.php:62
+msgid "Footer area two"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/sidebars-widgets.php:72
+msgid "Footer area three"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/sidebars-widgets.php:82
+msgid "Footer area four"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/sidebars-widgets.php:93
+msgid "News paper sidebar"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/sidebars-widgets.php:95
+msgid "These widgets will be shown in the News paper layout"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/sidebars-widgets.php:103
+msgid "Left sidebar page template"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/sidebars-widgets.php:105
+msgid "These widgets will be shown on left sidebar page template"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/sidebars-widgets.php:113
+msgid "Right sidebar page template"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/sidebars-widgets.php:115
+msgid "These widgets will be shown on right sidebar page template"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/widgets.php:10
+msgid "Arbitrary text or HTML"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/widgets.php:12
+msgid "Text without padding and border"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/widgets.php:42
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/widgets.php:94
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/widgets.php:176
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/widgets.php:259
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/widgets.php:374
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/widgets.php:474
+msgid "Title:"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/widgets.php:47
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/widgets.php:99
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/widgets.php:181
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/widgets.php:264
+msgid "Automatically add paragraphs"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/widgets.php:60
+msgid "Display text only on the home page"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/widgets.php:62
+msgid "Homepage only text widget"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/widgets.php:111
+msgid "Display text only on some pages"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/widgets.php:113
+msgid "Page specific text widget"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/widgets.php:154
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/widgets.php:237
+msgid "<h4>Select the pages on which you want this widget to appear</h4>"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/widgets.php:194
+msgid "Display text only on some categories"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/widgets.php:196
+msgid "Category specific text widget"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/widgets.php:277
+msgid "The most popular posts on your site"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/widgets.php:303
+msgid "Popular Posts"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/widgets.php:377
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/widgets.php:477
+msgid "Number of posts to show:"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/widgets.php:380
+msgid "Show posts from last \"n\" days:"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/widgets.php:382
+msgid "Enter the value of \"n\" above"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/widgets.php:385
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/widgets.php:481
+msgid "Show thumbnail"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/widgets.php:397
+msgid "Random posts from your site"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/widgets.php:420
+msgid "Random Posts"
+msgstr ""
+
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/widgets.php:494
+#: /Users/satish/MyServer/swift-dev/wp-content/themes/swift/lib/setup/widgets.php:496
+msgid "RSS Subscribe widget"
+msgstr ""
+
