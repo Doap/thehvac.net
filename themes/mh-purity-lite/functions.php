@@ -52,7 +52,7 @@ function mh_themes_setup() {
 	);
 	add_theme_support('custom-header', $header);
 
-	load_theme_textdomain('mhp', get_template_directory() . '/languages');
+	load_theme_textdomain('mh-purity-lite', get_template_directory() . '/languages');
 
 	add_theme_support('automatic-feed-links');
 	add_theme_support('custom-background');
@@ -63,7 +63,7 @@ function mh_themes_setup() {
 	add_image_size('cp_small', 80, 60, true);
 
 	register_nav_menus(array(
-		'main_nav' => __('Main Navigation', 'mhp'),
+		'main_nav' => __('Main Navigation', 'mh-purity-lite'),
 	));
 }
 add_action('after_setup_theme', 'mh_themes_setup');
@@ -74,7 +74,7 @@ if (!function_exists('mh_scripts')) {
 	function mh_scripts() {
 		wp_enqueue_style('mh-google-fonts', "//fonts.googleapis.com/css?family=Lato:300italic,300,400italic,400,900|Vollkorn:400,400italic", array(), null);
 		wp_enqueue_style('mh-font-awesome', get_template_directory_uri() . '/includes/font-awesome.min.css', array(), null);
-		wp_enqueue_style('mh-style', get_stylesheet_uri(), array(), 'v1.0.9');
+		wp_enqueue_style('mh-style', get_stylesheet_uri(), array(), 'v1.1.0');
 		wp_enqueue_script('scripts', get_template_directory_uri() . '/js/scripts.js', array('jquery'));
 		if (!is_admin()) {
 			if (is_singular() && comments_open() && (get_option('thread_comments') == 1))
@@ -97,12 +97,12 @@ add_action('admin_enqueue_scripts', 'mh_admin_scripts');
 
 if (!function_exists('mh_widgets_init')) {
 	function mh_widgets_init() {
-		register_sidebar(array('name' => 'Sidebar', 'id' => 'sidebar', 'description' => __('Widget Area (Sidebar left/right) on Posts, Pages and Archives', 'mhp'), 'before_widget' => '<div class="sb-widget">', 'after_widget' => '</div>', 'before_title' => '<h4 class="widget-title">', 'after_title' => '</h4>'));
-		register_sidebar(array('name' => 'Home 1', 'id' => 'home-1', 'description' => __('Widget Area on Homepage (Content Area)', 'mhp'), 'before_widget' => '<div class="sb-widget home-2 home-wide">', 'after_widget' => '</div>', 'before_title' => '<h4 class="widget-title">', 'after_title' => '</h4>'));
-		register_sidebar(array('name' => 'Home 2', 'id' => 'home-2', 'description' => __('Widget Area on homepage (Sidebar)', 'mhp'), 'before_widget' => '<div class="sb-widget home-3">', 'after_widget' => '</div>', 'before_title' => '<h4 class="widget-title">', 'after_title' => '</h4>'));
-		register_sidebar(array('name' => __('Footer 1', 'mhp'), 'id' => 'footer-1', 'description' => __('Widget Area in Footer', 'mhp'), 'before_widget' => '<div class="footer-widget footer-1">', 'after_widget' => '</div>', 'before_title' => '<h6 class="footer-widget-title">', 'after_title' => '</h6>'));
-		register_sidebar(array('name' => __('Footer 2', 'mhp'), 'id' => 'footer-2', 'description' => __('Widget Area in Footer', 'mhp'), 'before_widget' => '<div class="footer-widget footer-2">', 'after_widget' => '</div>', 'before_title' => '<h6 class="footer-widget-title">', 'after_title' => '</h6>'));
-		register_sidebar(array('name' => __('Footer 3', 'mhp'), 'id' => 'footer-3', 'description' => __('Widget Area in Footer', 'mhp'), 'before_widget' => '<div class="footer-widget footer-3">', 'after_widget' => '</div>', 'before_title' => '<h6 class="footer-widget-title">', 'after_title' => '</h6>'));
+		register_sidebar(array('name' => 'Sidebar', 'id' => 'sidebar', 'description' => __('Widget Area (Sidebar left/right) on Posts, Pages and Archives', 'mh-purity-lite'), 'before_widget' => '<div class="sb-widget">', 'after_widget' => '</div>', 'before_title' => '<h4 class="widget-title">', 'after_title' => '</h4>'));
+		register_sidebar(array('name' => 'Home 1', 'id' => 'home-1', 'description' => __('Widget Area on Homepage (Content Area)', 'mh-purity-lite'), 'before_widget' => '<div class="sb-widget home-2 home-wide">', 'after_widget' => '</div>', 'before_title' => '<h4 class="widget-title">', 'after_title' => '</h4>'));
+		register_sidebar(array('name' => 'Home 2', 'id' => 'home-2', 'description' => __('Widget Area on homepage (Sidebar)', 'mh-purity-lite'), 'before_widget' => '<div class="sb-widget home-3">', 'after_widget' => '</div>', 'before_title' => '<h4 class="widget-title">', 'after_title' => '</h4>'));
+		register_sidebar(array('name' => __('Footer 1', 'mh-purity-lite'), 'id' => 'footer-1', 'description' => __('Widget Area in Footer', 'mh-purity-lite'), 'before_widget' => '<div class="footer-widget footer-1">', 'after_widget' => '</div>', 'before_title' => '<h6 class="footer-widget-title">', 'after_title' => '</h6>'));
+		register_sidebar(array('name' => __('Footer 2', 'mh-purity-lite'), 'id' => 'footer-2', 'description' => __('Widget Area in Footer', 'mh-purity-lite'), 'before_widget' => '<div class="footer-widget footer-2">', 'after_widget' => '</div>', 'before_title' => '<h6 class="footer-widget-title">', 'after_title' => '</h6>'));
+		register_sidebar(array('name' => __('Footer 3', 'mh-purity-lite'), 'id' => 'footer-3', 'description' => __('Widget Area in Footer', 'mh-purity-lite'), 'before_widget' => '<div class="footer-widget footer-3">', 'after_widget' => '</div>', 'before_title' => '<h6 class="footer-widget-title">', 'after_title' => '</h6>'));
 	}
 }
 add_action('widgets_init', 'mh_widgets_init');

@@ -18,7 +18,7 @@
 </footer>
 <?php } ?>
 <div class="copyright-wrap">
-	<p class="copyright"><?php printf(__('Copyright &copy; %1$s | MH Purity <em>lite</em> WordPress Theme by %2$s', 'mhp'), date("Y"), '<a href="http://www.mhthemes.com/" rel="nofollow">MH Themes</a>'); ?></p>
+	<p class="copyright"><?php printf(__('Copyright &copy; %1$s | MH Purity <em>lite</em> WordPress Theme by %2$s', 'mh-purity-lite'), date("Y"), '<a href="http://www.mhthemes.com/" rel="nofollow">MH Themes</a>'); ?></p>
 </div>
 </div>
 <?php wp_footer(); ?>

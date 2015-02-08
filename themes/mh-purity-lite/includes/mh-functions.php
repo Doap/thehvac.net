@@ -12,7 +12,7 @@ if (!function_exists('mh_wp_title')) {
 		if ($site_description && (is_home() || is_front_page()))
 			$title = "$title $sep $site_description";
 		if ($paged >= 2 || $page >= 2)
-			$title = "$title $sep " . sprintf(__('Page %s', 'mhp'), max($paged, $page));
+			$title = "$title $sep " . sprintf(__('Page %s', 'mh-purity-lite'), max($paged, $page));
 		return $title;
 	}
 }
@@ -40,13 +40,13 @@ if (!function_exists('mh_page_title')) {
 		} elseif (is_author()) {
 			global $author;
 			$user_info = get_userdata($author);
-			echo __('Articles by ', 'mhp') . esc_attr($user_info->display_name);
+			echo __('Articles by ', 'mh-purity-lite') . esc_attr($user_info->display_name);
 		} elseif (is_category() || is_tax()) {
 			echo single_cat_title("", false);
 		} elseif (is_tag()) {
 			echo single_tag_title("", false);
 		} elseif (is_search()) {
-			echo __('Search Results for ', 'mhp') . get_search_query();
+			echo __('Search Results for ', 'mh-purity-lite') . get_search_query();
 		} elseif (is_day()) {
 			echo get_the_date();
 		} elseif (is_month()) {
@@ -54,7 +54,7 @@ if (!function_exists('mh_page_title')) {
 		} elseif (is_year()) {
 			echo get_the_date('Y');
 		} elseif (is_404()) {
-			echo __('Page not found (404)', 'mhp');
+			echo __('Page not found (404)', 'mh-purity-lite');
 		} else {
 			echo get_the_title();
 		}
@@ -85,7 +85,7 @@ if (!function_exists('mh_featured_image')) {
 if (!function_exists('mh_posts_pagination')) {
 	function mh_posts_pagination($content) {
 		if (is_singular() && is_main_query()) {
-			$content .= wp_link_pages(array('before' => '<div class="pagination clear">', 'after' => '</div>', 'link_before' => '<span class="pagelink">', 'link_after' => '</span>', 'nextpagelink' => __('&raquo;', 'mhp'), 'previouspagelink' => __('&laquo;', 'mhp'), 'pagelink' => '%', 'echo' => 0));
+			$content .= wp_link_pages(array('before' => '<div class="pagination clear">', 'after' => '</div>', 'link_before' => '<span class="pagelink">', 'link_after' => '</span>', 'nextpagelink' => __('&raquo;', 'mh-purity-lite'), 'previouspagelink' => __('&laquo;', 'mh-purity-lite'), 'pagelink' => '%', 'echo' => 0));
 		}
 		return $content;
 	}
@@ -113,23 +113,23 @@ if (!function_exists('mh_postnav')) {
 			$permalink = get_permalink($parent_post);
 			echo '<nav class="post-nav-wrap clearfix" role="navigation">' . "\n";
 				echo '<div class="post-nav left">' . "\n";
-					echo '<a href="' . $permalink . '">' . __('&larr; Back to article', 'mhp') . '</a>';
+					echo '<a href="' . $permalink . '">' . __('&larr; Back to article', 'mh-purity-lite') . '</a>';
 				echo '</div>' . "\n";
 			echo '</nav>' . "\n";
 		} elseif (!$attachment || $attachment && $count > 1) {
 			echo '<nav class="post-nav-wrap clearfix" role="navigation">' . "\n";
 				echo '<div class="post-nav left">' . "\n";
 				if ($attachment) {
-					previous_image_link('%link', __('&larr; Previous image', 'mhp'));
+					previous_image_link('%link', __('&larr; Previous image', 'mh-purity-lite'));
 				} else {
-					previous_post_link('%link', __('&larr; Previous article', 'mhp'));
+					previous_post_link('%link', __('&larr; Previous article', 'mh-purity-lite'));
 				}
 				echo '</div>' . "\n";
 				echo '<div class="post-nav post-nav-next right">' . "\n";
 				if ($attachment) {
-					next_image_link('%link', __('Next image &rarr;', 'mhp'));
+					next_image_link('%link', __('Next image &rarr;', 'mh-purity-lite'));
 				} else {
-					next_post_link('%link', __('Next article &rarr;', 'mhp'));
+					next_post_link('%link', __('Next article &rarr;', 'mh-purity-lite'));
 				}
 				echo '</div>' . "\n";
 			echo '</nav>' . "\n";
@@ -242,16 +242,16 @@ if (!function_exists('mh_comments')) {
 				<div class="vcard clearfix">
 					<?php echo get_avatar($comment->comment_author_email, 60); ?>
 					<span class="comment-author"><?php echo get_comment_author_link(); ?></span>
-					<a class="comment-time meta" href="<?php echo esc_url(get_comment_link($comment->comment_ID)) ?>"><?php printf(__('%1$s at %2$s', 'mhp'), get_comment_date(),  get_comment_time()) ?></a><br>
+					<a class="comment-time meta" href="<?php echo esc_url(get_comment_link($comment->comment_ID)) ?>"><?php printf(__('%1$s at %2$s', 'mh-purity-lite'), get_comment_date(),  get_comment_time()) ?></a><br>
 					<div class="comment-reply">
 					<?php if (comments_open() && $args['max_depth']!=$depth) { ?>
 						<?php comment_reply_link(array_merge($args, array('depth' => $depth, 'max_depth' => $args['max_depth']))) ?>
 					<?php } ?>
-						<?php edit_comment_link(__('Edit', 'mhp'),'  ','') ?>
+						<?php edit_comment_link(__('Edit', 'mh-purity-lite'),'  ','') ?>
 					</div>
 				</div>
 				<?php if ($comment->comment_approved == '0') : ?>
-					<div class="comment-info"><?php _e('Your comment is awaiting moderation.', 'mhp') ?></div>
+					<div class="comment-info"><?php _e('Your comment is awaiting moderation.', 'mh-purity-lite') ?></div>
 				<?php endif; ?>
 				<div class="comment-text">
 					<?php comment_text() ?>
@@ -268,9 +268,9 @@ if (!function_exists('mh_comment_fields')) {
 		$req = get_option('require_name_email');
 		$aria_req = ($req ? " aria-required='true'" : '');
 		$fields =  array(
-			'author'	=>	'<p class="comment-form-author"><label for="author">' . __('Name ', 'mhp') . '</label>' . ($req ? '<span class="required">*</span>' : '') . '<br/><input id="author" name="author" type="text" value="' . esc_attr($commenter['comment_author']) . '" size="30"' . $aria_req . ' /></p>',
-			'email' 	=>	'<p class="comment-form-email"><label for="email">' . __('Email ', 'mhp') . '</label>' . ($req ? '<span class="required">*</span>' : '' ) . '<br/><input id="email" name="email" type="text" value="' . esc_attr($commenter['comment_author_email']) . '" size="30"' . $aria_req . ' /></p>',
-			'url' 		=>	'<p class="comment-form-url"><label for="url">' . __('Website', 'mhp') . '</label><br/><input id="url" name="url" type="text" value="' . esc_attr($commenter['comment_author_url']) . '" size="30" /></p>'
+			'author'	=>	'<p class="comment-form-author"><label for="author">' . __('Name ', 'mh-purity-lite') . '</label>' . ($req ? '<span class="required">*</span>' : '') . '<br/><input id="author" name="author" type="text" value="' . esc_attr($commenter['comment_author']) . '" size="30"' . $aria_req . ' /></p>',
+			'email' 	=>	'<p class="comment-form-email"><label for="email">' . __('Email ', 'mh-purity-lite') . '</label>' . ($req ? '<span class="required">*</span>' : '' ) . '<br/><input id="email" name="email" type="text" value="' . esc_attr($commenter['comment_author_email']) . '" size="30"' . $aria_req . ' /></p>',
+			'url' 		=>	'<p class="comment-form-url"><label for="url">' . __('Website', 'mh-purity-lite') . '</label><br/><input id="url" name="url" type="text" value="' . esc_attr($commenter['comment_author_url']) . '" size="30" /></p>'
 		);
 		return $fields;
 	}
@@ -283,7 +283,7 @@ if (!function_exists('mh_pagination')) {
 	function mh_pagination() {
 		global $wp_query;
 	    $big = 9999;
-		echo paginate_links(array('base' => str_replace($big, '%#%', esc_url(get_pagenum_link($big))), 'format' => '?paged=%#%', 'current' => max(1, get_query_var('paged')), 'prev_next' => true, 'prev_text' => __('&laquo;', 'mhp'), 'next_text' => __('&raquo;', 'mhp'), 'total' => $wp_query->max_num_pages));
+		echo paginate_links(array('base' => str_replace($big, '%#%', esc_url(get_pagenum_link($big))), 'format' => '?paged=%#%', 'current' => max(1, get_query_var('paged')), 'prev_next' => true, 'prev_text' => __('&laquo;', 'mh-purity-lite'), 'next_text' => __('&raquo;', 'mh-purity-lite'), 'total' => $wp_query->max_num_pages));
 	}
 }
 

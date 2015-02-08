@@ -4,8 +4,8 @@
 
 class mh_custom_posts_widget extends WP_Widget {
     function mh_custom_posts_widget() {
-        $widget_ops = array('classname' => 'mh_custom_posts', 'description' => __('Custom Posts Widget to display posts based on categories.', 'mhp'));
-        $this->WP_Widget('mh_custom_posts', __('MH Custom Posts lite', 'mhp'), $widget_ops);
+        $widget_ops = array('classname' => 'mh_custom_posts', 'description' => __('Custom Posts Widget to display posts based on categories.', 'mh-purity-lite'));
+        $this->WP_Widget('mh_custom_posts', __('MH Custom Posts lite', 'mh-purity-lite'), $widget_ops);
     }
     function widget($args, $instance) {
         extract($args);
@@ -70,13 +70,13 @@ class mh_custom_posts_widget extends WP_Widget {
         $instance = wp_parse_args((array) $instance, $defaults); ?>
 
         <p>
-        	<label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title:', 'mhp'); ?></label>
+        	<label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title:', 'mh-purity-lite'); ?></label>
 			<input class="widefat" type="text" value="<?php echo esc_attr($instance['title']); ?>" name="<?php echo $this->get_field_name('title'); ?>" id="<?php echo $this->get_field_id('title'); ?>" />
         </p>
         <p>
-			<label for="<?php echo $this->get_field_id('category'); ?>"><?php _e('Select a Category:', 'mhp'); ?></label>
+			<label for="<?php echo $this->get_field_id('category'); ?>"><?php _e('Select a Category:', 'mh-purity-lite'); ?></label>
 			<select id="<?php echo $this->get_field_id('category'); ?>" class="widefat" name="<?php echo $this->get_field_name('category'); ?>">
-				<option value="0" <?php if (!$instance['category']) echo 'selected="selected"'; ?>><?php _e('All', 'mhp'); ?></option>
+				<option value="0" <?php if (!$instance['category']) echo 'selected="selected"'; ?>><?php _e('All', 'mh-purity-lite'); ?></option>
 				<?php
 				$categories = get_categories(array('type' => 'post'));
 				foreach($categories as $cat) {
@@ -89,23 +89,23 @@ class mh_custom_posts_widget extends WP_Widget {
 			</select>
 		</p>
 	    <p>
-        	<label for="<?php echo $this->get_field_id('postcount'); ?>"><?php _e('Limit Post Number:', 'mhp'); ?></label>
+        	<label for="<?php echo $this->get_field_id('postcount'); ?>"><?php _e('Limit Post Number:', 'mh-purity-lite'); ?></label>
 			<input class="widefat" type="text" value="<?php echo esc_attr($instance['postcount']); ?>" name="<?php echo $this->get_field_name('postcount'); ?>" id="<?php echo $this->get_field_id('postcount'); ?>" />
 	    </p>
 	    <p>
-        	<label for="<?php echo $this->get_field_id('offset'); ?>"><?php _e('Skip Posts (Offset):', 'mhp'); ?></label>
+        	<label for="<?php echo $this->get_field_id('offset'); ?>"><?php _e('Skip Posts (Offset):', 'mh-purity-lite'); ?></label>
 			<input class="widefat" type="text" value="<?php echo esc_attr($instance['offset']); ?>" name="<?php echo $this->get_field_name('offset'); ?>" id="<?php echo $this->get_field_id('offset'); ?>" />
 	    </p>
         <p>
-        	<label for="<?php echo $this->get_field_id('excerpt_length'); ?>"><?php _e('Excerpt Character Limit:', 'mhp'); ?></label>
+        	<label for="<?php echo $this->get_field_id('excerpt_length'); ?>"><?php _e('Excerpt Character Limit:', 'mh-purity-lite'); ?></label>
 			<input class="widefat" type="text" value="<?php echo esc_attr($instance['excerpt_length']); ?>" name="<?php echo $this->get_field_name('excerpt_length'); ?>" id="<?php echo $this->get_field_id('excerpt_length'); ?>" />
 	    </p>
         <p>
       		<input id="<?php echo $this->get_field_id('sticky'); ?>" name="<?php echo $this->get_field_name('sticky'); ?>" type="checkbox" value="1" <?php checked('1', $instance['sticky']); ?>/>
-	  		<label for="<?php echo $this->get_field_id('sticky'); ?>"><?php _e('Ignore Sticky Posts', 'mhp'); ?></label>
+	  		<label for="<?php echo $this->get_field_id('sticky'); ?>"><?php _e('Ignore Sticky Posts', 'mh-purity-lite'); ?></label>
     	</p>
     	<p>
-    		<strong>Info:</strong> <?php _e('This is the lite version of this widget with basic features. If you need more professional features and options, you can upgrade to the premium version of this theme.', 'mhp'); ?>
+    		<strong>Info:</strong> <?php _e('This is the lite version of this widget with basic features. If you need more professional features and options, you can upgrade to the premium version of this theme.', 'mh-purity-lite'); ?>
     	</p><?php
     }
 }

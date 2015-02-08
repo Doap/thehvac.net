@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: MH Purity lite v1.0.9\n"
+"Project-Id-Version: MH Purity lite v1.1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-11 18:41+0100\n"
-"PO-Revision-Date: 2014-12-22 11:03+0100\n"
+"PO-Revision-Date: 2015-02-03 10:59+0100\n"
 "Last-Translator: Michael Hebenstreit <mail@michael-hebenstreit.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Language: de_DE\n"
 "X-Poedit-SearchPath-0: .\n"
 
-# @ mhp
+# @ mh-purity-lite
 #: 404.php:7 content-none.php:9
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
@@ -28,74 +28,74 @@ msgstr ""
 "Es konnten keine passenden Inhalte gefunden werden. Vielleicht kann Ihnen "
 "die Suchfunktion weiterhelfen."
 
-# @ mhp
+# @ mh-purity-lite
 #: 404.php:11
 msgid "Latest Articles"
 msgstr "Neueste Artikel"
 
-# @ mhp
+# @ mh-purity-lite
 #: admin/admin.php:7
 msgid "Welcome to MH Purity lite"
 msgstr "Willkommen zu MH Purity lite"
 
-# @ mhp
+# @ mh-purity-lite
 #: admin/admin.php:7
 msgid "Theme Info"
 msgstr "Theme Info"
 
-# @ mhp
+# @ mh-purity-lite
 #: admin/admin.php:16
 #, php-format
 msgid "Welcome to %1s %2s"
 msgstr "Willkommen zu %1s %2s"
 
-# @ mhp
+# @ mh-purity-lite
 #: admin/admin.php:20
 msgid "Important Links:"
 msgstr "Wichtige Links:"
 
-# @ mhp
+# @ mh-purity-lite
 #: admin/admin.php:21
 msgid "Theme Info Page"
 msgstr "Theme Info Page"
 
-# @ mhp
+# @ mh-purity-lite
 #: admin/admin.php:22
 msgid "Support Center"
 msgstr "Support Center"
 
-# @ mhp
+# @ mh-purity-lite
 #: admin/admin.php:23
 msgid "Rate this theme"
 msgstr "Theme bewerten"
 
-# @ mhp
+# @ mh-purity-lite
 #: admin/admin.php:24
 msgid "Facebook"
 msgstr "Facebook"
 
-# @ mhp
+# @ mh-purity-lite
 #: admin/admin.php:25
 msgid "Twitter"
 msgstr "Twitter"
 
-# @ mhp
+# @ mh-purity-lite
 #: admin/admin.php:26
 msgid "YouTube"
 msgstr "YouTube"
 
-# @ mhp
+# @ mh-purity-lite
 #: admin/admin.php:31
 #, php-format
 msgid "Getting Started with %s"
 msgstr "Erste Schritte mit %s"
 
-# @ mhp
+# @ mh-purity-lite
 #: admin/admin.php:35
 msgid "Theme Documentation"
 msgstr "Theme Dokumentation"
 
-# @ mhp
+# @ mh-purity-lite
 #: admin/admin.php:36
 #, php-format
 msgid ""
@@ -107,17 +107,17 @@ msgstr ""
 "Informationen auf der Theme Infoseite oder in den Dokumentationen und "
 "Tutorials in unserem Support Center."
 
-# @ mhp
+# @ mh-purity-lite
 #: admin/admin.php:38
 msgid "Visit Documentation"
 msgstr "Theme Dokumentation"
 
-# @ mhp
+# @ mh-purity-lite
 #: admin/admin.php:42
 msgid "Theme Options"
 msgstr "Theme Optionen"
 
-# @ mhp
+# @ mh-purity-lite
 #: admin/admin.php:43
 #, php-format
 msgid ""
@@ -127,12 +127,12 @@ msgstr ""
 "%s unterst&uuml;tzt den Theme Customizer f&uuml;r alle Optionen. Klicken Sie "
 "\"Theme anpassen\" um den Customizer zu &ouml;ffnen."
 
-# @ mhp
+# @ mh-purity-lite
 #: admin/admin.php:45
 msgid "Customize Theme"
 msgstr "Theme anpassen"
 
-# @ mhp
+# @ mh-purity-lite
 #: admin/admin.php:50
 msgid ""
 "Need more features and options? Check out the Premium Version of this theme "
@@ -143,12 +143,12 @@ msgstr ""
 "Blick auf die Premium Version welche zus&auml;tzliche Funktionen und "
 "Anpassungsm&ouml;glichkeiten f&uuml;r Ihre Webseite enth&auml;lt."
 
-# @ mhp
+# @ mh-purity-lite
 #: admin/admin.php:52 includes/mh-options.php:50
 msgid "Learn more about the Premium Version"
 msgstr "Mehr &uuml;ber die Premium Version erfahren"
 
-# @ mhp
+# @ mh-purity-lite
 #: admin/admin.php:63
 #, php-format
 msgid ""
@@ -156,59 +156,59 @@ msgid ""
 msgstr ""
 "%1s wurde erstellt von %2s. Falls Sie dieses WordPress Theme m&ouml;gen, %3s."
 
-# @ mhp
+# @ mh-purity-lite
 #: admin/admin.php:66
 msgid "rate it"
 msgstr "bewerten Sie es"
 
-# @ mhp
+# @ mh-purity-lite
 #: comments.php:3
 msgid "This post is password protected. Enter the password to view comments."
 msgstr ""
 "Dieser Artikel ist passwortgesch&uuml;tzt. Bitte geben Sie das Passwort ein "
 "um die Kommentare zu lesen."
 
-# @ mhp
+# @ mh-purity-lite
 #: comments.php:10
 msgid "Comments"
 msgstr "Kommentare"
 
-# @ mhp
+# @ mh-purity-lite
 #: comments.php:10 comments.php:40
 msgid "Comment"
 msgstr "Kommentar"
 
-# @ mhp
+# @ mh-purity-lite
 #: comments.php:18 includes/mh-functions.php:88 includes/mh-functions.php:286
 msgid "&laquo;"
 msgstr "&laquo;"
 
-# @ mhp
+# @ mh-purity-lite
 #: comments.php:18 includes/mh-functions.php:88 includes/mh-functions.php:286
 msgid "&raquo;"
 msgstr "&raquo;"
 
-# @ mhp
+# @ mh-purity-lite
 #: comments.php:24
 msgid "Trackbacks & Pingbacks"
 msgstr "Trackbacks & Pingbacks"
 
-# @ mhp
+# @ mh-purity-lite
 #: comments.php:32
 msgid "Comments are closed."
 msgstr "Kommentare sind deaktiviert."
 
-# @ mhp
+# @ mh-purity-lite
 #: comments.php:37
 msgid "Leave a comment"
 msgstr "Kommentar hinterlassen"
 
-# @ mhp
+# @ mh-purity-lite
 #: comments.php:38
 msgid "Your email address will not be published."
 msgstr "E-Mail Adresse wird nicht ver&ouml;ffentlicht."
 
-# @ mhp
+# @ mh-purity-lite
 #: content-none.php:4
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with "
@@ -217,165 +217,165 @@ msgstr ""
 "Es konnten keine passenden Inhalte gefunden werden. Bitte versuchen Sie es "
 "erneut mit einem anderen Suchbegriff."
 
-# @ mhp
+# @ mh-purity-lite
 #: functions.php:66
 msgid "Main Navigation"
 msgstr "Hauptnavigation"
 
-# @ mhp
+# @ mh-purity-lite
 #: functions.php:100
 msgid "Widget Area (Sidebar left/right) on Posts, Pages and Archives"
 msgstr ""
 "Widgetbereich (Sidebar links/rechts) auf Artikeln, Seiten und Archiven."
 
-# @ mhp
+# @ mh-purity-lite
 #: functions.php:101
 msgid "Widget Area on Homepage (Content Area)"
 msgstr "Widgetbereich auf dem Homepage Template (Contentbereich)"
 
-# @ mhp
+# @ mh-purity-lite
 #: functions.php:102
 msgid "Widget Area on homepage (Sidebar)"
 msgstr "Widgetbereich auf dem Homepage Template (Sidebar)"
 
-# @ mhp
+# @ mh-purity-lite
 #: functions.php:103
 msgid "Footer 1"
 msgstr "Fu&szlig;zeile 1"
 
-# @ mhp
+# @ mh-purity-lite
 #: functions.php:103 functions.php:104 functions.php:105
 msgid "Widget Area in Footer"
 msgstr "Widgetbereich im Footer"
 
-# @ mhp
+# @ mh-purity-lite
 #: functions.php:104
 msgid "Footer 2"
 msgstr "Fu&szlig;zeile 2"
 
-# @ mhp
+# @ mh-purity-lite
 #: functions.php:105
 msgid "Footer 3"
 msgstr "Fu&szlig;zeile 3"
 
-# @ mhp
+# @ mh-purity-lite
 #: includes/mh-functions.php:15
 #, php-format
 msgid "Page %s"
 msgstr "Seite %s"
 
-# @ mhp
+# @ mh-purity-lite
 #: includes/mh-functions.php:43
 msgid "Articles by "
 msgstr "Artikel von "
 
-# @ mhp
+# @ mh-purity-lite
 #: includes/mh-functions.php:49
 msgid "Search Results for "
 msgstr "Suchergebnisse f&uuml;r "
 
-# @ mhp
+# @ mh-purity-lite
 #: includes/mh-functions.php:57
 msgid "Page not found (404)"
 msgstr "Seite nicht gefunden (404)"
 
-# @ mhp
+# @ mh-purity-lite
 #: includes/mh-functions.php:116
 msgid "&larr; Back to article"
 msgstr "&larr; Zur&uuml;ck zum Artikel"
 
-# @ mhp
+# @ mh-purity-lite
 #: includes/mh-functions.php:123
 msgid "&larr; Previous image"
 msgstr "&larr; Vorheriges Bild"
 
-# @ mhp
+# @ mh-purity-lite
 #: includes/mh-functions.php:125
 msgid "&larr; Previous article"
 msgstr "&larr; Vorheriger Artikel"
 
-# @ mhp
+# @ mh-purity-lite
 #: includes/mh-functions.php:130
 msgid "Next image &rarr;"
 msgstr "N&auml;chstes Bild &rarr;"
 
-# @ mhp
+# @ mh-purity-lite
 #: includes/mh-functions.php:132
 msgid "Next article &rarr;"
 msgstr "N&auml;chster Artikel &rarr;"
 
-# @ mhp
+# @ mh-purity-lite
 #: includes/mh-functions.php:245
 #, php-format
 msgid "%1$s at %2$s"
 msgstr "%1$s um %2$s"
 
-# @ mhp
+# @ mh-purity-lite
 #: includes/mh-functions.php:250
 msgid "Edit"
 msgstr "Bearbeiten"
 
-# @ mhp
+# @ mh-purity-lite
 #: includes/mh-functions.php:254
 msgid "Your comment is awaiting moderation."
 msgstr "Der Kommentar wartet auf Freischaltung."
 
-# @ mhp
+# @ mh-purity-lite
 #: includes/mh-functions.php:271
 msgid "Name "
 msgstr "Name"
 
-# @ mhp
+# @ mh-purity-lite
 #: includes/mh-functions.php:272
 msgid "Email "
 msgstr "E-Mail"
 
-# @ mhp
+# @ mh-purity-lite
 #: includes/mh-functions.php:273
 msgid "Website"
 msgstr "Webseite"
 
-# @ mhp
+# @ mh-purity-lite
 #: includes/mh-options.php:31
 msgid "Purity Options"
 msgstr "Purity Optionen"
 
-# @ mhp
+# @ mh-purity-lite
 #: admin/admin.php:49 includes/mh-options.php:32
 msgid "Upgrade to Premium"
 msgstr "Upgrade auf Premium"
 
-# @ mhp
+# @ mh-purity-lite
 #: includes/mh-options.php:45
 msgid "Excerpt Length in Characters"
 msgstr "L&auml;nge der Textausz&uuml;ge in Zeichen"
 
-# @ mhp
+# @ mh-purity-lite
 #: includes/mh-options.php:46
 msgid "Custom Excerpt More Text"
 msgstr "Eigener \"More-Text\" f&uuml;r Excerpts"
 
-# @ mhp
+# @ mh-purity-lite
 #: includes/mh-options.php:47
 msgid "Position of default Sidebar"
 msgstr "Position der standard Sidebar"
 
-# @ mhp
+# @ mh-purity-lite
 #: includes/mh-options.php:47 includes/mh-options.php:71
 msgid "Left"
 msgstr "Links"
 
-# @ mhp
+# @ mh-purity-lite
 #: includes/mh-options.php:47 includes/mh-options.php:72
 msgid "Right"
 msgstr "Rechts"
 
-# @ mhp
+# @ mh-purity-lite
 #: includes/mh-options.php:48
 msgid "Need more features and options?"
 msgstr "Mehr Features und Optionen?"
 
-# @ mhp
+# @ mh-purity-lite
 #: includes/mh-options.php:49
 msgid ""
 "Check out the Premium Version of this theme which comes with additional "
@@ -385,54 +385,54 @@ msgstr ""
 "Funktionen und Anpassungsm&ouml;glichkeiten f&uuml;r Ihre Webseite enth&auml;"
 "lt."
 
-# @ mhp
+# @ mh-purity-lite
 #: includes/widgets/mh-custom-posts.php:7
 msgid "Custom Posts Widget to display posts based on categories."
 msgstr ""
 "Custom Posts Widget um Artikel anhand von Kategorien zu filtern und "
 "anzuzeigen."
 
-# @ mhp
+# @ mh-purity-lite
 #: includes/widgets/mh-custom-posts.php:8
 msgid "MH Custom Posts lite"
 msgstr "MH Custom Posts lite"
 
-# @ mhp
+# @ mh-purity-lite
 #: includes/widgets/mh-custom-posts.php:73
 msgid "Title:"
 msgstr "Titel:"
 
-# @ mhp
+# @ mh-purity-lite
 #: includes/widgets/mh-custom-posts.php:77 includes/widgets/mh-slider.php:55
 msgid "Select a Category:"
 msgstr "Kategorie w&auml;hlen:"
 
-# @ mhp
+# @ mh-purity-lite
 #: includes/widgets/mh-custom-posts.php:79 includes/widgets/mh-slider.php:57
 msgid "All"
 msgstr "Alle"
 
-# @ mhp
+# @ mh-purity-lite
 #: includes/widgets/mh-custom-posts.php:92 includes/widgets/mh-slider.php:70
 msgid "Limit Post Number:"
 msgstr "Anzahl Artikel limitieren:"
 
-# @ mhp
+# @ mh-purity-lite
 #: includes/widgets/mh-custom-posts.php:96 includes/widgets/mh-slider.php:74
 msgid "Skip Posts (Offset):"
 msgstr "Artikel &uuml;berspringen:"
 
-# @ mhp
+# @ mh-purity-lite
 #: includes/widgets/mh-custom-posts.php:100
 msgid "Excerpt Character Limit:"
 msgstr "L&auml;nge Excerpts in Zeichen:"
 
-# @ mhp
+# @ mh-purity-lite
 #: includes/widgets/mh-custom-posts.php:105 includes/widgets/mh-slider.php:79
 msgid "Ignore Sticky Posts"
 msgstr "Sticky Posts ignorieren"
 
-# @ mhp
+# @ mh-purity-lite
 #: includes/widgets/mh-custom-posts.php:108 includes/widgets/mh-slider.php:82
 msgid ""
 "This is the lite version of this widget with basic features. If you need "
@@ -443,24 +443,24 @@ msgstr ""
 "Falls Sie erweiterte Optionen und einen gr&ouml;&szlig;eren Funktionsumfang "
 "ben&ouml;tigen, so k&ouml;nnen Sie auf die Premium Version upgraden."
 
-# @ mhp
+# @ mh-purity-lite
 #: includes/widgets/mh-slider.php:7
 msgid "Slider widget for use on homepage templates."
 msgstr ""
 "Slider Widget zur Ausgabe von Artikeln für die Nutzung auf dem Homepage "
 "Template."
 
-# @ mhp
+# @ mh-purity-lite
 #: includes/widgets/mh-slider.php:8
 msgid "MH Slider Widget lite (Homepage)"
 msgstr "MH Slider Widget lite (Homepage)"
 
-# @ mhp
+# @ mh-purity-lite
 #: searchform.php:4
 msgid "Search"
 msgstr "Suchen"
 
-# @ mhp
+# @ mh-purity-lite
 #: footer.php:21
 #, php-format
 msgid "Copyright &copy; %1$s | MH Purity <em>lite</em> WordPress Theme by %2$s"

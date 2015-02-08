@@ -3,7 +3,7 @@ Theme URI: http://www.mhthemes.com/themes/mh/purity-lite/
 Tags: Blog, News, Magazine, Responsive
 Requires at least: 3.4
 Tested up to: 4.1.0
-Stable tag: 1.0.9
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -57,6 +57,10 @@ License: Free Public Domain (GPL Compatible)
 ==================================
 Changelog
 ==================================
+
+= v1.1.0 03-02-2015 =
+* Changed text domain to match theme slug
+* Updated translation files
 
 = v1.0.9 22-12-2014 =
 * Fixed open <p>-tag in footer
