@@ -1,0 +1,12 @@
+/**
+ * Store Pages Custom Admin CSS
+ */
+
+/* Text formatting */
+p.lvl1 {
+    margin-left: 18px;
+}
+p.footernote {
+    font-style: italic;
+    color: #666666;
+}
