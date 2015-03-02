@@ -1,0 +1,9 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/www/html/thehvac.net
+permissions: 
+  - object: /var/www/html/thehvac.net/html
+    pattern: "**"
+    mode: 777
