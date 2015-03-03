@@ -1,6 +1,0 @@
-<iframe src="https://app.datadoghq.com/graph/embed?token=d9e25b7b403dd3cb1a9ecf16d803ccfffc42646308a1346e02c4a9ec558b1688&height=300&width=600&legend=true" width="600" height="300 frameBorder=" 0"=""></iframe>
-
-<iframe src="https://app.datadoghq.com/graph/embed?token=d6f80ab041c8373da9414fe191b7ce62516357dd90b601f710b369a1caba197b&height=300&width=600&legend=true" width="600" height="300 frameBorder=" 0"=""></iframe>
-
-
-<iframe src="https://app.datadoghq.com/graph/embed?token=dd9885b0e64a529179f1c746c4475a43d5d865c6a20055d1a5254c6255945af6&height=300&width=600&legend=true" width="600" height="300 frameBorder=" 0"=""></iframe>

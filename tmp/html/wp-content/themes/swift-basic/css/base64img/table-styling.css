@@ -1,7 +1,0 @@
-/* tables */
-#content table {border: 1px solid #DDD;margin: 0 0 1.625em 0;text-align: left;width: 100%;}
-#content tr th,
-#content thead th {font-weight: bold;padding: 10px 10px;background:#DDD}
-#content tr td {border: 1px solid #DDD;padding: 5px 10px;}
-#content tr.odd td {background: #f2f7fc;}
-/* end-tables */
