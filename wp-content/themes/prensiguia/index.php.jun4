@@ -1,0 +1,499 @@
+<?php
+
+// Exit if accessed directly
+if( !defined( 'ABSPATH' ) ) {
+	exit;
+}
+
+/**
+ * Index Template
+ *
+ *
+ * @file           index.php
+ * @package        Responsive
+ * @author         Emil Uzelac
+ * @copyright      2003 - 2013 ThemeID
+ * @license        license.txt
+ * @version        Release: 1.0
+ * @filesource     wp-content/themes/responsive/index.php
+ * @link           http://codex.wordpress.org/Theme_Development#Index_.28index.php.29
+ * @since          available since Release 1.0
+ */
+
+get_header(); 
+$archive_year  = get_the_time('Y'); 
+$archive_month = get_the_time('m'); 
+$archive_day   = get_the_time('d'); 
+?>
+
+<div style="clear:both;"></div>
+<?php //include('/var/www/html/lpmu/wp-content/themes/noticias' . '/page-wing-ads.php'); ?>
+<?php include('/var/www/html/lpmu/wp-content/themes/noticias' . '/banner-ad-widget-portada.php'); ?>
+<?php //include('/var/www/html/lpmu/wp-content/themes/noticias' . '/banner-ad-widget-270x90.php'); ?>
+<?php echo do_shortcode('[doap_spacer size=90]'); ?>
+<div style="clear:both;"></div>
+
+<div id="content" class="grid col-620">
+
+<?php 
+echo do_shortcode('[doap_spacer size="1" class="homespace"]'); 
+echo '<div id="tagbox" style="width:100%;max-width:650px;padding-left:2px;padding-bottom:6px;padding-top:2px;background-color:#f5f5f5;position:absolute;top:100px;font-size:1.1em;overflow:hidden;">';
+
+echo '<div style="position:relative;top:7px;padding-left:0px;padding-right:0px;" id="toptagcloud">';
+
+$how_many_posts = 30;
+$args = array(
+    'posts_per_page' => $how_many_posts,
+    'orderby' => 'date',
+    'order' => 'DESC',
+);
+// get the last $how_many_posts, which we will loop over
+// and gather the tags of
+query_posts($args);
+//
+$temp_ids = array();
+while (have_posts()) : the_post(); 
+    // get tags for each post
+    $posttags = get_the_tags();
+    if ($posttags) {
+        foreach($posttags as $tag) {
+            // store each tag id value
+            $temp_ids[] = $tag->term_id;
+        }
+    }
+endwhile;
+// we're done with that loop, so we need to reset the query now
+wp_reset_query();
+$id_string = implode(',', array_unique($temp_ids));
+// These are the params I use, you'll want to adjust the args
+// to suit the look you want    
+$args = array(
+    'smallest'  => 10, 
+    'largest'   => 15,
+    'unit'      => 'px', 
+    'number'    => 8,  
+    'format'    => 'flat',
+    'separator' => " - \n",
+    'orderby'   => 'count', 
+    'order'     => 'DESC',
+    'include'   => $id_string,  // only include stored ids
+    'link'      => 'view', 
+    'echo'      => true,
+
+);
+
+echo '<div style="z-index:10000;height: 20px;float: left;padding-left:0px;padding-right:5px;left:0px;position:relative;top:0px;" id=destacados-sidebar><div style="font-size:.8em;width:130px;position:relative;float:left;"><img style="-webkit-user-select: none;height:12px;width:12px;" src="http://laprensa13.doap.us/images/tag.png"> Temas del dia:</div> '.wp_tag_cloud( $args ).'</div>';
+
+//wp_tag_cloud( $args );
+
+//wp_tag_cloud('smallest=8&largest=22&number=15&orderby=count'); 
+//echo do_shortcode('[xyz-ips snippet="portada-tag-cloud"]');
+echo '</div>';
+
+echo '</div>';
+//echo '</span>';
+echo '<div style="clear:both;"></div>';
+
+	    date_default_timezone_set("America/Managua"); // Set the default time zone. Ideally, you want this in your header.
+		// For a list of supported timezones visit:  http://www.php.net/manual/en/timezones.php 
+
+
+		// Variables
+		$h = date('G'); // G will display the hour using the 24 hour clock (0-23).
+		$m = date('i'); // i will display the minutes in 01, 02 (etc) format.
+		$d = date('l'); // l will display the day of the week in Sunday, Monday (etc) format.
+
+		// The first broadcast starts at 45 past the hour. 
+		// This variable returns the difference in minutes until broadcast time
+		$startMinute = 45 - date ('i'); // Start Time - Current Time = Minutes left
+
+		// If it's Friday and the hour is greater than or equal to 13 and less than or equal than 15
+		// variable $toggleBar echos "radio-online" else, it echos "radio-offline"
+		// This is used to toggle the container that will hold our buttons.		
+		if ($d == 'Friday' && $h >= 13 && $h <= 15) {
+			$toggleBar = 'radio-online';	
+		} else {
+			$toggleBar = 'radio-offline';	
+		}	
+
+		// Broadcast 1 - Displays Friday's between 13:40 and 13:59 
+		if ($d == 'Friday' && $h == 13 && $m >= 40 && $m <= 59) {
+			$toggleBroadcast1 = 'radio-online';
+		} else {
+			$toggleBroadcast1 = 'radio-offline';
+		}
+
+		// Broadcast 2 - Displays Fridays between 14:00 and 15:00
+		if ($d == 'Friday' && $h >= 14 && $h <= 15) {
+			$toggleBroadcast2 = 'radio-online';	
+		} else {
+			$toggleBroadcast2 = 'radio-offline';	
+		}
+
+		// Removes "In" from "Streaming Live In" on the Countdown
+		// The countdown is displayed Fridays from 13:00 - 13:45. 
+		if ($d == 'Friday' && $h == 13 && $m < 45 ) {
+//echo do_shortcode('[xyz-ips snippet="doap-livestream-embed"]');
+			$streaming = 'radio-online';
+		} else {
+			$streaming = 'radio-offline';
+		}	
+
+echo do_shortcode('
+<div style="position:relative;">
+[doap_row]
+[doap_column size="3/4"] 
+[doap_slider source="category: 2293,3518,1625,26,31,22,21,30,991" limit="4" link="post" width="640" height="360" pages="no" mousewheel="no" autoplay="8000" speed="400" class="slider-home  "]
+
+[doap_posts template="templates/box-loop-single-wide.php" posts_per_page="1" tax_term="3" tax_operator="0" author="1,102,108,113,114,116,117,103,111,118,112,110,107,115,120,106,104,105,119,109" order="desc" post_parent=" " ignore_sticky_posts="yes"]
+    
+[doap_spacer size="2"]
+
+
+
+[doap_posts template="templates/box-loop.php" offset="2" posts_per_page="4" tax_term="2293,3518,1673,25,26,31,22,21,25763,10,3,3132,3519,27,63721,24,30,991,1675" tax_operator="0" author="1,102,108,113,114,116,117,103,111,118,112,110,107,115,120,106,104,105,119,109" order="desc" post_parent="  " ignore_sticky_posts="yes"]
+
+  
+<div style="clear:both;"></div>
+[doap_spacer size="10"]
+
+<!-- Portada-boton-1-468x60 -->
+<div id='div-gpt-ad-1401922950703-0' style='width:468px; height:60px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1401922950703-0'); });
+</script>
+</div>
+
+
+<div style="clear:both;"></div>
+[doap_spacer size="10"]
+[doap_heading style="modern-1-blue" size="20" align="left" margin="0" class="fp-title-bar"]<a href="http://noticias.laprensa.com.ni/departamentales"><div class="title-left">DEPARTAMENTALES</div><div class="twodots"></div></a>[/doap_heading]
+ 
+    [doap_posts template="templates/box-loop.php" offset="4" posts_per_page="2" tax_term="26" tax_operator="0" author="1,102,108,113,114,116,117,103,111,118,112,110,107,115,120,106,104,105,119,109" order="desc" post_parent="  " ignore_sticky_posts="yes"]
+
+<div id="ipad-only" style="display:none;" class="centercol">
+[doap_animate type="fadeIn"][doap_heading style="modern-1-blue" size="20" align="left" margin="0" class="fp-title-bar"]<a href="http://noticias.laprensa.com.ni/category/noticias/deportes">DEPORTES</a>[/doap_heading][/doap_animate] 
+     </div> 
+
+<div style="clear:both;"></div>
+<!-- Portada-boton-2-468x60 -->
+<div id='div-gpt-ad-1401922950703-1' style='width:468px; height:60px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1401922950703-1'); });
+</script>
+</div>
+<div style="clear:both;"></div>
+
+[doap_posts template="templates/box-loop.php" posts_per_page="2" offset="2" tax_term="3" tax_operator="0" author="1,102,108,113,114,116,117,103,111,118,112,110,107,115,120,106,104,105,119,109" order="desc" post_parent=" " ignore_sticky_posts="yes"]
+
+
+
+
+[/doap_column]
+
+   [doap_column size="1/4"]
+<div id="hideonipad"> 
+[doap_heading style="modern-1-blue" size="20" align="left" margin="0" class="fp-title-bar"]<a href="http://noticias.laprensa.com.ni/deportes"><div id="des-sec" class="title-left">DEPORTES</div><div id="des-dot" class="twodots"></div></a>[/doap_heading]
+
+[doap_posts template="templates/teaser-home-centercol.php" posts_per_page="3" tax_term="17,3132" tax_operator="0" author="1,102,108,113,114,116,117,103,111,118,112,110,107,115,120,106,104,105,119,109" order="desc" post_parent="  " ignore_sticky_posts="yes"]
+
+[doap_heading style="modern-1-blue" size="20" align="left" margin="0" class="fp-title-bar"]<a href="http://noticias.laprensa.com.ni/reportajes-especiales"><div class="title-left">REPORTAJE</div><div class="twodots"></div></a>[/doap_heading]
+
+[doap_posts template="templates/teaser-home-centercol.php" posts_per_page="1" tax_term="63721" tax_operator="0" author="1,102,108,113,114,116,117,103,111,118,112,110,107,115,120,106,104,105,119,109" order="desc" post_parent="  " ignore_sticky_posts="yes"]
+
+<!-- Portada-boton-1-120x240 -->
+<div id='div-gpt-ad-1401923467776-0' style='width:120px; height:240px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1401923467776-0'); });
+</script>
+</div>
+
+[doap_heading style="modern-1-blue" size="20" align="left" margin="0" class="fp-title-bar"]<a href="http://noticias.laprensa.com.ni/vida"><div id="des-sec" class="title-left">VIDA</div><div id="des-dot" class="twodots"></div></a>[/doap_heading]
+
+[doap_posts template="templates/teaser-home-centercol.php" posts_per_page="4" tax_term="1675" tax_operator="0" author="1,102,108,113,114,116,117,103,111,118,112,110,107,115,120,106,104,105,119,109" order="desc" post_parent="  " ignore_sticky_posts="yes"]
+ 
+[doap_heading style="modern-1-blue" size="20" align="left" margin="0" class="fp-title-bar"]<a href="http://noticias.laprensa.com.ni/vida"><div id="des-sec" class="title-left">TECNOLOGÍA</div><div id="des-dot" class="twodots"></div></a>[/doap_heading]
+
+[doap_posts template="templates/teaser-home-centercol.php" offset="1" posts_per_page="4" tax_term="991" tax_operator="0" author="1,102,108,113,114,116,117,103,111,118,112,110,107,115,120,106,104,105,119,109" order="desc" post_parent="  " ignore_sticky_posts="yes"]
+</div>
+
+   [/doap_column]
+ 
+[/doap_row]
+</div>
+');
+?>
+
+
+	<?php if( have_posts() ) : ?>
+
+		<?php while( have_posts() ) : the_post(); ?>
+
+			<?php responsive_entry_before(); ?>
+			<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+				<?php responsive_entry_top(); ?>
+
+				<?php get_template_part( 'post-meta-page' ); ?>
+
+				<div class="post-entry">
+					<?php if( has_post_thumbnail() ) : ?>
+						<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
+							<?php the_post_thumbnail(); ?>
+						</a>
+					<?php endif; ?>
+					<?php the_content( __( 'Leer más &#8250;', 'responsive' ) ); ?>
+					<?php wp_link_pages( array( 'before' => '<div class="pagination">' . __( 'Paginas:', 'responsive' ), 'after' => '</div>' ) ); ?>
+				</div>
+
+				<!-- end of .post-entry -->
+
+				<?php get_template_part( 'post-data' ); ?>
+
+				<?php responsive_entry_bottom(); ?>
+			</div><!-- end of #post-<?php the_ID(); ?> -->
+			<?php responsive_entry_after(); ?>
+
+			<?php responsive_comments_before(); ?>
+			<?php comments_template( '', true ); ?>
+			<?php responsive_comments_after(); ?>
+
+		<?php
+		endwhile;
+
+		get_template_part( 'loop-nav' );
+
+	else :
+
+		get_template_part( 'loop-no-posts' );
+
+	endif;
+	?>
+
+</div><!-- end of #content -->
+<?php include('/var/www/html/lpmu/wp-content/themes/noticias' . '/page-wing-ads.php'); ?>
+<?php //include('/var/www/html/lpmu/wp-content/themes/noticias' . '/banner-ad-widget.php'); ?>
+<?php include('/var/www/html/lpmu/wp-content/themes/noticias' . '/banner-ad-widget-270x90.php'); ?>
+
+<?php get_sidebar(index); ?>
+
+<?php echo do_shortcode('[doap_spacer id=aftersidebar size="20"]'); ?>
+<div style="clear:both"></div>
+<?php //echo "<div style=z-index:0;position:relative;top:0;border:1px solid #cccccc;>"; ?>
+<div style="height:90px;width:728px;margin-left:138px;">
+<?php //include('/var/www/html/lpmu/wp-content/themes/noticias' . '/banner-midpage-index.php'); ?>
+</div>
+<div style="clear:both"></div>
+<?php //echo do_shortcode('[doap_animate type="fadeIn"][doap_heading style="modern-1-blue" size="20" align="left" margin="0" class="fp-title-bar"]<a href="http://noticias.laprensa.com.ni/destacados">DESTACADOS<div class="2dots" style="width:100%;background: url("/2dots.png") repeat;"></div></a>[/doap_heading][/doap_animate]'); ?>
+<div class="destacados-section">
+<?php echo do_shortcode('[doap_heading style="modern-1-blue" size="20" align="left" margin="0" class="fp-title-bar"]<a href="http://noticias.laprensa.com.ni/destacados"><div class="title-left">DESTACADOS</div><div id="des-dot" class="twodots"></div></a>[/doap_heading]'); ?>
+
+<div style="position:relative;float:left;min-height:400px;width:240px;margin-right:10px;">
+<?php
+$args = array( 'posts_per_page' => 1, 'offset'=> 1, 'orderby'=> 'post_date', 'order'=> 'DESC', 'meta_key'=> '_thumbnail_id', 'post_status' => 'publish', 'category' => '31,2293' );
+$myposts = get_posts( $args );
+foreach ( $myposts as $post )
+{	
+	setup_postdata( $post );
+	$title = the_title_attribute('echo=0');
+	$post_url = get_permalink($post->ID);
+	echo '<div class="tcp-product-list tcpf" style="border: 1px solid #ccc;margin-bottom:10px;min-height:400px;">';
+	$feat_image_array = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'center-top-300x300' ); 
+	$feat_image = $feat_image_array[0];
+	echo '<div style="position:relative;max-width:300px;margin-top:0px;margin-bottom:0px;">' . PHP_EOL . '<a href="' . $post_url . '"><img src="' . $feat_image . '"></a>' . PHP_EOL;
+	echo '</div>';
+echo '<a href="/category/noticias/economia/"><h5 style="background-color:#4c4c4c;color:#fff;position:absolute;top:-17px;width:100px;margin-bottom:0px;padding-left:15px;padding-top:5px;height:20px;z-index:10;font-family:Arial,Helvetica,sans-serif;font-size:1.125em;font-weight:700;line-height:1.0em;">Activos</h5></a>';
+	echo '<div class="destacados-titles" style="padding:4px;"><h4 class="tcpf"><a href="' . $post_url . '">'. $title . '</a></h5></div>' . PHP_EOL;
+	echo '<div class="destacados-excerpt" style="padding:4px;">' . PHP_EOL;
+	remove_filter( 'get_the_excerpt', 'responsive_custom_excerpt_more' );
+	$theexcerpt = get_the_excerpt();
+	add_filter( 'get_the_excerpt', 'responsive_custom_excerpt_more' );
+	$words = str_word_count($theexcerpt, 2);
+	if ($words > 30)
+	{
+		$theexcerpt = implode(' ', array_slice(explode(' ', $theexcerpt), 0, 30)) . '...';
+	}
+	$theexcerpt = '<p>' . $theexcerpt . '</p>' . PHP_EOL;
+	echo $theexcerpt;
+	echo get_the_term_list( $post->ID, 'post_tag', 'Etiquetas: ', ', ', '' );
+	echo '</div>' . PHP_EOL;
+	echo '</div>' . PHP_EOL;
+	echo '</div>' . PHP_EOL;
+	wp_reset_postdata();
+}
+?>
+<div style="position:relative;float:left;ming-height:400px;width:240px;margin-right:10px;">
+<?php
+$args = array( 'posts_per_page' => 1, 'offset'=> 1, 'orderby'=> 'post_date', 'order'=> 'DESC', 'meta_key'=> '_thumbnail_id', 'post_status' => 'publish', 'category' => '3518' );
+// echo do_shortcode(' [tcp_list id="posts_destacados_activos"] ');
+$myposts = get_posts( $args );
+foreach ( $myposts as $post )
+{	
+	setup_postdata( $post );
+	$title = the_title_attribute('echo=0');
+	$post_url = get_permalink($post->ID);
+	echo '<div class="tcp-product-list tcpf" style="border: 1px solid #ccc;margin-bottom:10px;min-height:400px;">';
+	$feat_image_array = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'center-top-300x300' ); 
+	$feat_image = $feat_image_array[0];
+	//echo '<div style="position:relative;max-width:300px;">' . PHP_EOL . '<a href="' . $post_url . '"><img src="' . $feat_image . '"></a>' . PHP_EOL;
+	echo '<div style="position:relative;max-width:300px;margin-top:0px;margin-bottom:0px;">' . PHP_EOL . '<a href="' . $post_url . '"><img src="' . $feat_image . '"></a>' . PHP_EOL;
+	echo '</div>';
+echo '<a href="/category/noticias/ambitos/"><h5 style="background-color:#4c4c4c;color:#fff;position:absolute;top:-17px;width:100px;margin-bottom:0px;padding-left:15px;padding-top:5px;height:20px;z-index:10;">Ambitos</h5></a>';
+	//echo '<div class="destacados-titles"><h4 class="entry-title"><a href="' . $post_url . '">'. $title . '</a></h5></div>' . PHP_EOL;
+	echo '<div class="destacados-titles" style="padding:4px;"><h4 class="tcpf"><a href="' . $post_url . '">'. $title . '</a></h5></div>' . PHP_EOL;
+	echo '<div class="destacados-excerpt" style="padding:4px;">' . PHP_EOL;
+	remove_filter( 'get_the_excerpt', 'responsive_custom_excerpt_more' );
+	$theexcerpt = get_the_excerpt();
+	add_filter( 'get_the_excerpt', 'responsive_custom_excerpt_more' );
+	$words = str_word_count($theexcerpt, 2);
+	if ($words > 30)
+	{
+		$theexcerpt = implode(' ', array_slice(explode(' ', $theexcerpt), 0, 30)) . '...';
+	}
+	$theexcerpt = '<p>' . $theexcerpt . '</p>' . PHP_EOL;
+	echo $theexcerpt;
+	echo get_the_term_list( $post->ID, 'post_tag', 'Etiquetas: ', ', ', '' );
+	echo '</div>' . PHP_EOL;
+	echo '</div>' . PHP_EOL;
+	echo '</div>' . PHP_EOL;
+	wp_reset_postdata();
+}
+?>
+<div style="position:relative;float:left;min-height:400px;width:240px;margin-right:10px;">
+<?php
+$args = array( 'posts_per_page' => 1, 'offset'=> 1, 'orderby'=> 'post_date', 'order'=> 'DESC', 'meta_key'=> '_thumbnail_id', 'post_status' => 'publish', 'category' => '27,3519' );
+// echo do_shortcode(' [tcp_list id="posts_destacados_activos"] ');
+$myposts = get_posts( $args );
+foreach ( $myposts as $post )
+{	
+	setup_postdata( $post );
+	$title = the_title_attribute('echo=0');
+	$post_url = get_permalink($post->ID);
+	echo '<div class="tcp-product-list tcpf" style="border: 1px solid #ccc;margin-bottom:10px;min-height:400px;">';
+	$feat_image_array = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'center-top-300x300' ); 
+	$feat_image = $feat_image_array[0];
+	//echo '<div style="position:relative;max-width:300px;">' . PHP_EOL . '<a href="' . $post_url . '"><img src="' . $feat_image . '"></a>' . PHP_EOL;
+	echo '<div style="position:relative;max-width:300px;margin-top:0px;margin-bottom:0px;">' . PHP_EOL . '<a href="' . $post_url . '"><img src="' . $feat_image . '"></a>' . PHP_EOL;
+	echo '</div>';
+echo '<a href="/category/noticias/politica/"><h5 style="background-color:#4c4c4c;color:#fff;position:absolute;top:-17px;width:100px;margin-bottom:0px;padding-left:15px;padding-top:5px;height:20px;z-index:10;">Poderes</h5></a>';
+	//echo '<div class="destacados-titles"><h4 class="entry-title"><a href="' . $post_url . '">'. $title . '</a></h5></div>' . PHP_EOL;
+	echo '<div class="destacados-titles" style="padding:4px;"><h4 class="tcpf"><a href="' . $post_url . '">'. $title . '</a></h5></div>' . PHP_EOL;
+	echo '<div class="destacados-excerpt" style="padding:4px;">' . PHP_EOL;
+	remove_filter( 'get_the_excerpt', 'responsive_custom_excerpt_more' );
+	$theexcerpt = get_the_excerpt();
+	add_filter( 'get_the_excerpt', 'responsive_custom_excerpt_more' );
+	$words = str_word_count($theexcerpt, 2);
+	if ($words > 30)
+	{
+		$theexcerpt = implode(' ', array_slice(explode(' ', $theexcerpt), 0, 30)) . '...';
+	}
+	$theexcerpt = '<p>' . $theexcerpt . '</p>' . PHP_EOL;
+	echo $theexcerpt;
+	echo get_the_term_list( $post->ID, 'post_tag', 'Etiquetas: ', ', ', '' );
+	echo '</div>' . PHP_EOL;
+	echo '</div>' . PHP_EOL;
+	echo '</div>' . PHP_EOL;
+	wp_reset_postdata();
+}
+?>
+<div id="destacados-deportes" style="position:relative;float:left;min-height:400px;width:240px;">
+<?php
+$args = array( 'posts_per_page' => 1, 'offset'=> 1, 'orderby'=> 'post_date', 'order'=> 'DESC', 'meta_key'=> '_thumbnail_id', 'post_status' => 'publish', 'category' => '17' );
+// echo do_shortcode(' [tcp_list id="posts_destacados_activos"] ');
+$myposts = get_posts( $args );
+foreach ( $myposts as $post )
+{	
+	setup_postdata( $post );
+	$title = the_title_attribute('echo=0');
+	$post_url = get_permalink($post->ID);
+	echo '<div class="tcp-product-list tcpf" style="border: 1px solid #ccc;margin-bottom:10px;min-height:400px;">';
+	$feat_image_array = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'center-top-300x300' ); 
+	$feat_image = $feat_image_array[0];
+	//echo '<div style="position:relative;max-width:300px;">' . PHP_EOL . '<a href="' . $post_url . '"><img src="' . $feat_image . '"></a>' . PHP_EOL;
+	echo '<div style="position:relative;max-width:300px;margin-top:0px;margin-bottom:0px;">' . PHP_EOL . '<a href="' . $post_url . '"><img src="' . $feat_image . '"></a>' . PHP_EOL;
+	echo '</div>';
+echo '<a href="/category/noticias/deportes/"><h5 style="background-color:#4c4c4c;color:#fff;position:absolute;top:-17px;width:100px;margin-bottom:0px;padding-left:15px;padding-top:5px;height:20px;z-index:10;">Deportes</h5></a>';
+	//echo '<div class="destacados-titles"><h4 class="entry-title"><a href="' . $post_url . '">'. $title . '</a></h5></div>' . PHP_EOL;
+	echo '<div class="destacados-titles" style="padding:4px;"><h4 class="tcpf"><a href="' . $post_url . '">'. $title . '</a></h5></div>' . PHP_EOL;
+	echo '<div class="destacados-excerpt" style="padding:4px;">' . PHP_EOL;
+	remove_filter( 'get_the_excerpt', 'responsive_custom_excerpt_more' );
+	$theexcerpt = get_the_excerpt();
+	add_filter( 'get_the_excerpt', 'responsive_custom_excerpt_more' );
+	$words = str_word_count($theexcerpt, 2);
+	if ($words > 30)
+	{
+		$theexcerpt = implode(' ', array_slice(explode(' ', $theexcerpt), 0, 30)) . '...';
+	}
+	$theexcerpt = '<p>' . $theexcerpt . '</p>' . PHP_EOL;
+	echo $theexcerpt;
+	echo get_the_term_list( $post->ID, 'post_tag', 'Etiquetas: ', ', ', '' );
+	echo '</div>' . PHP_EOL;
+	echo '</div>' . PHP_EOL;
+	echo '</div>' . PHP_EOL;
+	wp_reset_postdata();
+}
+?>
+<?php //echo do_shortcode('[doap_spacer size="20"]'); ?>
+<?php //echo do_shortcode('[doap_spacer size="20"]'); ?>
+</div>
+<div style="clear:both;"></div>
+<?php //echo do_shortcode('[doap_spacer size="140"]'); 
+echo '<div style="height:30px;"></div>';
+echo '<div class="bottom-section">';
+echo '<div style="clear:both;"></div>';
+echo '<div class="su-column su-column-size-1-3 suplementos-home-bottom" style="position:relative;float:right;margin:0 0 0 0;"><a href="http://noticias.laprensa.com.ni/category/portada-impresa">';
+echo do_shortcode('[doap_animate type="fadeIn"][doap_heading style="modern-1-blue" size="20" align="left" margin="0" class="fp-title-bar"]<a href="http://noticias.laprensa.com.ni/category/noticias/portada-impresa"><div class="title-left">PORTADA IMPRESA</div><div class="line-container"><div class="line"></div></div></a>[/doap_heading][/doap_animate]');
+echo '</a>';
+echo do_shortcode('[doap_custom_gallery source="category: 3680" limit="1" link="post" width="290" height="460" title="always" class="gallery-of-portadas"]');
+echo '<a style="position:relative;top:-35px;" href="http://noticias.laprensa.com.ni/2014">';
+echo '<div style="position:relative;top:-30px;max-width:90%;">';
+echo do_shortcode('[doap_spacer size="10"]<div style="left:20px;">[doap_button url="/2014/" style="soft" background="#eee" color="#369" size="2" icon="icon: calendar" icon_color="#369" text_shadow="0px 0px 0px #369" class="daves-sample-menu-item"]Archivo de Ediciones Anteriores[/doap_button]</div>');
+echo '<div style="width:100%;padding-left:5px;padding-right:5px;max-width:80%;">Haga clic este boton y seleccione la edicion quieres.  <a href="/2014/">Entre el archivo.</a>
+
+<form method="get" action="/2014/">
+<input type="text" id="MyDate" name="MyDate" value=""/>
+    <input type="submit" id="searchsubmit" value="Search" />
+</form>
+
+</div></div>';
+
+echo '<div class="bottom-corner-ad"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Hoy Sidebar Boxes -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-6970273280466483"
+     data-ad-slot="9387035065"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div>';
+
+echo '<div class="su-column su-column-size-2-3 suplementos-home-bottom" style="position:relative;float:left;"><div class="su-column-inner su-clearfix"></div>';
+//echo do_shortcode('[doap_row][doap_column size="2/3" class="suplementos-home-bottom"]');
+echo do_shortcode('[doap_animate type="fadeIn"][doap_heading style="modern-1-blue" size="20" align="left" margin="0" class="fp-title-bar"]<a href="http://noticias.laprensa.com.ni/suplemento"><div class="title-left">SUPLEMENTOS</div><div class="line-container"><div class="line"></div></div></a>[/doap_heading][/doap_animate]');
+include('supl-sect.php');
+
+echo '<div style="height:30px;"></div>';
+echo '<div id=magazine-ad><a href=http://magazine.laprensa.com.ni><iframe src=http://noticias.laprensa.com.ni/los-cuatro/magazine.html frameborder=0 scrolling=no height=137 width=728></iframe></a></div>';
+echo '<div style="height:30px;"></div>';
+
+echo do_shortcode('<div>[doap_animate type="fadeIn"][doap_heading style="modern-1-blue" size="20" align="left" margin="0" class="fp-title-bar"]<a href="http://noticias.laprensa.com.ni/cartelera-de-cine"><div class="title-left">CARTELERA DE CINE</div><div class="line-container"><div class="line"></div></div></a>[/doap_heading][/doap_animate]<br><div style="max-width:600px;width:100%;height:300px;background-color:#369:">[doap_custom_gallery source="category: 23782" limit="1" link="post" width="600" height="280" title="never" class="cartelera-images-3up"]</div></div>');
+
+
+ ?>
+
+</div>
+</div>
+<div style="clear:both;"></div>
+<script type="text/javascript">
+
+jQuery(document).ready(function() {
+    jQuery('#MyDate').datepicker({
+        dateFormat : 'dd-mm-yy'
+    });
+});
+
+</script>
+<?php echo do_shortcode('[doap_divider text="Volver a la parte superior de la página"]'); ?>
+
+<div style="position:absolute;width:100%;background-color:#369;"> </div>
+<div style="position:absolute;width:100%;background-color:#2B4C92;"> </div>
+<?php get_footer(); ?>

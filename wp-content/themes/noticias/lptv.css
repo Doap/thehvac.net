@@ -1,0 +1,53 @@
+@media only screen
+and (max-width : 759px ) {
+        #lptv-search { display:none; }
+        #lptv-social { display:none; }
+        #searchformlptv { display:none; }
+        #shortcodes-ultimate-245 { display:none; }
+        #shortcodes-ultimate-246 { display:none; }
+        #lptvfootertagcloud { display:none; }
+
+}
+
+@media only screen
+and (max-width : 989px ) {
+        #searchformlptv { display:none; }
+        #shortcodes-ultimate-245 { display:none; }
+        #shortcodes-ultimate-246 { display:none; }
+        #lptvfootertagcloud { display:none; }
+}
+
+@media only screen
+and (max-width : 549px ) {
+        .category-lptv { width:98%; }
+        /*
+  	# { width:100%; }
+        # { width:100%; }
+        # { width:100%; }
+        # { width:100%; } 
+	*/
+
+}
+
+
+#lptv-top-bar {
+display: block;
+float: left;
+height: 100px;
+width: 100%;
+background: url('http://noticias.laprensa.com.ni/wp-content/uploads/sites/2/2014/06/footerlptv1-1024x129.jpg');
+background-repeat: repeat-x;
+}
+#lptv-logo {
+padding:20px 10px 0px 20px;
+//border: 1px solid #ccc;
+}
+#lptv-search {
+padding:20px 10px 0px 5%;
+//border: 1px solid #ccc;
+}
+#lptv-social {
+padding:40px 40px 0px 5%;
+//border: 1px solid #ccc;
+}
+

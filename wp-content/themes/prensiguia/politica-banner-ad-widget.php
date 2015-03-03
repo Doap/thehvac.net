@@ -1,0 +1,1 @@
+<div id=topad style="width:728px;height:90px;background-color:#eeeeee;border:0px solid #000;position:absolute;top:4px;left:4px;border-color:#000;overflow:visible;"><iframe src="https://s3-us-west-2.amazonaws.com/s3.laprensa.com.ni/home/ventas/National-car-rental/index.html" frameborder=0 scrolling="none" width="728" height="90"></iframe></div>

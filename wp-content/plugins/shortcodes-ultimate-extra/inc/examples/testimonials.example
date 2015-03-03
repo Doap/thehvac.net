@@ -1,0 +1,41 @@
+<h2>Default testimonial</h2>
+
+[%su_testimonial name="Jane Doe" photo="http://lorempixel.com/100/100/people/9/" company="Things XYZ" url="http://example.com/"]Alice was beginning to get very tired of sitting by her sister on the  bank, and of having nothing to do: once or twice she had peeped into the  book her sister was reading, but it had no pictures or conversations in  it, 'and what is the use of a book,' thought Alice 'without pictures or  conversation?'[/%su_testimonial]
+
+-----
+
+<h2>Testimonials grid</h2>
+
+[%su_row][%su_column size="1/2"]
+[%su_testimonial name="Jane Doe" photo="http://lorempixel.com/100/100/people/9/" company="Things XYZ" url="http://example.com/"]Alice was beginning to get very tired of sitting by her sister on the  bank[/%su_testimonial]
+[/%su_column][%su_column size="1/2"]
+[%su_testimonial name="Jane Doe" photo="http://lorempixel.com/100/100/people/9/" company="Things XYZ" url="http://example.com/"]Alice was beginning to get very tired of sitting by her sister on the  bank[/%su_testimonial]
+[/%su_column][/%su_row]
+
+[%su_row][%su_column size="1/2"]
+[%su_testimonial name="Jane Doe" photo="http://lorempixel.com/100/100/people/9/" company="Things XYZ" url="http://example.com/"]Alice was beginning to get very tired of sitting by her sister on the  bank[/%su_testimonial]
+[/%su_column][%su_column size="1/2"]
+[%su_testimonial name="Jane Doe" photo="http://lorempixel.com/100/100/people/9/" company="Things XYZ" url="http://example.com/"]Alice was beginning to get very tired of sitting by her sister on the  bank[/%su_testimonial]
+[/%su_column][/%su_row]
+
+-----
+
+<h2>Testimonial without border</h2>
+
+[%su_testimonial border="no" name="Jane Doe" photo="http://lorempixel.com/100/100/people/9/" company="Things XYZ" url="http://example.com/"]Alice was beginning to get very tired of sitting by her sister on the  bank, and of having nothing to do: once or twice she had peeped into the  book her sister was reading, but it had no pictures or conversations in  it, 'and what is the use of a book,' thought Alice 'without pictures or  conversation?'[/%su_testimonial]
+
+-----
+
+<h2>Testimonial without photo and link</h2>
+
+[%su_testimonial name="Jane Doe" company="Things XYZ"]Alice was beginning to get very tired of sitting by her sister on the  bank, and of having nothing to do: once or twice she had peeped into the  book her sister was reading, but it had no pictures or conversations in  it, 'and what is the use of a book,' thought Alice 'without pictures or  conversation?'[/%su_testimonial]
+
+-----
+
+<h2>Testimonials + content slider</h2>
+
+[%su_content_slider style="light" effect="fade"]
+[%su_content_slide][%su_testimonial name="Walter D. Steele" photo="http://lorempixel.com/100/100/people/4/" company="Things XYZ" url="http://example.com/"]Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading[/%su_testimonial][/%su_content_slide]
+[%su_content_slide][%su_testimonial name="Walter D. Steele" photo="http://lorempixel.com/100/100/people/9/" company="Things XYZ" url="http://example.com/"]Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading[/%su_testimonial][/%su_content_slide]
+[%su_content_slide][%su_testimonial name="Walter D. Steele" photo="http://lorempixel.com/100/100/people/1/" company="Things XYZ" url="http://example.com/"]Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading[/%su_testimonial][/%su_content_slide]
+[/%su_content_slider]

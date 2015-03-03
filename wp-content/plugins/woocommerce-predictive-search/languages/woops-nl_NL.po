@@ -1,0 +1,1420 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Predictive Search\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-26 12:48+0700\n"
+"PO-Revision-Date: 2014-04-26 12:48+0700\n"
+"Last-Translator: Nguyen Cong Tuan <mr.nguyencongtuan@gmail.com>\n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/admin-interface.php:127
+msgid "Settings successfully saved."
+msgstr ""
+
+#: admin/admin-interface.php:135
+msgid "Error: Settings can not save."
+msgstr ""
+
+#: admin/admin-interface.php:143
+msgid "Settings successfully reseted."
+msgstr ""
+
+#: admin/admin-interface.php:164
+msgid "Thin"
+msgstr ""
+
+#: admin/admin-interface.php:165
+msgid "Thin/Italic"
+msgstr ""
+
+#: admin/admin-interface.php:166
+msgid "Normal"
+msgstr ""
+
+#: admin/admin-interface.php:167
+msgid "Italic"
+msgstr ""
+
+#: admin/admin-interface.php:168
+msgid "Bold"
+msgstr ""
+
+#: admin/admin-interface.php:169
+msgid "Bold/Italic"
+msgstr ""
+
+#: admin/admin-interface.php:179
+msgid "Solid"
+msgstr ""
+
+#: admin/admin-interface.php:180
+msgid "Double"
+msgstr ""
+
+#: admin/admin-interface.php:181
+msgid "Dashed"
+msgstr ""
+
+#: admin/admin-interface.php:182
+msgid "Dotted"
+msgstr ""
+
+#: admin/admin-interface.php:183
+msgid "Groove"
+msgstr ""
+
+#: admin/admin-interface.php:184
+msgid "Ridge"
+msgstr ""
+
+#: admin/admin-interface.php:185
+msgid "Inset"
+msgstr ""
+
+#: admin/admin-interface.php:186
+msgid "Outset"
+msgstr ""
+
+#: admin/admin-interface.php:1298 admin/admin-interface.php:1388
+#: admin/admin-interface.php:1417
+#: admin/settings/all-results-page-settings.php:221
+#: admin/settings/all-results-page-settings.php:232
+#: admin/settings/all-results-page-settings.php:243
+#: admin/settings/all-results-page-settings.php:254
+#: admin/settings/all-results-page-settings.php:265
+#: admin/settings/global-settings.php:230
+#: admin/settings/global-settings.php:293
+#: admin/settings/google-analytics-settings.php:209
+#: admin/settings/search-function-settings.php:257
+#: admin/settings/search-function-settings.php:314
+msgid "ON"
+msgstr ""
+
+#: admin/admin-interface.php:1299 admin/admin-interface.php:1389
+#: admin/admin-interface.php:1418
+#: admin/settings/all-results-page-settings.php:222
+#: admin/settings/all-results-page-settings.php:233
+#: admin/settings/all-results-page-settings.php:244
+#: admin/settings/all-results-page-settings.php:255
+#: admin/settings/all-results-page-settings.php:266
+#: admin/settings/global-settings.php:231
+#: admin/settings/global-settings.php:294
+#: admin/settings/google-analytics-settings.php:210
+#: admin/settings/search-function-settings.php:258
+#: admin/settings/search-function-settings.php:315
+msgid "OFF"
+msgstr ""
+
+# @ woops
+#: admin/admin-interface.php:1459
+#: admin/settings/search-function-settings.php:268
+msgid "Width"
+msgstr "Breed"
+
+# @ woops
+#: admin/admin-interface.php:1461
+#, fuzzy
+msgid "Height"
+msgstr "Rechts"
+
+#: admin/admin-interface.php:1463
+msgid "Hard Crop"
+msgstr ""
+
+#: admin/admin-interface.php:1541
+msgid "-- Default Fonts --"
+msgstr ""
+
+#: admin/admin-interface.php:1552
+msgid "-- Google Fonts --"
+msgstr ""
+
+#: admin/admin-interface.php:1593
+msgid "Preview your customized typography settings"
+msgstr ""
+
+#: admin/admin-interface.php:1727 admin/admin-interface.php:1986
+msgid "Preview your customized border settings"
+msgstr ""
+
+#: admin/admin-interface.php:1736 admin/admin-interface.php:1977
+msgid "Rounded"
+msgstr ""
+
+#: admin/admin-interface.php:1737 admin/admin-interface.php:1978
+msgid "Square"
+msgstr ""
+
+#: admin/admin-interface.php:1747 admin/admin-interface.php:1991
+msgid "Top Left Corner"
+msgstr ""
+
+#: admin/admin-interface.php:1767 admin/admin-interface.php:2011
+msgid "Top Right Corner"
+msgstr ""
+
+#: admin/admin-interface.php:1787 admin/admin-interface.php:2031
+msgid "Bottom Right Corner"
+msgstr ""
+
+#: admin/admin-interface.php:1807 admin/admin-interface.php:2051
+msgid "Bottom Left Corner"
+msgstr ""
+
+#: admin/admin-interface.php:1900
+msgid "Preview your customized border styles settings"
+msgstr ""
+
+#: admin/admin-interface.php:2112
+msgid "YES"
+msgstr ""
+
+#: admin/admin-interface.php:2113
+msgid "NO"
+msgstr ""
+
+#: admin/admin-interface.php:2127
+msgid "Horizontal Shadow"
+msgstr ""
+
+#: admin/admin-interface.php:2145
+msgid "Vertical Shadow"
+msgstr ""
+
+#: admin/admin-interface.php:2163
+msgid "Blur Distance"
+msgstr ""
+
+#: admin/admin-interface.php:2181
+msgid "Spread Size"
+msgstr ""
+
+#: admin/admin-interface.php:2199
+msgid "INNER"
+msgstr ""
+
+#: admin/admin-interface.php:2200
+msgid "OUTER"
+msgstr ""
+
+#: admin/admin-interface.php:2218
+msgid "Preview your customized box shadow settings"
+msgstr ""
+
+#: admin/admin-interface.php:2407
+msgid "Save changes"
+msgstr ""
+
+# @ woops
+#: admin/admin-interface.php:2408
+#, fuzzy
+msgid "Reset Settings"
+msgstr "Globale instellingen"
+
+# @ woops
+#: admin/admin-pages/predictive-search-page.php:63
+#: admin/admin-pages/predictive-search-page.php:64
+#: admin/settings/global-settings.php:223
+msgid "Predictive Search"
+msgstr "Predictive Search"
+
+#: admin/admin-ui.php:127
+#, php-format
+msgid "Settings inside this yellow border are %s Features."
+msgstr ""
+
+#: admin/admin-ui.php:129
+#, php-format
+msgid ""
+"Upgrade to the <a href=\"%s\" target=\"_blank\">%s</a> to activate these "
+"settings."
+msgstr ""
+
+#: admin/admin-ui.php:131 admin/admin-ui.php:133
+#: classes/class-wc-predictive-search-metabox.php:47
+#: classes/class-wc-predictive-search.php:205
+#: widget/wc-predictive-search-widgets.php:185
+#: widget/wc-predictive-search-widgets.php:202
+msgid "Pro Version"
+msgstr ""
+
+#: admin/includes/uploader/class-uploader.php:149
+msgid "Upload"
+msgstr ""
+
+#: admin/includes/uploader/class-uploader.php:169
+msgid "View File"
+msgstr ""
+
+#: admin/includes/uploader/class-uploader.php:188
+msgid "Use this Image"
+msgstr ""
+
+#: admin/includes/uploader/class-uploader.php:189
+msgid "Use as"
+msgstr ""
+
+#: admin/includes/uploader/class-uploader.php:199
+msgid "Previously Uploaded"
+msgstr ""
+
+#: admin/settings/all-results-page-settings.php:81
+msgid "All Results Pages successfully saved."
+msgstr ""
+
+#: admin/settings/all-results-page-settings.php:82
+msgid "Error: All Results Pages can not save."
+msgstr ""
+
+#: admin/settings/all-results-page-settings.php:83
+msgid "All Results Pages successfully reseted."
+msgstr ""
+
+#: admin/settings/all-results-page-settings.php:149
+#: admin/tabs/all-results-pages-tab.php:78
+msgid "All Results Pages"
+msgstr ""
+
+# @ woops
+#: admin/settings/all-results-page-settings.php:193
+msgid "Search results page settings"
+msgstr "Zoekresultaten settingspagina"
+
+# @ woops
+#: admin/settings/all-results-page-settings.php:198
+msgid "Results"
+msgstr "Resultaten"
+
+# @ woops
+#: admin/settings/all-results-page-settings.php:199
+msgid ""
+"The number of results to show before endless scroll click to see more "
+"results."
+msgstr ""
+"Het aantal resultaten te tonen voordat eindlose scroll klik voor meer "
+"resultaten"
+
+# @ woops
+#: admin/settings/all-results-page-settings.php:206
+msgid "Description character count"
+msgstr "Beschrijving aantal tekens"
+
+# @ woops
+#: admin/settings/all-results-page-settings.php:207
+msgid ""
+"The number of characters from product descriptions that shows with each "
+"search result."
+msgstr ""
+"Het aantal karakters van productbeschrijving dat getoont wordt bij elk "
+"zoekresultaat"
+
+#: admin/settings/all-results-page-settings.php:214
+msgid "SKU"
+msgstr ""
+
+# @ woops
+#: admin/settings/all-results-page-settings.php:215
+#, fuzzy
+msgid "ON to show product SKU with search results"
+msgstr "Toon productprijs bij de zoek resultaten"
+
+# @ woops
+#: admin/settings/all-results-page-settings.php:225
+#: admin/settings/search-function-settings.php:250
+#: classes/class-wc-predictive-search-shortcodes.php:112
+#: classes/class-wc-predictive-search-shortcodes.php:149
+#: classes/class-wc-predictive-search-shortcodes.php:151
+#: classes/class-wc-predictive-search-shortcodes.php:153
+#: classes/class-wc-predictive-search-shortcodes.php:169
+#: classes/class-wc-predictive-search-shortcodes.php:171
+#: classes/class-wc-predictive-search-shortcodes.php:173
+msgid "Price"
+msgstr "Prijs"
+
+# @ woops
+#: admin/settings/all-results-page-settings.php:226
+#, fuzzy
+msgid "ON to show product price with search results"
+msgstr "Toon productprijs bij de zoek resultaten"
+
+# @ woops
+#: admin/settings/all-results-page-settings.php:236
+msgid "Add to cart"
+msgstr "Toevoegen aan winkelwagen"
+
+# @ woops
+#: admin/settings/all-results-page-settings.php:237
+#, fuzzy
+msgid "On to show Add to cart button with search results"
+msgstr "Toon Toevoegen aan winkelwagen knop bij de zoekresultaten"
+
+# @ woops
+#: admin/settings/all-results-page-settings.php:247
+#: widget/wc-predictive-search-widgets.php:21
+msgid "Product Categories"
+msgstr "Product Categorie"
+
+# @ woops
+#: admin/settings/all-results-page-settings.php:248
+#, fuzzy
+msgid "On to show categories with search results"
+msgstr "Toon categorie bij de zoekresultaten"
+
+# @ woops
+#: admin/settings/all-results-page-settings.php:258
+#: widget/wc-predictive-search-widgets.php:22
+msgid "Product Tags"
+msgstr "Product Tags"
+
+# @ woops
+#: admin/settings/all-results-page-settings.php:259
+#, fuzzy
+msgid "On to show tags with search results"
+msgstr "Toon Tag met zoek resultaten"
+
+#: admin/settings/exclude-content-settings.php:81
+msgid "Exclude Content Settings successfully saved."
+msgstr ""
+
+#: admin/settings/exclude-content-settings.php:82
+msgid "Error: Exclude Content Settings can not save."
+msgstr ""
+
+#: admin/settings/exclude-content-settings.php:83
+msgid "Exclude Content Settings successfully reseted."
+msgstr ""
+
+# @ woops
+#: admin/settings/exclude-content-settings.php:148
+#: admin/tabs/exclude-content-tab.php:78
+#, fuzzy
+msgid "Exclude Content"
+msgstr "Sluit berichten uit"
+
+# @ woops
+#: admin/settings/exclude-content-settings.php:234
+msgid "Exclude From Predictive Search"
+msgstr "Uitgesloten van Predictive Search"
+
+# @ woops
+#: admin/settings/exclude-content-settings.php:238
+msgid "Exclude Products"
+msgstr "Uitgesloten Producten"
+
+# @ woops
+#: admin/settings/exclude-content-settings.php:241
+msgid "Choose Products"
+msgstr "Kies Producten"
+
+# @ woops
+#: admin/settings/exclude-content-settings.php:252
+msgid "Exclude Product Categories"
+msgstr "Sluit de Product categorien uit"
+
+# @ woops
+#: admin/settings/exclude-content-settings.php:255
+msgid "Choose Product Categories"
+msgstr "Kies Product Categorien"
+
+# @ woops
+#: admin/settings/exclude-content-settings.php:260
+msgid "Exclude Product Tags"
+msgstr "Sluit Product tags uit"
+
+# @ woops
+#: admin/settings/exclude-content-settings.php:263
+msgid "Choose Product Tags"
+msgstr "Kies Product tags"
+
+# @ woops
+#: admin/settings/exclude-content-settings.php:268
+msgid "Exclude Posts"
+msgstr "Sluit berichten uit"
+
+# @ woops
+#: admin/settings/exclude-content-settings.php:271
+msgid "Choose Posts"
+msgstr "Kies Berichten"
+
+# @ woops
+#: admin/settings/exclude-content-settings.php:276
+msgid "Exclude Pages"
+msgstr "Sluit pagina''s uit"
+
+# @ woops
+#: admin/settings/exclude-content-settings.php:279
+msgid "Choose Pages"
+msgstr "Kies Pagina''s"
+
+# @ woops
+#: admin/settings/global-settings.php:82
+#, fuzzy
+msgid "Global Settings successfully saved."
+msgstr "Globale instellingen"
+
+#: admin/settings/global-settings.php:83
+msgid "Error: Global Settings can not save."
+msgstr ""
+
+#: admin/settings/global-settings.php:84
+msgid "Global Settings successfully reseted."
+msgstr ""
+
+# @ woops
+#: admin/settings/global-settings.php:173
+#: admin/tabs/global-settings-tab.php:78
+#, fuzzy
+msgid "Settings"
+msgstr "Globale instellingen"
+
+#: admin/settings/global-settings.php:217
+msgid "Advanced Site Search Optimization"
+msgstr ""
+
+#: admin/settings/global-settings.php:218
+msgid ""
+"Get Complete Control over Search results, for every product, post and page "
+"with Predictive Search Focus Keywords and / or the Focus Keywords you have "
+"set in leading SEO plugins."
+msgstr ""
+
+# @ woops
+#: admin/settings/global-settings.php:240
+#, fuzzy
+msgid "SEO Focus Keywords"
+msgstr "Focus zoeksleutel"
+
+#: admin/settings/global-settings.php:241
+msgid "Supported plugins, WordPress SEO and ALL in ONE SEO Pack."
+msgstr ""
+
+# @ woops
+#: admin/settings/global-settings.php:246
+msgid "Select SEO plugin"
+msgstr "Selecteer SEO plugin"
+
+# @ woops
+#: admin/settings/global-settings.php:247
+msgid "Yoast WordPress SEO"
+msgstr "Yoast WordPress SEO"
+
+# @ woops
+#: admin/settings/global-settings.php:248
+msgid "All in One SEO"
+msgstr "Alles in een SEO"
+
+# @ woops
+#: admin/settings/global-settings.php:253
+msgid "Global Search Box Text"
+msgstr "Globale Zoekvak tekst "
+
+# @ woops
+#: admin/settings/global-settings.php:258
+#: admin/settings/global-settings.php:313
+msgid "Text to Show"
+msgstr "Tekst om te tonen"
+
+# @ woops
+#: admin/settings/global-settings.php:259
+#: admin/settings/global-settings.php:315
+msgid "&lt;empty&gt; shows nothing"
+msgstr "&lt;empty&gt; toont niets"
+
+# @ woops
+#: admin/settings/global-settings.php:267
+#, fuzzy
+msgid "Search Page Configuration"
+msgstr "Zoekpagina"
+
+#: admin/settings/global-settings.php:269
+msgid ""
+"Predictive Search has detected the WPML plugin. On install a search page was "
+"auto created for each language in use. Please use the WPML String "
+"Translations plugin to make translation for plugin text for each page. If "
+"adding another language after installing Predictive Search you have to "
+"manually create a search page for it."
+msgstr ""
+
+# @ woops
+#: admin/settings/global-settings.php:269
+msgid ""
+"A search results page needs to be selected so that WooCommerce Predictive "
+"Search knows where to show search results. This page should have been "
+"created upon installation of the plugin, if not you need to create it."
+msgstr ""
+"Een pagina met zoekresultaten moet worden gekozen, zodat WooCommerce "
+"Predictive Zoek weet waar om te laten zien zoekresultaten. Deze pagina zou "
+"zijn gesteld bij de installatie van de plugin, zo niet moet je om het te "
+"maken."
+
+# @ woops
+#: admin/settings/global-settings.php:272
+msgid "Search Page"
+msgstr "Zoekpagina"
+
+# @ woops
+#: admin/settings/global-settings.php:273
+msgid "Page contents:"
+msgstr "Pagina inhoud:"
+
+#: admin/settings/global-settings.php:280
+msgid "House Keeping"
+msgstr ""
+
+#: admin/settings/global-settings.php:284
+msgid "Clean up on Deletion"
+msgstr ""
+
+#: admin/settings/global-settings.php:285
+msgid ""
+"On deletion (not deactivate) the plugin it will completely remove all of its "
+"code and tables it has created, leaving no trace it was ever here. If "
+"upgrading to the Pro Version this is <span class=\"description\">not "
+"recommended</span>"
+msgstr ""
+
+# @ woops
+#: admin/settings/google-analytics-settings.php:82
+#, fuzzy
+msgid "Google Analytics Settings successfully saved."
+msgstr "Globale instellingen"
+
+#: admin/settings/google-analytics-settings.php:83
+msgid "Error: Google Analytics Settings can not save."
+msgstr ""
+
+# @ woops
+#: admin/settings/google-analytics-settings.php:84
+#, fuzzy
+msgid "Google Analytics Settings successfully reseted."
+msgstr "Globale instellingen"
+
+#: admin/settings/google-analytics-settings.php:154
+#: admin/tabs/google-analytics-tab.php:78
+msgid "Google Analytics"
+msgstr ""
+
+#: admin/settings/google-analytics-settings.php:198
+msgid "Google Analytics Site Search Integration"
+msgstr ""
+
+#: admin/settings/google-analytics-settings.php:202
+msgid "Track Predictive Search Result with Google Analytics"
+msgstr ""
+
+#: admin/settings/google-analytics-settings.php:218
+msgid "Google Analytics UID"
+msgstr ""
+
+#: admin/settings/google-analytics-settings.php:219
+msgid "Example:"
+msgstr ""
+
+#: admin/settings/google-analytics-settings.php:226
+msgid "Query Parameter"
+msgstr ""
+
+#: admin/settings/google-analytics-settings.php:227
+msgid ""
+"The parameter that is to be entered on the track Site Search config page on "
+"your Google Anayitics account. Default: [default_value]"
+msgstr ""
+
+#: admin/settings/search-function-settings.php:81
+msgid "Search Function Settings successfully saved."
+msgstr ""
+
+#: admin/settings/search-function-settings.php:82
+msgid "Error: Search Function Settings can not save."
+msgstr ""
+
+#: admin/settings/search-function-settings.php:83
+msgid "Search Function Settings successfully reseted."
+msgstr ""
+
+# @ woops
+#: admin/settings/search-function-settings.php:153
+#: admin/tabs/search-function-tab.php:78
+#, fuzzy
+msgid "Search Function"
+msgstr "Predictive Search Functie"
+
+# @ woops
+#: admin/settings/search-function-settings.php:197
+msgid "Predictive Search Function"
+msgstr "Predictive Search Functie"
+
+# @ woops
+#: admin/settings/search-function-settings.php:203
+#, fuzzy
+msgid "Customize Search Function values :"
+msgstr "Pas de Zoekfunctie waarden aan"
+
+# @ woops
+#: admin/settings/search-function-settings.php:204
+msgid ""
+"The values you set here will be shown when you add the global search "
+"function to your header.php file. After adding the global function to your "
+"header.php file you can change the values here and 'Update' and they will be "
+"auto updated in the function."
+msgstr ""
+"De waarden die u hier instelt, wordt weergegeven wanneer u de globale "
+"zoekfunctie toe te voegen aan uw header.php bestand. Na het toevoegen van de "
+"algemene functie om uw header.php bestand dat u kunt hier de waarden "
+"veranderen en 'Update' en zij zullen automatisch bijgewerkt in de functie."
+
+# @ woops
+#: admin/settings/search-function-settings.php:208
+msgid "Product name"
+msgstr "Productnaam"
+
+# @ woops
+#: admin/settings/search-function-settings.php:209
+msgid ""
+"Number of Product Name to show in search field drop-down. Leave &lt;"
+"empty&gt; for not activated"
+msgstr ""
+"Aantal te tonen producten in het zoekveld drop-down Laat &lt;leeg&gt; voor "
+"niet geactiveerd"
+
+# @ woops
+#: admin/settings/search-function-settings.php:215
+#: widget/wc-predictive-search-widgets.php:20
+msgid "Product SKU"
+msgstr "Product SKU"
+
+# @ woops
+#: admin/settings/search-function-settings.php:216
+msgid ""
+"Number of Product SKU to show in search field drop-down. Leave &lt;empty&gt; "
+"for not activated"
+msgstr ""
+"Aantal te tonen Product SKU in het zoekveld drop-down Laat &lt;leeg&gt; voor "
+"niet geactiveerd"
+
+# @ woops
+#: admin/settings/search-function-settings.php:222
+msgid "Product category"
+msgstr "Product categorie"
+
+# @ woops
+#: admin/settings/search-function-settings.php:223
+msgid ""
+"Number of Product Categories to show in search field drop-down. Leave &lt;"
+"empty&gt; for not activated"
+msgstr ""
+"Aantal te tonen Product categorien in het zoekveld drop-down Laat &lt;"
+"leeg&gt; voor niet geactiveerd"
+
+# @ woops
+#: admin/settings/search-function-settings.php:229
+msgid "Product tag"
+msgstr "Product tag"
+
+# @ woops
+#: admin/settings/search-function-settings.php:230
+msgid ""
+"Number of Product Tags to show in search field drop-down. Leave &lt;"
+"empty&gt; for not activated"
+msgstr ""
+"Aantal te tonen Product tags in het zoekveld drop-down Laat &lt;leeg&gt; "
+"voor niet geactiveerd"
+
+# @ woops
+#: admin/settings/search-function-settings.php:236
+msgid "Post"
+msgstr "Bericht"
+
+# @ woops
+#: admin/settings/search-function-settings.php:237
+msgid ""
+"Number of Posts to show in search field drop-down. Leave &lt;empty&gt; for "
+"not activated"
+msgstr ""
+"Aantal te tonen Berichten in het zoekveld drop-down Laat &lt;leeg&gt; voor "
+"niet geactiveerd"
+
+# @ woops
+#: admin/settings/search-function-settings.php:243
+msgid "Page"
+msgstr "Pagina"
+
+# @ woops
+#: admin/settings/search-function-settings.php:244
+msgid ""
+"Number of Pages to show in search field drop-down. Leave &lt;empty&gt; for "
+"not activated"
+msgstr ""
+"Aantal te tonen Pagina's in het zoekveld drop-down Laat &lt;leeg&gt; voor "
+"niet geactiveerd"
+
+# @ woops
+#: admin/settings/search-function-settings.php:251
+#, fuzzy
+msgid "On to show Product prices"
+msgstr "Kies Product Categorien"
+
+# @ woops
+#: admin/settings/search-function-settings.php:261
+msgid "Description Characters"
+msgstr "Omschrijving karakters"
+
+# @ woops
+#: admin/settings/search-function-settings.php:262
+msgid ""
+"Number of characters from product description to show in search field drop-"
+"down. Default value is \"100\"."
+msgstr ""
+"Aantal te tonen karakters van de productbeschrijving in het zoekveld drop-"
+"down. Standaard aantal is \"100\"."
+
+# @ woops
+#: admin/settings/search-function-settings.php:269
+msgid "Leave &lt;empty&gt; for 100% wide"
+msgstr "Laat &lt;leeg&gt;  voor 100% breed"
+
+# @ woops
+#: admin/settings/search-function-settings.php:275
+#: classes/class-wc-predictive-search-shortcodes.php:117
+msgid "Padding"
+msgstr "Padding"
+
+#: admin/settings/search-function-settings.php:280
+msgid "Top"
+msgstr ""
+
+#: admin/settings/search-function-settings.php:285
+msgid "Bottom"
+msgstr ""
+
+# @ woops
+#: admin/settings/search-function-settings.php:290
+#: classes/class-wc-predictive-search-shortcodes.php:120
+msgid "Left"
+msgstr "Links"
+
+# @ woops
+#: admin/settings/search-function-settings.php:295
+#: classes/class-wc-predictive-search-shortcodes.php:121
+msgid "Right"
+msgstr "Rechts"
+
+# @ woops
+#: admin/settings/search-function-settings.php:301
+msgid "Custom style"
+msgstr "Custom stijl"
+
+# @ woops
+#: admin/settings/search-function-settings.php:302
+msgid "Put other custom style for the Predictive search box"
+msgstr "Zet andere aangepaste stijl voor de Predictive zoekvak"
+
+# @ woops
+#: admin/settings/search-function-settings.php:307
+msgid "Global search"
+msgstr "Globale zoekopdracht"
+
+# @ woops
+#: admin/settings/search-function-settings.php:308
+#, fuzzy
+msgid ""
+"On to set global search or search in current product category or current "
+"product tag. \"Checked\" to activate global search."
+msgstr ""
+"Stel globale zoektocht of zoek in de huidige categorie producten of huidige "
+"product tag. \\ \\\"Gecontroleerd \" om wereldwijde zoektocht te activeren."
+
+# @ woops
+#: admin/settings/search-function-settings.php:324
+msgid ""
+"Copy and paste this global function into your themes header.php file to "
+"replace any existing search function. (Be sure to delete the existing "
+"WordPress, WooCommerce or Theme search function)"
+msgstr ""
+"Kopieer deze globale functie plak deze in je thema's header.php bestand aan "
+"bestaande zoekfunctie te vervangen. (Zorg ervoor dat u de bestaande "
+"WordPress, WooCommerce of Thema zoekfunctie verwijderen)"
+
+# @ woops
+#: admin/wc-predictive-search-init.php:7
+msgid "Woocommerce Predictive Search"
+msgstr "Woocommerce Predictive Search"
+
+# @ woops
+#: classes/class-wc-predictive-search-filter.php:72
+#, fuzzy
+msgid "Products"
+msgstr "Product Tags"
+
+# @ woops
+#: classes/class-wc-predictive-search-filter.php:94
+#, fuzzy
+msgid "See more results for"
+msgstr "Zie meer zoekresultaten voor"
+
+# @ woops
+#: classes/class-wc-predictive-search-filter.php:94
+#, fuzzy
+msgid "Displaying top"
+msgstr "Padding boven"
+
+# @ woops
+#: classes/class-wc-predictive-search-filter.php:94
+#, fuzzy
+msgid "results"
+msgstr "Resultaten"
+
+#: classes/class-wc-predictive-search-filter.php:98
+msgid "Nothing found for that name. Try a different spelling or name."
+msgstr ""
+
+# @ woops
+#: classes/class-wc-predictive-search-filter.php:270
+msgid "Documentation"
+msgstr "Documentatie"
+
+# @ woops
+#: classes/class-wc-predictive-search-filter.php:271
+msgid "Support"
+msgstr "Ondersteuning"
+
+# @ woops
+#: classes/class-wc-predictive-search-metabox.php:27
+#: classes/class-wc-predictive-search-metabox.php:29
+msgid "Hide from Predictive Search results."
+msgstr "Verberg van de Predictive Search resultaten"
+
+# @ woops
+#: classes/class-wc-predictive-search-metabox.php:32
+#: classes/class-wc-predictive-search-metabox.php:34
+#: classes/class-wc-predictive-search-metabox.php:35
+msgid "Predictive Search Meta"
+msgstr "Predictive Search Meta"
+
+#: classes/class-wc-predictive-search-metabox.php:47
+#: widget/wc-predictive-search-widgets.php:185
+#: widget/wc-predictive-search-widgets.php:202
+msgid "Upgrade to"
+msgstr ""
+
+#: classes/class-wc-predictive-search-metabox.php:47
+#: widget/wc-predictive-search-widgets.php:185
+#: widget/wc-predictive-search-widgets.php:202
+msgid "to activate"
+msgstr ""
+
+# @ woops
+#: classes/class-wc-predictive-search-metabox.php:50
+msgid "Focus Keywords"
+msgstr "Focus zoeksleutel"
+
+# @ woops
+#: classes/class-wc-predictive-search-shortcodes.php:25
+msgid "Insert WooCommerce Predictive Search Shortcode"
+msgstr "Voeg de  WooCommerce Predictive Search Shortcode toe"
+
+# @ woops
+#: classes/class-wc-predictive-search-shortcodes.php:105
+msgid "Customize the Predictive Search Shortcode"
+msgstr "Pas de Predictive Search Shortcode aan"
+
+#: classes/class-wc-predictive-search-shortcodes.php:105
+msgid "View Docs"
+msgstr ""
+
+# @ woops
+#: classes/class-wc-predictive-search-shortcodes.php:110
+msgid "Number of"
+msgstr "Aantal"
+
+# @ woops
+#: classes/class-wc-predictive-search-shortcodes.php:110
+msgid "results to show in dropdown"
+msgstr "Reslutaten te tonen in dropdown"
+
+# @ woops
+#: classes/class-wc-predictive-search-shortcodes.php:112
+#: widget/wc-predictive-search-widgets.php:199
+#, fuzzy
+msgid "Show Product prices"
+msgstr "Kies Product Categorien"
+
+# @ woops
+#: classes/class-wc-predictive-search-shortcodes.php:113
+msgid "Characters"
+msgstr "Karakters"
+
+# @ woops
+#: classes/class-wc-predictive-search-shortcodes.php:113
+msgid "Number of product description characters"
+msgstr "Aantal productomschrijving karakters"
+
+# @ woops
+#: classes/class-wc-predictive-search-shortcodes.php:114
+msgid "Alignment"
+msgstr "Richting"
+
+# @ woops
+#: classes/class-wc-predictive-search-shortcodes.php:114
+msgid "None"
+msgstr "Geen"
+
+# @ woops
+#: classes/class-wc-predictive-search-shortcodes.php:114
+msgid "Left - wrap"
+msgstr "Links - wrap"
+
+# @ woops
+#: classes/class-wc-predictive-search-shortcodes.php:114
+msgid "Left - no wrap"
+msgstr "Links - no wrap"
+
+# @ woops
+#: classes/class-wc-predictive-search-shortcodes.php:114
+msgid "Center"
+msgstr "Gencentreerd"
+
+# @ woops
+#: classes/class-wc-predictive-search-shortcodes.php:114
+msgid "Right - wrap"
+msgstr "Richts - wrap"
+
+# @ woops
+#: classes/class-wc-predictive-search-shortcodes.php:114
+msgid "Right - no wrap"
+msgstr "Recht - no wrap"
+
+# @ woops
+#: classes/class-wc-predictive-search-shortcodes.php:114
+msgid "Horizontal aliginment of search box"
+msgstr "Horizontale aliginment van zoekvak"
+
+# @ woops
+#: classes/class-wc-predictive-search-shortcodes.php:115
+msgid "Search box width"
+msgstr "Zoekvak breedte"
+
+# @ woops
+#: classes/class-wc-predictive-search-shortcodes.php:116
+#: widget/wc-predictive-search-widgets.php:189
+msgid "Search box text message"
+msgstr "Zoekvak bericht"
+
+# @ woops
+#: classes/class-wc-predictive-search-shortcodes.php:118
+msgid "Above"
+msgstr "Boven"
+
+# @ woops
+#: classes/class-wc-predictive-search-shortcodes.php:119
+msgid "Below"
+msgstr "Onder"
+
+# @ woops
+#: classes/class-wc-predictive-search-shortcodes.php:124
+msgid "Insert Shortcode"
+msgstr "Toevoegen Shortcode"
+
+# @ woops
+#: classes/class-wc-predictive-search-shortcodes.php:125
+msgid "Cancel"
+msgstr "Annuleren"
+
+# @ woops
+#: classes/class-wc-predictive-search-shortcodes.php:212
+msgid "Category"
+msgstr "Category"
+
+# @ woops
+#: classes/class-wc-predictive-search-shortcodes.php:230
+msgid "Tags"
+msgstr "Tags"
+
+# @ woops
+#: classes/class-wc-predictive-search-shortcodes.php:284
+#, fuzzy
+msgid "Showing all results for your search"
+msgstr "zoekresultaten voor uw zoekopdracht"
+
+# @ woops
+#: classes/class-wc-predictive-search-shortcodes.php:328
+msgid "Loading More Results..."
+msgstr "Laden van meer resultaten"
+
+# @ woops
+#: classes/class-wc-predictive-search-shortcodes.php:352
+msgid "No More Results to Show"
+msgstr "Geen resulaten meer te tonen"
+
+# @ woops
+#: classes/class-wc-predictive-search-shortcodes.php:366
+msgid "Nothing Found! Please refine your search and try again."
+msgstr "Niets Gevonden. Geef een andere zoekopdracht en probeer opnieuw."
+
+# @ woops
+#: classes/class-wc-predictive-search.php:153
+#, fuzzy
+msgid "Upgrade to Predictive Search Pro"
+msgstr "Uitgesloten van Predictive Search"
+
+#: classes/class-wc-predictive-search.php:154
+msgid ""
+"<strong>NOTE:</strong> All the functions inside the Yellow border on the "
+"plugins admin panel are extra functionality that is activated by upgrading "
+"to the Pro version"
+msgstr ""
+
+# @ woops
+#: classes/class-wc-predictive-search.php:156
+#, fuzzy
+msgid "WooCommerce Predictive Search Pro"
+msgstr "WooCommerce Predictive Search"
+
+#: classes/class-wc-predictive-search.php:156
+msgid "Features"
+msgstr ""
+
+# @ woops
+#: classes/class-wc-predictive-search.php:159
+#, fuzzy
+msgid ""
+"Activate site search optimization with Predictive Search 'Focus Keywords'."
+msgstr ""
+"Activeren om uw sites inhoud te optimaliseren met Predictive Zoeken 'Focus "
+"trefwoorden'"
+
+#: classes/class-wc-predictive-search.php:160
+msgid ""
+"Activate integration with Yoasts WordPress SEO or All in One SEO plugins."
+msgstr ""
+
+#: classes/class-wc-predictive-search.php:161
+msgid "Activate the Advance All Search results page customization setting."
+msgstr ""
+
+#: classes/class-wc-predictive-search.php:162
+msgid ""
+"Activate Search by Product Categories, Product Tags, Posts and Pages options "
+"in the search widgets."
+msgstr ""
+
+#: classes/class-wc-predictive-search.php:163
+msgid "Activate Search shortcodes for Posts and pages."
+msgstr ""
+
+#: classes/class-wc-predictive-search.php:164
+msgid ""
+"Activate Exclude Product Cats, Product Tags , Posts and pages from search "
+"results."
+msgstr ""
+
+#: classes/class-wc-predictive-search.php:165
+msgid ""
+"Activate Predictive Search Function to place the search box in any non "
+"widget area of your site - example the header."
+msgstr ""
+
+#: classes/class-wc-predictive-search.php:166
+msgid ""
+"Activate 'Smart Search' function on Widgets, Shortcode and the search "
+"Function"
+msgstr ""
+
+#: classes/class-wc-predictive-search.php:167
+msgid "Multi Lingual Support. Fully compatible with WPML"
+msgstr ""
+
+#: classes/class-wc-predictive-search.php:170
+msgid "View this plugins"
+msgstr ""
+
+# @ woops
+#: classes/class-wc-predictive-search.php:170
+#, fuzzy
+msgid "documentation"
+msgstr "Documentatie"
+
+#: classes/class-wc-predictive-search.php:171
+msgid "Visit this plugins"
+msgstr ""
+
+# @ woops
+#: classes/class-wc-predictive-search.php:171
+#, fuzzy
+msgid "support forum"
+msgstr "Ondersteuning"
+
+#: classes/class-wc-predictive-search.php:172
+msgid "More a3rev Quality Plugins"
+msgstr ""
+
+#: classes/class-wc-predictive-search.php:173
+msgid ""
+"Below is a list of the a3rev plugins that are available for free download "
+"from wordpress.org"
+msgstr ""
+
+#: classes/class-wc-predictive-search.php:174
+msgid "More FREE a3rev WooCommerce Plugins"
+msgstr ""
+
+# @ woops
+#: classes/class-wc-predictive-search.php:177
+#, fuzzy
+msgid "WooCommerce Product Sort & Display"
+msgstr "WooCommerce Predictive Search"
+
+# @ woops
+#: classes/class-wc-predictive-search.php:178
+#, fuzzy
+msgid "WooCommerce Products Quick View"
+msgstr "WooCommerce Predictive Search"
+
+# @ woops
+#: classes/class-wc-predictive-search.php:179
+#, fuzzy
+msgid "WooCommerce Dynamic Products Gallery"
+msgstr "WooCommerce Predictive Search"
+
+# @ woops
+#: classes/class-wc-predictive-search.php:180
+#, fuzzy
+msgid "WooCommerce Compare Products"
+msgstr "Kies Producten"
+
+# @ woops
+#: classes/class-wc-predictive-search.php:181
+#, fuzzy
+msgid "WooCommerce Widget Product Slideshow"
+msgstr "WooCommerce Predictive Search"
+
+#: classes/class-wc-predictive-search.php:182
+msgid "WooCommerce Email Inquiry & Cart Options"
+msgstr ""
+
+#: classes/class-wc-predictive-search.php:185
+msgid "FREE a3rev WordPress Plugins"
+msgstr ""
+
+#: classes/class-wc-predictive-search.php:188
+msgid "Contact Us Page - Contact People"
+msgstr ""
+
+#: classes/class-wc-predictive-search.php:189
+msgid "WordPress Email Template"
+msgstr ""
+
+#: classes/class-wc-predictive-search.php:190
+msgid "Page View Count"
+msgstr ""
+
+#: classes/class-wc-predictive-search.php:193
+msgid "Help spread the Word about this plugin"
+msgstr ""
+
+#: classes/class-wc-predictive-search.php:194
+msgid "Things you can do to help others find this plugin"
+msgstr ""
+
+#: classes/class-wc-predictive-search.php:196
+msgid "Rate this plugin 5"
+msgstr ""
+
+# @ woops
+#: classes/class-wc-predictive-search.php:196
+#, fuzzy
+msgid "on WordPress.org"
+msgstr "Yoast WordPress SEO"
+
+#: classes/class-wc-predictive-search.php:197
+msgid "Mark the plugin as a fourite"
+msgstr ""
+
+#: classes/class-wc-predictive-search.php:205
+msgid ""
+"Yes you'll love the Predictive Search shortcode feature. Upgrading to the"
+msgstr ""
+
+#: classes/class-wc-predictive-search.php:205
+msgid ""
+"activates this shortcode feature as well as the awesome 'Smart Search' "
+"feature, per widget controls, the All Search Results page customization "
+"settings and function features."
+msgstr ""
+
+# @ woops
+#: widget/wc-predictive-search-widgets.php:19
+msgid "Product Name"
+msgstr "Produkt naam"
+
+# @ woops
+#: widget/wc-predictive-search-widgets.php:23
+msgid "Posts"
+msgstr "Berichten"
+
+# @ woops
+#: widget/wc-predictive-search-widgets.php:24
+msgid "Pages"
+msgstr "Pagina's"
+
+# @ woops
+#: widget/wc-predictive-search-widgets.php:31
+msgid ""
+"User sees search results as they type in a dropdown - links through to 'All "
+"Search Results Page' that features endless scroll."
+msgstr ""
+"Gebruiker ziet zoekresultaten als ze type in een dropdown - links tot 'All "
+"Zoekresultaten' die eindeloze scroll functies."
+
+# @ woops
+#: widget/wc-predictive-search-widgets.php:32
+msgid "WooCommerce Predictive Search"
+msgstr "WooCommerce Predictive Search"
+
+# @ woops
+#: widget/wc-predictive-search-widgets.php:177
+msgid "Title:"
+msgstr "Titel:"
+
+# @ woops
+#: widget/wc-predictive-search-widgets.php:178
+msgid "Search box text message:"
+msgstr "Zoekvak tekst bericht:"
+
+# @ woops
+#: widget/wc-predictive-search-widgets.php:198
+#, fuzzy
+msgid "Number of results to show:"
+msgstr "Geen resulaten meer te tonen"
+
+# @ woops
+#: widget/wc-predictive-search-widgets.php:201
+#: widget/wc-predictive-search-widgets.php:209
+msgid " Results description character count:"
+msgstr "Resultaten omschrijving aantal tekens:"
+
+# @ woops
+#: widget/wc-predictive-search-widgets.php:203
+msgid ""
+"Activate search 'types' for this widget by entering the number of results to "
+"show in the widget dropdown. &lt;empty&gt; = not activated. Sort order by "
+"drag and drop"
+msgstr ""
+"Activeer zoeken 'types' voor deze widget door het invoeren van het aantal "
+"resultaten te laten zien in de widget dropdown. &lt;leeg&gt;  = niet "
+"geactiveerd. Sorteervolgorde met slepen en neerzetten"
+
+# @ woops
+#: widget/wc-predictive-search-widgets.php:210
+msgid "Search All Products"
+msgstr "Zoek in alle Producten"
+
+# @ woops
+#: widget/wc-predictive-search-widgets.php:211
+msgid "Smart Search"
+msgstr "Slim Zoeken"
+
+# @ woops
+#~ msgid "Priced"
+#~ msgstr "Geprijsd"
+
+# @ woops
+#, fuzzy
+#~ msgid ""
+#~ "ON to optimize your sites content with Predictive Search 'Focus keywords'"
+#~ msgstr ""
+#~ "Activeren om uw sites inhoud te optimaliseren met Predictive Zoeken "
+#~ "'Focus trefwoorden'"
+
+# @ woops
+#~ msgid "Activate SEO 'Focus Keywords'"
+#~ msgstr "Activeer SEO 'Focus Keywords'"
+
+# @ woops
+#~ msgid "Keep typing..."
+#~ msgstr "Blijf typen...."
+
+# @ woops
+#, fuzzy
+#~ msgid "Show product SKU with search results"
+#~ msgstr "Toon productprijs bij de zoek resultaten"
+
+# @ woops
+#~ msgid "Show product price with search results"
+#~ msgstr "Toon productprijs bij de zoek resultaten"
+
+# @ woops
+#~ msgid "Show Add to cart button with search results"
+#~ msgstr "Toon Toevoegen aan winkelwagen knop bij de zoekresultaten"
+
+# @ woops
+#~ msgid "Show categories with search results"
+#~ msgstr "Toon categorie bij de zoekresultaten"
+
+# @ woops
+#~ msgid "Show tags with search results"
+#~ msgstr "Toon Tag met zoek resultaten"
+
+# @ woops
+#~ msgid "Customize Search Function values"
+#~ msgstr "Pas de Zoekfunctie waarden aan"
+
+# @ woops
+#~ msgid "Padding top"
+#~ msgstr "Padding boven"
+
+# @ woops
+#~ msgid "Padding bottom"
+#~ msgstr "Padding onder"
+
+# @ woops
+#, fuzzy
+#~ msgid "Padding lef"
+#~ msgstr "Padding links"
+
+# @ woops
+#~ msgid "Padding right"
+#~ msgstr "Padding rechts"
+
+# @ woops
+#~ msgid ""
+#~ "Set global search or search in current product category or current "
+#~ "product tag. \"Checked\" to activate global search."
+#~ msgstr ""
+#~ "Stel globale zoektocht of zoek in de huidige categorie producten of "
+#~ "huidige product tag. \\ \\\"Gecontroleerd \" om wereldwijde zoektocht te "
+#~ "activeren."
+
+# @ woops
+#~ msgid "Global Settings"
+#~ msgstr "Globale instellingen"
+
+# @ woops
+#~ msgid ""
+#~ "Activate to optimize your sites content with Predictive Search 'Focus "
+#~ "keywords'"
+#~ msgstr ""
+#~ "Activeren om uw sites inhoud te optimaliseren met Predictive Zoeken "
+#~ "'Focus trefwoorden'"
+
+# @ woops
+#, fuzzy
+#~ msgid "Plugin Documentation"
+#~ msgstr "Documentatie"
+
+# @ woops
+#, fuzzy
+#~ msgid "WP e-Commerce Predictive Search"
+#~ msgstr "WooCommerce Predictive Search"

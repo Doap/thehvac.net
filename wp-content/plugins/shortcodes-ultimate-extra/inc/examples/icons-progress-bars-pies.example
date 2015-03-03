@@ -1,0 +1,50 @@
+<h2>Fully customizable vector icons</h2>
+
+[%su_icon icon="icon: twitter" color="#00ABF0" text_color="#00ABF0" url="#"]Follow Us[/%su_icon]
+[%su_icon icon="icon: facebook" color="#3C599B" text_color="#3C599B" url="#"]Visit our fan page[/%su_icon]
+[%su_icon icon="icon: google-plus" color="#D94E37" text_color="#D94E37" url="#"]Google Plus page[/%su_icon]
+[%su_icon icon="icon: angle-double-down" background="#2967f7" color="#ffffff" text_color="#2967f7" shape_size="4" radius="8" url="#"]Download archive.zip [5Mb][/%su_icon]
+[%su_icon icon="icon: rocket" background="#f77b29" color="#000000" text_color="#f77b29" size="20" shape_size="10" radius="8" url="#"]Launch Project[/%su_icon]
+[%su_icon icon="icon: phone" background="#a2d6f8" color="#1f2b49" text_color="#1f2b49" size="20" shape_size="10" radius="0" url="#"]Need Support? Call Us![/%su_icon]
+
+-----
+
+<h2>Icons from images</h2>
+
+[%su_icon icon="http://lorempixel.com/100/100/cats/0/" background="#08f" text_color="#005073" url="#"]Secure Transaction[/%su_icon]
+[%su_icon icon="http://lorempixel.com/100/100/cats/1/" background="#08f" text_color="#056596" url="#"]Download File[/%su_icon]
+[%su_icon icon="http://lorempixel.com/100/100/cats/2/" background="#08f" text_color="#db5ea7" url="#"]Discard Changes[/%su_icon]
+
+-----
+
+<h2>Progress/skill bars</h2>
+
+[%su_progress_bar style="default" text="WordPress" percent="60"]
+[%su_progress_bar style="default" text="PHP" percent="75"]
+[%su_progress_bar style="default" text="Photoshop" percent="90"]
+
+-----
+
+<h2>Custom styles and colors</h2>
+
+[%su_progress_bar style="fancy" percent="40" text="Photoshop" bar_color="#ffffff" fill_color="#f01c3c" text_color="#000000"]
+[%su_progress_bar style="fancy" percent="60" text="PHP" bar_color="#ffffff" fill_color="#f01c3c" text_color="#000000"]
+[%su_progress_bar style="fancy" percent="80" text="WordPress" bar_color="#ffffff" fill_color="#f01c3c" text_color="#000000"]
+
+-----
+
+<h2>More styles and colors</h2>
+
+[%su_progress_bar style="thin" percent="30" text="Photoshop" bar_color="#FFDD0C" fill_color="#4AD182" text_color="#000000"]
+[%su_progress_bar style="thin" percent="40" text="PHP" bar_color="#FFDD0C" fill_color="#4AD182" text_color="#000000"]
+[%su_progress_bar style="thin" percent="50" text="WordPress" bar_color="#FFDD0C" fill_color="#4AD182" text_color="#000000"]
+[%su_progress_bar style="thin" percent="60" text="JavaScript" bar_color="#FFDD0C" fill_color="#4AD182" text_color="#000000"]
+[%su_progress_bar style="thin" percent="75" text="HTML5/CSS3" bar_color="#FFDD0C" fill_color="#4AD182" text_color="#000000"]
+
+-----
+
+<h2>Progress pies</h2>
+
+[%su_progress_pie percent="75" after="%"]
+[%su_progress_pie percent="60" text="25" before="$" size="220" pie_width="5" text_size="80" pie_color="#e0f3f8" fill_color="#e3004e" text_color="#535353"]
+[%su_progress_pie percent="77" text="WordPress" size="140" pie_width="35" text_size="15" pie_color="#f1f1f1" fill_color="#0097fc" text_color="#0097fc"]

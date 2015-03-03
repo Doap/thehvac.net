@@ -1,0 +1,28 @@
+<!-- <div id="topad" style="width:728px;height:90px;background-color:#eeeeee;border:0px solid #000;position:absolute;top:4px;left:4px;border-color:#000;overflow:visible;">
+
+div-gpt-ad-1401721090456-0
+
+<div id='div-gpt-ad-1401721090456-0' style='width:728px; height:90px;'>
+LA_PRENSA_Portada_728x90_Superior -->
+<script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1399587327178-0'); });
+</script>
+</div><!--
+</div> -->
+<?php //include('/var/www/html/lpmu/wp-content/themes/noticias' . '/banner-ad-widget-728x90.php');  ?>
+<?php include('/var/www/html/lpmu/wp-content/themes/noticias' . '/banner-ad-widget-260x90.php');  ?>
+

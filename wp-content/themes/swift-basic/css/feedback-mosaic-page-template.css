@@ -1,0 +1,16 @@
+.fbm li.comment{float:left;padding:0;border:0!important;margin:0;position:relative}
+.fbm li.comment .fn{position:absolute!important;bottom:0;left:0;font-style:none;display:inline-block;padding:4%;background:red;font-size:.9em;font-style:normal;
+background:#000;color:#FFF;
+width:92%;
+opacity:.6}
+.fbm li.comment .commentmetadata{display:none}
+.fbm li.comment .avatar{margin:0!important;padding:0}
+.fbm li.comment .comment-content{display:none}
+.fbm li.comment .reply{position:absolute;top:5px;right:5px;margin:0;display:none}
+.fbm li.comment .reply .comment-reply-link{margin:0}
+.fbm li.comment:hover .reply{display:inline}
+
+.fbm li.comment:nth-child(even) .fn{
+top:0;bottom:inherit
+}
+.fbm .comment #respond{float:right;width:600px;position:absolute;z-index:999;margin:0!important}

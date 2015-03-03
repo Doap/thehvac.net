@@ -1,0 +1,11 @@
+.fb li.comment{font-size:1.25em;line-height:1.8em}
+.fb li.comment.bypostauthor,
+.fb ul.children li.comment.bypostauthor{border:solid 1px #f2f2f2}
+.fb li.comment .comment-author{background:#EEE;margin:-10px -10px 20px -10px;line-height:64px;height:64px;padding:0 10px 0 0;}
+.fb li.comment .avatar{margin:0 10px 0 0;padding:0!important}
+
+
+.fb li.comment:nth-child(even) .comment-author{padding:0 0 0 10px;}
+.fb li.comment:nth-child(even) .avatar{float:right;margin:0 0 0 10px}
+.fb li.comment:nth-child(even) .fn{float:right;}
+.fb li.comment:nth-child(even) .commentmetadata{float:none;}
